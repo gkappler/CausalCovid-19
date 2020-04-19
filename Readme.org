@@ -81,53 +81,51 @@ Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinsc
 ** Übersterblichkeit, Kausalitätstheorie und Zufallsexperiment
 Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
 Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
-- Zur Testung wird eine Person $U=u$ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll)
-- Die Person ist mit Covid-19 infiziert, $X$ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
-- Das Testergebnis der Person wird erhoben, $T=t$ (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html). 
-- Kovariaten werden erhoben $Z=z$ (Alter, Geschlecht und Vorerkrankungen etc..)
-- Erkrankt die Person ($S=1$) oder bleibt sie asymptomatisch ($S=0$)
-- Verstirbt ($Y=0$) oder heilt ($Y=1$) die Person?
+- Zur Testung wird eine Person /U=u/ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll)
+- Die Person ist mit Covid-19 infiziert, /X/ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
+- Das Testergebnis der Person wird erhoben, /T=t/ (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html). 
+- Kovariaten werden erhoben /Z=z/ (Alter, Geschlecht und Vorerkrankungen etc..)
+- Erkrankt die Person (/S=1/) oder bleibt sie asymptomatisch (/S=0/)
+- Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
 
 Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
-\begin{align}
-U &: \Omega \rightarrow \text{Population} \\
-X &: \Omega \rightarrow \{0,1\} \\
-T &: \Omega \rightarrow \{0,1\} \\
-Z &: \Omega \rightarrow Z_1 \times...\times Z_{n}\\
-S &: \Omega \rightarrow \{0,1\} \\
-Y &: \Omega \rightarrow \{0,1\}
-\end{align}
+- U :: \Omega \rightarrow Population
+- X :: \Omega \rightarrow {0,1}
+- T :: \Omega \rightarrow {0,1} 
+- Z :: \Omega \rightarrow Z_{1} \times...\times Z_{n}
+- S :: \Omega \rightarrow {0,1}
+- Y :: \Omega \rightarrow {0,1}
 
 
 Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
 Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html):
-- Sensitivität $1-P(X=1 | T=0)$
-- Spezifizität $1-P(X=0 | T=1)$
+- Sensitivität /1-P(X=1 | T=0)/
+- Spezifizität /1-P(X=0 | T=1)/
 
 
 *** Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?
 In den definierten Begriffen dieses Zufallsexperiments wären die Anteile (Wahrscheinlichkeiten) der versterbenden Personen in der Testpopulation
-- mit Corona-Infektion: $P(Y=0 | X=0)$
-- ohne Corona-Infektion: $P(Y=0 | X=1)$.
+- mit Corona-Infektion: /P(Y=0 | X=0)/
+- ohne Corona-Infektion: /P(Y=0 | X=1)/.
 
-Der durchschnittliche kausale Effekt einer Covid-19 Erkrankung auf die Sterblichkeit innerhalb der getesteten Stichprobe entspricht der Differenz dieser Wahrscheinlichkeiten $P(Y=0 | X=1)-P(Y=0 | X=0)$ und kann als durch *Covid-19 bedingte Übersterblichkeit innerhalb der Stichprobe* interpretiert werden.
+Der durchschnittliche kausale Effekt einer Covid-19 Erkrankung auf die Sterblichkeit innerhalb der getesteten Stichprobe entspricht der Differenz dieser Wahrscheinlichkeiten /P(Y=0 | X=1)-P(Y=0 | X=0)/ und kann als durch *Covid-19 bedingte Übersterblichkeit innerhalb der Stichprobe* interpretiert werden.
 Hier stellen sich grundsätzliche Probleme:
 - Die Stichprobe ist nicht repräsentativ für die Gesamtbevölkerung.
 - Die Wahrscheinlichkeit mit negativem Test zu versterben ist anhand der erfassten Testdaten nicht möglich.
   Diese Wahrscheinlichkeit könnte jedoch auf Basis veröffentlichter Sterberaten der Vorjahre abgeschätzt werden.
-- Die Zufallsvariablen der Genesung $Z$ kann erst nach dem Ende der Erkrankung erhoben werden. Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
+- Die Zufallsvariablen der Genesung /Z/ kann erst nach dem Ende der Erkrankung erhoben werden. Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
 
-Für Personen, die durch Geschlecht, Alter und Vorerkrankungen $Z=z$ charakterisiert sind, und 
-- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=1)$,
-- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=0)$,
-Der $Z$ -bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten $\eta_{Z=z} = P(Y=0 | Z=z,T=1) - P(Y=0 | Z=z,T=0)$.
-Dieser bedingte Effekt $\eta_{Z=z}$ ist theoretisch definiert als der Mehr-Anteil der versterbenden Personen, die an Covid-19 erkrankt sind, über die zu erwartende Sterblichkeitsrate ohne Covid-19 Erkrankung hinaus, unter der Voraussetzung, dass Personen durch Kovariaten $Z=z$ (Alter, Vorerkrankungen, etc.) charakterisiert sind.
+Für Personen, die durch Geschlecht, Alter und Vorerkrankungen /Z=z/ charakterisiert sind, und 
+- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,T=1)/,
+- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,T=0)/,
+Der /Z/ -bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten /\eta_{Z=z} = P(Y=0 | Z=z,T=1) - P(Y=0 | Z=z,T=0)/.
+Dieser bedingte Effekt /\eta_{Z=z}/ ist theoretisch definiert als der Mehr-Anteil der versterbenden Personen, die an Covid-19 erkrankt sind, über die zu erwartende Sterblichkeitsrate ohne Covid-19 Erkrankung hinaus, unter der Voraussetzung, dass Personen durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind.
 *Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.* 
 
 *** Generalisierung auf die Gesamtbevölkerung: durchschnittliche kausale Effekte
-Sei $P'(Z=z)$ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung $P(Z)$ in der getesteten Stichprobe abweicht.
-Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt $\eta' = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}$.
-Es ist mathematisch beweisbar, dass Marginalisierung über $P'(Z=z)$ eine zuverlässige Schätzung des kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass $Z$.
+Sei /P'(Z=z)/ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung /P(Z)/ in der getesteten Stichprobe abweicht.
+Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /\eta' = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}/.
+Es ist mathematisch beweisbar, dass Marginalisierung über /P'(Z=z)/ eine zuverlässige Schätzung des kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /Z/.
 
 
 
