@@ -89,12 +89,12 @@ Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduziertes
 - Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
 
 Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
-- U : \Omega \rightarrow Population
-- X : \Omega \rightarrow {0,1}
-- T : \Omega \rightarrow {0,1} 
-- Z : \Omega \rightarrow Z_{1} \times...\times Z_{n}
-- S : \Omega \rightarrow {0,1}
-- Y : \Omega \rightarrow {0,1}
+- /U : \Omega \rightarrow Population/
+- /X : \Omega \rightarrow {0,1}/
+- /T : \Omega \rightarrow {0,1}/
+- /Z : \Omega \rightarrow Z_{1} \times...\times Z_{n}/
+- /S : \Omega \rightarrow {0,1}/
+- /Y : \Omega \rightarrow {0,1}/
 
 
 Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
