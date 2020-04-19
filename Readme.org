@@ -81,9 +81,9 @@ Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinsc
 ** Übersterblichkeit, Kausalitätstheorie und Zufallsexperiment
 Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
 Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
-- Zur Testung wird eine Person /U=u/ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll)
+- Zur Testung wird eine Person /U=u/ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll).
 - Die Person ist mit Covid-19 infiziert, /X/ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
-- Das Testergebnis der Person wird erhoben, /T=t/ (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html). 
+- Das Testergebnis der Person wird erhoben, /T=t/. 
 - Kovariaten werden erhoben /Z=z/ (Alter, Geschlecht und Vorerkrankungen etc..)
 - Erkrankt die Person (/S=1/) oder bleibt sie asymptomatisch (/S=0/)
 - Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
@@ -96,11 +96,11 @@ Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
 - /S : \Omega \rightarrow {0,1}/
 - /Y : \Omega \rightarrow {0,1}/
 
-
+*** Infektion und Test
 Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
-Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html):
-- Sensitivität /1-P(X=1 | T=0)/
-- Spezifizität /1-P(X=0 | T=1)/
+Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[[fn:https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]]:
+- Sensitivität: /1-P(X=1 | T=0)/
+- Spezifizität: /1-P(X=0 | T=1)/
 
 
 *** Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?
