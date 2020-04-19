@@ -98,7 +98,7 @@ Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
 
 *** Infektion und Test
 Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
-Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[[fn:https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]]:
+Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[fn::https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]:
 - Sensitivität: /1-P(X=1 | T=0)/
 - Spezifizität: /1-P(X=0 | T=1)/
 
