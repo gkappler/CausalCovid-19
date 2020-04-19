@@ -42,7 +42,8 @@ Diese Verfahren ermöglichen auf Basis hinreichender Daten die Abschätzung der 
 Darüber hinaus kann auf diesem Weg *ohne* randomisierte Studien festgestellt werden, welche medizinischen Maßnahmen die Heilung begünstigen bzw. negativ beeinflussen.
 
 Die Kausalitätstheorie wurde genau für Fälle wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.
-Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten zu erheben.
+Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten zu erheben und anonymisiert die Daten jedes Einzelfalls zur Verfügung zu stellen.
+
 
 Diese Daten würden ermöglichen:
 - eine dringend benötigte Schätzung der durchschnittliche Mortalität von Covid19 in der Gesamtbevölkerung zu berechnen,
@@ -55,48 +56,88 @@ Diese Fragen sind in der gegenwärtigen Situation von höchster Dringlichkeit, u
 Mit epidemiologischen Modellrechnungen lassen sich leider diese kausalen Fragen grundsätzlich nicht beantworten.
 Vielmehr werden dort informierte, jedoch letztlich hypothetische Annahmen verwendet um Modell-Vorhersagen zu Treffen.
 
-* Kausalitätstheorie und Zufallsexperiment
-Rolf Steyers Kausalitätstheorie beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
-Zur Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
-- Person $U=u$ aus der Population getestet (nicht randomisiert, sondern selektiert gemäß Testprotokoll)
-- Das Testergebnis der Person wird erhoben $T=t$. 
-- Die Person ist mit Covid-19 erkrankt $X$ (kann nicht direkt erhoben werden). 
+Leider werden derzeit fast ausschließlich zusammengefassten Fallzahlen, mit unterschiedlicher Aufschlüsselung in Land, Geschlecht, Alter veröffentlicht.
+Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch diese Fragen nicht beantworten.
+Stand [2020-04-19 So] hat meines Wissens nur China Daten infizierter Personen zur Verfügung gestellt, auf deren Basis bereits wichtige und hochrangig publizierte Studien ermöglicht wurden.
+- https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext 
+- https://www.bmj.com/content/369/bmj.m1327
+
+Daten auf Ebene von Einzelfällen sind also dringend erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
+Sie fehlen aber.
+Im Gegensatz dazu ist bei der Erforschung des Covid-19 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
+die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe European Commission https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html).
+
+Wir regen an, die zentrale Sammlung und Veröffentlichung dieser Daten sofort zu veranlassen.
+Offensichtlich sind diese Gesundheitsdaten rechtlich besonders geschützt.
+Die Freigabe der Daten durch Patienteneinverständnis könnte baldmöglichst eingeholt werden.
+Für bereits verstorbene Patienten sind wir der Überzeugung, dass eine Rechtsgüterabwägung die Nutzung dieser anonymisierten Daten ebenso oder leichter zulässt als die Erfassung von Bewegungsdaten der Bevölkerung.
+Wir wollen eine öffentliche Diskussion über den Umgang mit Daten zur Wissenschaftlichen Untersuchung in dieser Corona-Krise anregen.
+
+Katastrophen sind plötzlich und unübersichtlich.
+Um in zukünftigen Katastrophen angemessen reagieren zu können, scheint es uns ganz besonders wichtig, aus dieser Katastrophe zu lernen, wie schneller ein gutes Bild der Lage erlangt werden kann.
+Daher regen wir an, die Veröffentlichung anonymisierter Daten zu den Verstorbenen bei zukünftigen Pandemien als gesetzlichen Automatismus im Seuchenschutzgesetz zu verankern.
+Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinschaft mit im Seuchenfall gebotener Geschwindigkeit und Aktualität die Gefährlichkeit der Erkrankung erforschen und evidenzbasierte Hinweise für praktische Ärzte geben kann, welche der getroffenen medizinischen Maßnahmen wirken und zu warnen, welche Maßnahmen schaden.
+
+** Übersterblichkeit, Kausalitätstheorie und Zufallsexperiment
+Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
+Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
+- Zur Testung wird eine Person $U=u$ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll)
+- Die Person ist mit Covid-19 infiziert, $X$ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
+- Das Testergebnis der Person wird erhoben, $T=t$ (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html). 
 - Kovariaten werden erhoben $Z=z$ (Alter, Geschlecht und Vorerkrankungen etc..)
+- Erkrankt die Person ($S=1$) oder bleibt sie asymptomatisch ($S=0$)
 - Verstirbt ($Y=0$) oder heilt ($Y=1$) die Person?
 
 Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
 \begin{align}
-U :& \Omega \rightarrow \text{Population} \\
-X :& \Omega \rightarrow \{0,1} \\
-T :& \Omega \rightarrow \{0,1} \\
-Z :& \Omega \rightarrow Z_1 \times...\times Z_{n}\\
-Y :& \Omega \rightarrow \{0,1}
+U &: \Omega \rightarrow \text{Population} \\
+X &: \Omega \rightarrow \{0,1\} \\
+T &: \Omega \rightarrow \{0,1\} \\
+Z &: \Omega \rightarrow Z_1 \times...\times Z_{n}\\
+S &: \Omega \rightarrow \{0,1\} \\
+Y &: \Omega \rightarrow \{0,1\}
 \end{align}
 
-In den definierten Begriffen dieses Zufallsexperiments wären die Anteile (Wahrscheinlichkeiten) der versterbenden Personen in der Testpopulation
-- mit Corona-Infektion: $P(Y=0 | X=0)$
-- ohne Corona-Infektion: $P(Y=0 | X=1)$.
 
-Der durchschnittliche kausale Effekt einer Covid-19 Erkrankung auf die Sterblichkeit entspricht der Differenz dieser Wahrscheinlichkeiten $P(Y=0 | X=1)-P(Y=0 | X=0)$ und kann als durch *Covid-19 bedingte Übersterblichkeit* interpretiert werden (in der getesteten Stichprobenverteilung).
-
-Tests sind niemals absolut zufällig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt:
+Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
+Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt (https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html):
 - Sensitivität $1-P(X=1 | T=0)$
 - Spezifizität $1-P(X=0 | T=1)$
 
 
-Für Personen, die durch Geschlecht, Alter und Vorerkrankungen $Z=z$ charakterisiert sind, und die
-- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=0)$,
-- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=1)$.
-Das $Z$ -bedingte kausale Effekt von Covid19 auf die Sterberate is also $P(Y=0 | Z=z,X=1) - P(Y=0 | Z=z,X=0)$.
-Die Mortalitätsrate von Covid19 in der Bevölkerung entspricht dem durchschnittlichen kausalen Effekt $\sum_{z \in Z(\Omega)} P(Z=z) (P(Y=0 | Z=z,X=1)-P(Y=0 | Z=z,X=0))$.
-Es ist mathematisch beweisbar, dass Marginalisierung über $Z$ eine zuverlässige Schätzung des kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass ....
+*** Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?
+In den definierten Begriffen dieses Zufallsexperiments wären die Anteile (Wahrscheinlichkeiten) der versterbenden Personen in der Testpopulation
+- mit Corona-Infektion: $P(Y=0 | X=0)$
+- ohne Corona-Infektion: $P(Y=0 | X=1)$.
 
-Anmerkungen zur Erweiterung des Zufallsexperiments:
+Der durchschnittliche kausale Effekt einer Covid-19 Erkrankung auf die Sterblichkeit innerhalb der getesteten Stichprobe entspricht der Differenz dieser Wahrscheinlichkeiten $P(Y=0 | X=1)-P(Y=0 | X=0)$ und kann als durch *Covid-19 bedingte Übersterblichkeit innerhalb der Stichprobe* interpretiert werden.
+Hier stellen sich grundsätzliche Probleme:
+- Die Stichprobe ist nicht repräsentativ für die Gesamtbevölkerung.
+- Die Wahrscheinlichkeit mit negativem Test zu versterben ist anhand der erfassten Testdaten nicht möglich.
+  Diese Wahrscheinlichkeit könnte jedoch auf Basis veröffentlichter Sterberaten der Vorjahre abgeschätzt werden.
+- Die Zufallsvariablen der Genesung $Z$ kann erst nach dem Ende der Erkrankung erhoben werden. Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
+
+Für Personen, die durch Geschlecht, Alter und Vorerkrankungen $Z=z$ charakterisiert sind, und 
+- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=1)$,
+- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko $P(Y=0 | Z=z,T=0)$,
+Der $Z$ -bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten $\eta_{Z=z} = P(Y=0 | Z=z,T=1) - P(Y=0 | Z=z,T=0)$.
+Dieser bedingte Effekt $\eta_{Z=z}$ ist theoretisch definiert als der Mehr-Anteil der versterbenden Personen, die an Covid-19 erkrankt sind, über die zu erwartende Sterblichkeitsrate ohne Covid-19 Erkrankung hinaus, unter der Voraussetzung, dass Personen durch Kovariaten $Z=z$ (Alter, Vorerkrankungen, etc.) charakterisiert sind.
+*Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.* 
+
+*** Generalisierung auf die Gesamtbevölkerung: durchschnittliche kausale Effekte
+Sei $P'(Z=z)$ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung $P(Z)$ in der getesteten Stichprobe abweicht.
+Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt $\eta' = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}$.
+Es ist mathematisch beweisbar, dass Marginalisierung über $P'(Z=z)$ eine zuverlässige Schätzung des kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass $Z$.
+
+
+
+
+*** Anmerkungen zur Erweiterung des Zufallsexperiments:
 - $T$: berücksichtigung verschiedener Tests
 - Berücksichtigungen der Zeitpunkte von Testungen, ggf. des Krankheitsverlaufs. 
 - $Y$: Vielleicht mit Zeitintervall der Genesung 2 Wochen, vielleicht mehrwertig: genesen, hospitalisiert, verstorben.
 
-** Statistische Modellierung
+*** Statistische Modellierung
 Kausale Inferenzstatistik selbst ist kein statistisches Modell!
 Vielmehr formuliert kausale Inferenzstatistik die abstrakte wahrscheinlichkeitstheoretische Frage, wie kausale Effekte allgemein definiert sind, auch für nicht-randomisierte kontrollierte Studien.
 Statistische Modelle werden in einem zweiten Schritt verwendet um die Wahrscheinlichkeiten an Covid-19 zu versterben, bedingt auf Kovariaten und Teststatus in Regressionen zu schätzen.
@@ -108,8 +149,7 @@ Logistische Regressionen
 3. Komplexere Modelle zur Abschätzung sind denkbar und wünschenswert.  Ich schlage vor, dass diese Daten anonymisiert öffentlich gemacht werden sollten, um einen freien Wettbewerb für die Vorhersage der Mortalität aus den Kovariaten einzuladen.
 4. Bei den voraussichtlich großen Fallzahlen ist ggf. eine nonparametrische und modellfreie Vorhersage möglich.
 
-** Empfehlungen zur aktuellen Datenveröffentlichung
-
+*** Empfehlungen zur aktuellen Datenveröffentlichung
 * Benötigte Daten
 # <<daten>>
 Optimalerweise würden für die Berechnungen folgende anonymisierten Daten zu jedem getesteten Mitbürger verwendet:
@@ -125,12 +165,6 @@ Zur Bestimmung der kausalen Effekte medizinischer Maßnahmen werden zudem benöt
 
 Voraussichtlich sind manche dieser Daten nicht für alle getesteten Personen verfügbar.
 In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglichen werden (siehe unten).
-Diese Daten bei der dringlichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen bestmöglich genutzt werden.
-Bei der Erforschung des Covid-19 Genoms ist eine vorbildlich offene Forschungssituation zu beobachten:
-die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe European Commission https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html).
-Offensichtlich sind diese Gesundheitsdaten rechtlich besonders geschützt.
-Die Freigabe der Daten durch Patienteneinverständnis sollte baldmöglichst eingeholt werden.
-Für bereits verstorbene Patienten sind wir der Überzeugung, dass eine Rechtsgüterabwägung die Nutzung dieser anonymisierten Daten ebenso oder leichter zulässt als die Erfassung von Bewegungsdaten der Bevölkerung.
 
 * Falls Daten fehlen
 Zur statistischen Schätzung dieser Größen sind von den Gesundheitsbehörden folgende Daten erfolderlich:
