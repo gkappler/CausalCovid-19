@@ -25,7 +25,7 @@ Bitte:
 # - Veröffentlichen und teilen Sie den Link zu diesem Dokument (und seinem GitHub repository), um zu helfen, die offenen Fragen in der Corona-Krise mittels statistische Ursachenforschung zu klären und das Wissen um diese Möglichkeiten zu verbreiten.
 # - Schreiben Sie ein Unterstützungsschreiben für die Erhebung und Veröffentlichung der [[Daten][Benötigten Daten]].
 # - Stellen Sie [[Daten][benötigten Daten]] zusammen.
-- [[https://github.com/gkappler/CausalCovid-19/issues][Stellen Sie kritische Fragen, wenn Sie Überlegungen in dem Dokument nicht verstehen -- auch als Laie.]]
+- [[https://github.com/gkappler/CausalCovid-19/issues][Stellen Sie kritische Fragen zu den Argumenten und Überlegungen in diesem Dokument -- auch als Laie.]]
 - Arbeiten Sie an dem Dokument mit, wenn Sie sich dazu in der Lage sehen (Fork rechts oben, bearbeiten und pull request).
 - Schlagen Sie Korrekturen vor, wenn Sie Fehler in den Überlegungen dieses Dokuments sehen.
 - Tragen Sie statistische Regressionsmodelle bei, die der Kausalschätzung zugrundegelegt werden können.
@@ -37,39 +37,53 @@ Die Frage ist, ob Corona *ursächlich* war für das Versterben einer Person, und
 Obwohl diese Frage alle getroffenen Maßnahmen betrifft, ist sie anhand der veröffentlichten Zahlen leider nicht zu beantworten.
 Repräsentative Antikörpertests können diese Frage klären und auch Obduktionen tragen durch das Expertengutachten wertvolle Informationen bei.
 
-Eine weitere Möglichkeit stellen die modernen statistischen Methoden der kausalen Inferenzstatistik zur Verfügung, spezifisch die Theorie kausaler Effekte von R. Steyer bzw. propensity scores nach Rubin.
-Diese Verfahren ermöglichen auf Basis hinreichender Daten die Abschätzung der Mortalitätsrate, sowie des bedingten Risikos für Personen eines bestimmten Alters, Geschlechts und auch für bestimmten Vorerkrankungen im Falle einer Infektion zu versterben.
-Darüber hinaus kann auf diesem Weg *ohne* randomisierte Studien festgestellt werden, welche medizinischen Maßnahmen die Heilung begünstigen bzw. negativ beeinflussen.
+Die Ärzte in den Intensivstationen müssen täglich Behandlungsentscheidungen treffen.
+Kürzlich traten einige Ärzte in Europa und den USA an die Öffentlichkeit, und berichteten Ihre Erfahrungen mit dem Intubieren bei Covid-19 Erkrankten Patienten:
+Sie äußerten sich sehr überrascht, dass selbst bei so niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patienten ohne Intubation die Krankheit überstehen, jedoch die intubierten Patienten zumeist versterben
+(https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html, https://www.youtube.com/watch?v=bp5RMutCNoI).
+Derlei Erfahrungen sind anekdotisch und nicht wissenschaftlich.
+Dennoch ist es wichtig und richtig, dass Ärzte sich über derlei Erfahrungen anektotisch austauschen:
+sie sollen effiziente Behandlungsmethoden finden um Patienten in Intensivstationen bestmöglich zu helfen und sie nicht in bester Absicht mit Behandlungen totzubehandeln, die zwar sonst am besten sind, aber vielleicht bei dieser neuen Erkrankung schädlich.
+Ärzte lernen von den Beobachtungen während ihrer Arbeit und durch Austausch und - leider - durch Versuch, Irrtum und Erfolg.
+Wissenschaftliche, randomisierte Studien zum Behandlungserfolg von Interventionen gibt es noch nicht.
 
-Die Kausalitätstheorie wurde genau für Fälle wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.
-Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten zu erheben und anonymisiert die Daten jedes Einzelfalls zur Verfügung zu stellen.
-
-
-Diese Daten würden ermöglichen:
-- eine dringend benötigte Schätzung der durchschnittliche Mortalität von Covid19 in der Gesamtbevölkerung zu berechnen,
-- das Risiko für Personengruppen verlässlich zu quantifizieren
-- die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen
-- Die Folgen evidenzbasierter Pläne zur Herdenimmunisierung abzuschätzen, d.h. welche 60%-70% der Bevölkerung mit dem geringsten Risiko erkranken könnten, und wie groß das Risiko dieser Personengruppen wäre, an der Erkrankung zu versterben.
-- Diese geschätzten Folgen einer kontrollierten Herdenimmunisieren können dann Annahmen des Risikos von Impfnebenwirkungen gegenübergestellt werden.
-
+Es gibt jedoch statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
+Die Theorie kausaler Effekte von R. Steyer bzw. propensity score matching nach Rubin.
+Vereinfacht gesagt systematisieren diese Verfahren die Analyse anekdotischer Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
+Diese Verfahren ermöglichen auf Basis hinreichender Daten 
+1. die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen
+3. eine dringend benötigte Schätzung der durchschnittliche Mortalität von Covid19 in der Gesamtbevölkerung zu berechnen,
+4. das bedingte Risiko im Falle einer Infektion zu versterben verlässlich zu quantifizieren, für Personen eines bestimmten Alters, Geschlechts und auch für bestimmten Vorerkrankungen.
+5. Die Folgen evidenzbasierter Pläne zur Herdenimmunisierung abzuschätzen, d.h. welche 60%-70% der Bevölkerung mit dem geringsten Risiko erkranken könnten, und wie groß das Risiko dieser Personengruppen wäre, an der Erkrankung zu versterben.
+6. Diese geschätzten Folgen einer kontrollierten Herdenimmunisieren können dann Annahmen des Risikos von Impfnebenwirkungen gegenübergestellt werden.
 Diese Fragen sind in der gegenwärtigen Situation von höchster Dringlichkeit, um Ärzte im Krankenhaus, besorgte Bürger sowie Politiker bei der Entscheidung von Maßnahmen zu beraten.
 Mit epidemiologischen Modellrechnungen lassen sich leider diese kausalen Fragen grundsätzlich nicht beantworten.
 Vielmehr werden dort informierte, jedoch letztlich hypothetische Annahmen verwendet um Modell-Vorhersagen zu Treffen.
 
-Leider werden derzeit fast ausschließlich zusammengefassten Fallzahlen, mit unterschiedlicher Aufschlüsselung in Land, Geschlecht, Alter veröffentlicht.
-Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch diese Fragen nicht beantworten.
+
+Die Kausalitätstheorie wurde für Umstände wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.
+Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten jedes Einzelfalls in großem Umfang zu erheben und anonymisiert zur Verfügung zu stellen.
+
+
+Daten auf Ebene von Einzelfällen sind also dringend erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
+Sie fehlen aber.
+Leider werden derzeit fast ausschließlich zusammengefasste Fallzahlen, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht, und Alter veröffentlicht.
+Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch obige drängendsten Fragen nicht beantworten.
 Stand [2020-04-19 So] hat meines Wissens nur China Daten infizierter Personen zur Verfügung gestellt, auf deren Basis bereits wichtige und hochrangig publizierte Studien ermöglicht wurden.
 - https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext 
 - https://www.bmj.com/content/369/bmj.m1327
 
-Daten auf Ebene von Einzelfällen sind also dringend erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
-Sie fehlen aber.
-Im Gegensatz dazu ist bei der Erforschung des Covid-19 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
-die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe European Commission https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html).
-
 Wir regen an, die zentrale Sammlung und Veröffentlichung dieser Daten sofort zu veranlassen.
 Offensichtlich sind diese Gesundheitsdaten rechtlich besonders geschützt.
-Die Freigabe der Daten durch Patienteneinverständnis könnte baldmöglichst eingeholt werden.
+Unsere westliche Demokratien sind bereit, die Notwendigkeit von Chinas autoritären Maßnahmen der Ausgangssperre und Ortsdatenüberwachung zur Eindämmung der Erkrankung zu erwägen und zu adaptieren.
+Westliche Demokratien sollten diskutieren, ob es nicht ein geringerer Eingriff in das soziale Gefüge freier Gesellschaften wäre, zuerst den Schutz persönlicher Daten für Erkrankte und Verstorbene im Seuchenfall einzuschränken.
+Es ist an der Vielzahl an Studien zu den Chinesischen Einzelfalldaten deutlich abzulesen, dass diese Aufhebung des Schutzes von Krankheitsdaten Wissenschaftlern ermöglich, wertvolle und praktische Erkenntnisse über die Covid-19 Erkrankheit zu erforschen.
+
+
+Während für die Erforschung der durch den Virus verursachten Erkrankung Covid-19 augenfällig offene Daten fehlen, ist bei der Erforschung des SARS-Cov2 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
+die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe European Commission https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html).
+
+Zumindest die freiwillige Freigabe der Daten durch Patienteneinverständnis sollte ab sofort eingeholt werden, und eine entsprechende Dateninfrastruktur des Europäischen Center of Desease Control vorbereitet werden.
 Für bereits verstorbene Patienten sind wir der Überzeugung, dass eine Rechtsgüterabwägung die Nutzung dieser anonymisierten Daten ebenso oder leichter zulässt als die Erfassung von Bewegungsdaten der Bevölkerung.
 Wir wollen eine öffentliche Diskussion über den Umgang mit Daten zur Wissenschaftlichen Untersuchung in dieser Corona-Krise anregen.
 
