@@ -132,8 +132,8 @@ Hier stellen sich grundsätzliche Probleme:
 Für Personen, die durch Geschlecht, Alter und Vorerkrankungen /Z=z/ charakterisiert sind, und 
 - positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,X=1)/,
 - negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,X=0)/,
-Der /Z/-bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten /E_{Z=z}(Y|X) = P(Y=0 | Z=z,X=1) - P(Y=0 | Z=z,X=0)/.
-Dieser bedingte Effekt /E_{Z=z}(Y|X)/ is spezifisch für Personen, die durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind, und für diese Gruppe definiert als der Mehr-Anteil der versterbenden Personen, die Covid-19 positiv getestet wurden, über die zu erwartende Sterblichkeitsrate von Covid-19 negativ getesteten Personen hinaus.
+Der /Z/-bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten /E_{Z=z}(Y | X) = P(Y=0 | Z=z,X=1) - P(Y=0 | Z=z,X=0)/.
+Dieser bedingte Effekt /E_{Z=z}(Y | X)/ is spezifisch für Personen, die durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind, und für diese Gruppe definiert als der Mehr-Anteil der versterbenden Personen, die Covid-19 positiv getestet wurden, über die zu erwartende Sterblichkeitsrate von Covid-19 negativ getesteten Personen hinaus.
 *Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.* 
 
 *** Verallgmeinerung auf die Bevölkerung
@@ -141,12 +141,12 @@ Dieser bedingte Effekt /E_{Z=z}(Y|X)/ is spezifisch für Personen, die durch Kov
 Definitionen
 1. Der *(/Z=z/)-bedingte kausal erwartungstreue Erwartungswert von /Y/ gegeben /X=x*/ ist definiert als
 
-   CUE_{Z=z}(Y|X=x) = \sum_u E_{Z=z}(Y|U=u,X=x)P_{Z=z}(U=u).
-2. Die /Z/-bedingte kausale Regression /E_{Z=z}(Y|X)/ ist kausal erwartungstreu, wenn
+   CUE_{Z=z}(Y | X=x) = \sum_u E_{Z=z}(Y | U=u,X=x)P_{Z=z}(U=u).
+2. Die /Z/-bedingte kausale Regression /E_{Z=z}(Y | X)/ ist kausal erwartungstreu, wenn
 
-   /E_{Z=z}(Y|X=x)/ = CUE_{Z=z}(Y|X=x).
+   /E_{Z=z}(Y | X=x)/ = CUE_{Z=z}(Y | X=x).
 
-Es ist beweisbar, dass /E_{Z=z}(Y|X)/ kausal erwartungstreu ist, wenn die Bedingung erfüllt ist, dass /X/ und /U/ stochastisch unabhängig gegeben /Z/ sind.
+Es ist beweisbar, dass /E_{Z=z}(Y | X)/ kausal erwartungstreu ist, wenn die Bedingung erfüllt ist, dass /X/ und /U/ stochastisch unabhängig gegeben /Z/ sind.
 Dies ist erfüllt, wenn die Wahrscheinlichkeit ein positives Testergebnis zu erhalten unabhängig ist von der Wahrscheinlichkeit dass eine Person getestet wird, bedingt auf die Kovariate $Z$.
 
 *Ist das sicher der Fall?*
@@ -158,7 +158,7 @@ Steyer, R., Nachtigall, C., Wüthrich-Martone, O., & Kraus, K. (2002). Causal re
 Sei /P'(Z=z)/ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung /P(Z)/ in der getesteten Stichprobe möglicherweise abweicht.
 Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /\eta' = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}/.
 
-Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y|X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
+Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y | X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
 
 
 
