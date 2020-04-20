@@ -96,16 +96,16 @@ Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinsc
 Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
 Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
 - Zur Testung wird eine Person /U=u/ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll).
-- Die Person ist mit Covid-19 infiziert, /X/ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
-- Das Testergebnis der Person wird erhoben, /T=t/. 
+- Die Person ist mit Covid-19 infiziert, /X'/ (wird nicht direkt beobachtet, sondern anhand Test erhoben). 
+- Das Testergebnis der Person wird erhoben, /X=x/. 
 - Kovariaten werden erhoben /Z=z/ (Alter, Geschlecht und Vorerkrankungen etc..)
 - Erkrankt die Person (/S=1/) oder bleibt sie asymptomatisch (/S=0/)
 - Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
 
 Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
-- /U : \Omega \rightarrow Population/
+- /U : \Omega \rightarrow/ Population
+- /X' : \Omega \rightarrow {0,1}/
 - /X : \Omega \rightarrow {0,1}/
-- /T : \Omega \rightarrow {0,1}/
 - /Z : \Omega \rightarrow Z_{1} \times...\times Z_{n}/
 - /S : \Omega \rightarrow {0,1}/
 - /Y : \Omega \rightarrow {0,1}/
@@ -113,8 +113,8 @@ Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
 *** Infektion und Test
 Die Erkrankung an Covid-19 kann nur indirekt durch Tests erhoben werden.
 Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[fn::https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]:
-- Sensitivität: /1-P(X=1 | T=0)/
-- Spezifizität: /1-P(X=0 | T=1)/
+- Sensitivität: /1-P(X=1 | X=0)/
+- Spezifizität: /1-P(X=0 | X=1)/
 
 
 *** Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?
@@ -127,25 +127,45 @@ Hier stellen sich grundsätzliche Probleme:
 - Die Stichprobe ist nicht repräsentativ für die Gesamtbevölkerung.
 - Die Wahrscheinlichkeit mit negativem Test zu versterben ist anhand der erfassten Testdaten nicht möglich.
   Diese Wahrscheinlichkeit könnte jedoch auf Basis veröffentlichter Sterberaten der Vorjahre abgeschätzt werden.
-- Die Zufallsvariablen der Genesung /Z/ kann erst nach dem Ende der Erkrankung erhoben werden. Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
+- Die Zufallsvariablen der Genesung /Y/ kann erst nach dem Ende der Erkrankung erhoben werden. Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
 
 Für Personen, die durch Geschlecht, Alter und Vorerkrankungen /Z=z/ charakterisiert sind, und 
-- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,T=1)/,
-- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,T=0)/,
-Der /Z/ -bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten /\eta_{Z=z} = P(Y=0 | Z=z,T=1) - P(Y=0 | Z=z,T=0)/.
-Dieser bedingte Effekt /\eta_{Z=z}/ ist theoretisch definiert als der Mehr-Anteil der versterbenden Personen, die an Covid-19 erkrankt sind, über die zu erwartende Sterblichkeitsrate ohne Covid-19 Erkrankung hinaus, unter der Voraussetzung, dass Personen durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind.
+- positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,X=1)/,
+- negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko /P(Y=0 | Z=z,X=0)/,
+Der /Z/-bedingte kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten /E_{Z=z}(Y|X) = P(Y=0 | Z=z,X=1) - P(Y=0 | Z=z,X=0)/.
+Dieser bedingte Effekt /E_{Z=z}(Y|X)/ is spezifisch für Personen, die durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind, und für diese Gruppe definiert als der Mehr-Anteil der versterbenden Personen, die Covid-19 positiv getestet wurden, über die zu erwartende Sterblichkeitsrate von Covid-19 negativ getesteten Personen hinaus.
 *Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.* 
 
-*** Generalisierung auf die Gesamtbevölkerung: durchschnittliche kausale Effekte
-Sei /P'(Z=z)/ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung /P(Z)/ in der getesteten Stichprobe abweicht.
+*** Verallgmeinerung auf die Bevölkerung
+**** Kausale Erwartungstreue 
+Definitionen
+1. Der *(/Z=z/)-bedingte kausal erwartungstreue Erwartungswert von /Y/ gegeben /X=x*/ ist definiert als
+
+   CUE_{Z=z}(Y|X=x) = \sum_u E_{Z=z}(Y|U=u,X=x)P_{Z=z}(U=u).
+2. Die /Z/-bedingte kausale Regression /E_{Z=z}(Y|X)/ ist kausal erwartungstreu, wenn
+
+   /E_{Z=z}(Y|X=x)/ = CUE_{Z=z}(Y|X=x).
+
+Es ist beweisbar, dass /E_{Z=z}(Y|X)/ kausal erwartungstreu ist, wenn die Bedingung erfüllt ist, dass /X/ und /U/ stochastisch unabhängig gegeben /Z/ sind.
+Dies ist erfüllt, wenn die Wahrscheinlichkeit ein positives Testergebnis zu erhalten unabhängig ist von der Wahrscheinlichkeit dass eine Person getestet wird, bedingt auf die Kovariate $Z$.
+
+*Ist das sicher der Fall?*
+
+Steyer, R., Nachtigall, C., Wüthrich-Martone, O., & Kraus, K. (2002). Causal regression models III: Covariates, conditional, and unconditional average causal effects. Methods of Psychological Research Online, 7(1), 41–68.
+
+
+**** Durchschnittliche kausale Effekte
+Sei /P'(Z=z)/ die Verteilung der Kovariaten in der Gesamtbevölkerung, welche von der Verteilung /P(Z)/ in der getesteten Stichprobe möglicherweise abweicht.
 Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /\eta' = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}/.
-Es ist mathematisch beweisbar, dass Marginalisierung über /P'(Z=z)/ eine zuverlässige Schätzung des kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /Z/.
+
+Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y|X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
+
 
 
 
 
 *** Anmerkungen zur Erweiterung des Zufallsexperiments:
-- /T/: berücksichtigung verschiedener Tests
+- /X/: Berücksichtigung verschiedener Tests
 - Berücksichtigungen der Zeitpunkte von Testungen, ggf. des Krankheitsverlaufs. 
 - /Y/: Vielleicht mit Zeitintervall der Genesung 2 Wochen, vielleicht mehrwertig: genesen, hospitalisiert, verstorben.
 
@@ -153,11 +173,11 @@ Es ist mathematisch beweisbar, dass Marginalisierung über /P'(Z=z)/ eine zuverl
 Kausale Inferenzstatistik selbst ist kein statistisches Modell!
 Vielmehr formuliert kausale Inferenzstatistik die abstrakte wahrscheinlichkeitstheoretische Frage, wie kausale Effekte allgemein definiert sind, auch für nicht-randomisierte kontrollierte Studien.
 Statistische Modelle werden in einem zweiten Schritt verwendet um die Wahrscheinlichkeiten an Covid-19 zu versterben, bedingt auf Kovariaten und Teststatus in Regressionen zu schätzen.
-In diesem zweiten Schritt haben Forscher statistische Modelle zu testen und kritisch auszuwählen, um zu unverfälschten Vorhersagen und Abschätzungen ihrer Zuverlässigkeit zu gelangen.
+In diesem zweiten Schritt haben Forscher statistische Modelle zu testen und kritisch auszuwählen, um zu erwartungstreuen Vorhersagen und Abschätzungen ihrer Zuverlässigkeit zu gelangen.
 
 Logistische Regressionen
 1. Modelle logit /P(Y=0 | Z_{i}, X) = \alpha_{0} + \alpha_{1} X + \beta Z_{i} + \gamma X Z_{i}/ für alle Kovariaten /Z_{i}/.
-2. Haupteffekte und Interaktionseffekte mit /X/: logit /P(Y=0 | Z_{i}, X) = \alpha_{0} + \alpha_{1} X + \sum_{i} \beta_{i} Z_{i}  + \sum_{i} \gamma_{i} X Z_{i}/.
+2. Haupteffekte und Interaktionseffekte mit /X/: logit /P(Y=0 | Z, X) = \alpha_{0} + \alpha_{1} X + \sum_{i} \beta_{i} Z_{i}  + \sum_{i} \gamma_{i} X Z_{i}/.
 3. Komplexere Modelle zur Abschätzung sind denkbar und wünschenswert.  Ich schlage vor, dass diese Daten anonymisiert öffentlich gemacht werden sollten, um einen freien Wettbewerb für die Vorhersage der Mortalität aus den Kovariaten einzuladen.
 4. Bei den voraussichtlich großen Fallzahlen ist ggf. eine nonparametrische und modellfreie Vorhersage möglich.
 
@@ -180,11 +200,11 @@ In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglic
 
 * Falls Daten fehlen
 Zur statistischen Schätzung dieser Größen sind von den Gesundheitsbehörden folgende Daten erfolderlich:
-- Anonymisierte Daten aller getesteten Personen (Testergebnis $X=x$ und Kovariaten $Z=z$).
-- Verteilung $P(Z=z)$ in der Population.
-- Genesen/Versterben $Y=y$.
+- Anonymisierte Daten aller getesteten Personen (Testergebnis /X=x/ und Kovariaten /Z=z/).
+- Verteilung /P(Z=z)/ in der Population.
+- Genesen/Versterben /Y=y/.
 
 Falls die Vorerkrankungen nicht Test-negativer Personen nicht verfügbar sind, ist ggf. eine akzeptable Annahme, dass die Vorerkrankungen der Getesteten ebenso verteilt sind wie in der Gesamtpopulation, bedingt auf das Alter.
 
-Da Sterbedaten der negativ getesteten nicht verfügbar sein dürften, könnte ihre Sterberate $P(Y=0 | Z=z,X=0)$ anhand publizierter Mortalitäten der Vorerkrankungen und des Alters pro Jahr abgeschätzt werden.
+Da Sterbedaten der negativ getesteten nicht verfügbar sein dürften, könnte ihre Sterberate /P(Y=0 | Z=z,X=0)/ anhand publizierter Mortalitäten der Vorerkrankungen und des Alters pro Jahr abgeschätzt werden.
 Selbst wenn diese Sterberaten verfügbar wäre, ist zu klären, ob es nicht aussagekräftiger ist, die Sterberate innerhalb eines Jahres zugrundezulegen.
