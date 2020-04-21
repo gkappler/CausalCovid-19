@@ -174,7 +174,7 @@ Steyer, R., Nachtigall, C., Wüthrich-Martone, O., & Kraus, K. (2002). Causal re
 **** Durchschnittliche kausale Effekte
 Wenn die /Z */-bedingte kausale Regression* /E_{Z=z}(Y | X)/ kausal erwartungstreu ist, und die Verteilung der Kovariaten in der Gesamtbevölkerung bekannt ist,  /P'(Z=z)/ ist es möglich, die durchschnittlichen kausalen Effekte in der Gesamtbevölkerung zu berechnen (/P'(Z)/ kann von der Verteilung /P(Z)/ in der getesteten Stichprobe abweichen! Dies ist insbesondere der Fall, wenn nur in symptomatische Patienten in Krankenhäusern getestet werden.).
 
-Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /ACE = \sum_{z \in Z(\Omega)} P'(Z=z) \eta_{Z=z}/.
+Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /ACE(Y | X) = \sum_{z \in Z(\Omega)} P'(Z=z) ACE_{Z=z}(Y | X)/.
 
 Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y | X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
 
@@ -200,6 +200,18 @@ Logistische Regressionen
 4. Bei den voraussichtlich großen Fallzahlen ist ggf. eine nonparametrische und modellfreie Vorhersage möglich.
 
 *** Empfehlungen zur aktuellen Datenveröffentlichung
+** Wann hilft und wann schadet Intubation als medizinische Maßnahme?  
+Diese Frage beginnt erneut formalen Begriffsklärung durch das Zufallsexperiment.
+- Zur Testung wird eine SARS-COV2 positive Person /U=u/ in Intensivpflege ausgewählt
+- Die Sauerstoffsättigung wird erhoben, /O=o/
+- Kovariaten werden erhoben /Z=z/ (Alter, Geschlecht und Vorerkrankungen etc..)
+- Wird die Person intubiert (/X=1/) oder wird sie nicht intubiert (/X=0/)
+- Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
+
+Der bedingte Kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit /Z=z, O=o/ ist
+ACE_{Z=z,O=o}(Y | X) = /P(Y=1 | X=1, Z=z, O=o)-P(Y=1 | X=0, Z=z, O=o)/.
+
+
 * Benötigte Daten
 # <<daten>>
 Optimalerweise würden für die Berechnungen folgende anonymisierten Daten zu jedem getesteten Mitbürger verwendet:
