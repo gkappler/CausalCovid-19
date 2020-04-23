@@ -15,7 +15,7 @@ Angesichts der Massivität der Maßnahmen und des Umfangs bewegter Geldmittel er
 Beobachtungsstudien sind Datenerhebungen ohne experimentelle Kontrolle, im Unterschied zu randomisierten Doppel-Blind-Versuchsreihen, wie sie beispielsweise für pharmazeutische Zulassungsverfahren benötigt werden.
 Experimente sind und bleiben der goldene Standard zur Untersuchung von Wirkungen und Nebenwirkungen. 
 Doch leider sind sie nicht immer möglich, wie uns diese Pandemie sehr deutlich vor Augen führt.
-Die Kausale Inferenzstatistik wurde entwickelt, um kausale Effekte auch bei Beobachtungsstudien untersuchen, wenn bestimmte Bedingungen erfüllt sind.
+Die Kausale Inferenzstatistik wurde entwickelt, um kausale Effekte auch in Beobachtungsstudien statistisch zu untersuchen, wenn bestimmte Bedingungen erfüllt sind.
 Ich und meine Kollegen forschten im Bereich kausaler Inferenzstatistik und sind der Überzeugung, dass diese Methoden in der heutigen Situation helfen können, entscheidende aber noch immer offenstehende Fragen für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
 Im folgenden bemühe ich mich, aus dieser theoretischen Perspektive Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
 
