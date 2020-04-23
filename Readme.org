@@ -4,14 +4,14 @@ Die Corona-Krise bestimmt derzeit maßgeblich unser Leben und unsere Überlegung
 Extreme Vorsichtsmaßnahmen wurden und werden getroffen.
 Täglich ändert sich der Wissensstand und der Stand unserer Überlegungen und Einschätzungen.
 Die Ereignisse überstürzen sich und das erschwert sorgfältige randomisierte Studien, um Mortalität und geeignete medizinische Interventionen kontrolliert zu untersuchen.
-Wir sind also bisher vor allem auf Beobachtungsdaten beschränkt, und es ist von höchster Wichtigkeit, diese Beobachtungen systematisch zu erfassen und richtig zu beurteilen.
+Es ist das Wesen von Katastrophen, dass wir zwar ihr Geschehen beobachten können, aber kaum Möglichkeiten haben für kontrollierte wissenschaftliche Studien.
+Wir sind also auf Beobachtungsdaten angewiesen, und es ist von höchster Wichtigkeit, diese Beobachtungen systematisch zu erfassen und richtig zu beurteilen.
 
-Die Kausalitätstheorie kann kausale Effekte auch bei Beobachtungsstudien untersuchen, wenn bestimmte Bedingungen erfüllt sind.
-Beobachtungsstudien sind Datenerhebungen ohne experimentelle Kontrolle, beispielsweise in der gegenwärtigen Corona-Krise, und im Unterschied zu randomisierten Doppel-Blind-Versuchsreihen, wie sie beispielsweise für pharmazeutische Zulassungsverfahren benötigt werden.
-Experimente sind der goldene Standard zur Untersuchung von Wirkungen und Nebenwirkungen. 
+Die Kausale Inferenzstatistik wurde entwickelt, um kausale Effekte auch bei Beobachtungsstudien untersuchen, wenn bestimmte Bedingungen erfüllt sind.
+Beobachtungsstudien sind Datenerhebungen ohne experimentelle Kontrolle, im Unterschied zu randomisierten Doppel-Blind-Versuchsreihen, wie sie beispielsweise für pharmazeutische Zulassungsverfahren benötigt werden.
+Experimente sind und bleiben der goldene Standard zur Untersuchung von Wirkungen und Nebenwirkungen. 
 Doch leider sind sie nicht immer möglich, wie uns diese Pandemie sehr deutlich vor Augen führt.
-
-Ich und meine Kollegen forschten in diesem Bereich und sind der Überzeugung, dass in der heutigen Situation kausale Inferenzstatistik helfen kann, entscheidende aber noch immer offenstehende Fragen für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
+Ich und meine Kollegen forschten im Bereich kausaler Inferenzstatistik und sind der Überzeugung, dass diese Methoden in der heutigen Situation helfen können, entscheidende aber noch immer offenstehende Fragen für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
 
 
 ** Bitte um kritische Prüfung, Verbesserung und Mitarbeit
@@ -69,6 +69,7 @@ Vielmehr werden dort informierte, jedoch letztlich hypothetische Annahmen verwen
 Die Kausalitätstheorie wurde für Umstände wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.
 Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten auf der Ebene von Einzelfällen zu erheben und anonymisiert der Forschung zur Verfügung zu stellen.
 
+* Unzureichende Datenlage
 Leider werden derzeit nur zusammengefasste Fallzahlen systematisch veröffentlicht, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht, und Alter.
 Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch obige drängendsten Fragen nicht beantworten.
 
@@ -86,11 +87,13 @@ Erstaunlich wenige Studien haben Daten auf der Ebene von Einzelfällen der Covid
 - *Wenn Ihnen weitere Studien bekannt sind, fügen Sie diese bitte ein oder melden Sie diese als Kommentar in [[https://github.com/gkappler/CausalCovid-19/issues/1][Issue #1]].*
 Diese Studien verwenden Daten, welche mühsam von den Forschern aus den Sozialen Medien und oft ungenannten Quellen zusammengestellt wurden.
 Die meines Wissend umfangreichste Datensammlung der Johns-Hopkins Universität stellt zusammengeführte Daten als [[https://docs.google.com/spreadsheets/d/1jS24DjSPVWa4iuxuD4OAXrE3QeI8c9BC1hSlqr-NMiU/edit#gid=1841943470][google Tabelle]] zur Verfügung. Die darin enthaltenen Datenspalten sind in der [[Case-Data Exploration.ipynb][Daten-Exploration]] aufgelistet.
+- *Wenn Ihnen weitere Datensätze bekannt sind, informieren Sie mich bitte als Kommentar in [[https://github.com/gkappler/CausalCovid-19/issues/2][Issue #2]].*
 
 
 Daten auf Ebene von Einzelfällen sind erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
-Sie fehlen aber, bzw. werden für einzelne Studien jeweils aus den Krankenhausdaten zusammengestellt, und nicht geteilt.
+Sie fehlen aber, bzw. werden für einzelne Studien jeweils aus den Krankenhausdaten zusammengestellt und nicht öffentlich geteilt.
 
+* Datenschutz -- für welche Daten?
 Wir regen an, die zentrale Sammlung und anonymisierte Veröffentlichung dieser Daten zu veranlassen.
 Offensichtlich sind diese Gesundheitsdaten rechtlich besonders geschützt.
 Unsere westliche Demokratien sind bereit, die Notwendigkeit von Chinas autoritären Maßnahmen der Ausgangssperre und Ortsdatenüberwachung zur Eindämmung der Erkrankung zu erwägen und zu adaptieren.
