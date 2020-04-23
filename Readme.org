@@ -113,35 +113,37 @@ Um in zukünftigen Katastrophen angemessen reagieren zu können, scheint es uns 
 Daher regen wir an, die Veröffentlichung anonymisierter Daten zu den Verstorbenen bei zukünftigen Pandemien als gesetzlichen Automatismus im Seuchenschutzgesetz zu verankern.
 Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinschaft mit im Seuchenfall gebotener Geschwindigkeit und Aktualität die Gefährlichkeit der Erkrankung erforschen und evidenzbasierte Hinweise für praktische Ärzte geben kann, welche der getroffenen medizinischen Maßnahmen wirken und zu warnen, welche Maßnahmen schaden.
 
-** Übersterblichkeit, Kausalitätstheorie und Zufallsexperiment
+* Wie könnte kausale Inferenzstatistik mit diesen Daten die entscheidenden Fragen beantworten?
+** Wie viele Menschen sterben an Covid-19? Übersterblichkeit und Kausalität
 Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
 Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
 - Zur Testung wird eine Person /U=u/ aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll).
 - Das Testergebnis der Person wird erhoben, /X=x/. 
 - Kovariaten werden erhoben /Z=z/ (Alter, Geschlecht und Vorerkrankungen etc..)
-- Erkrankt die Person (/S=1/) oder bleibt sie asymptomatisch (/S=0/)
 - Verstirbt (/Y=0/) oder heilt (/Y=1/) die Person?
 
 Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
 - /U : \Omega \rightarrow/ Population
 - /X : \Omega \rightarrow {0,1}/
 - /Z : \Omega \rightarrow Z_{1} \times...\times Z_{n}/
-- /S : \Omega \rightarrow {0,1}/
 - /Y : \Omega \rightarrow {0,1}/
 
-*** Teststichprobe und Population, Infektion und Test
+*** Teststichprobe und Population
 Die Testung und die Auswahl der Stichprobe gewährleistet keine direkte Einschätzung, wieviele Personen in der Bevölkerung wirklich infiziert sind. 
 
 Dazu müssten im obigen Zufallsexperiment die Verteilung der Probanden /U/ durch eine randomisierte/repräsentative Auswahl /U/' ersetzt werden.
 - Eine Person /U'=u/ wird gleichverteilt aus der Population ausgewählt (randomisiert, wird aus test-ökonomischen Gründen nicht/kaum duchgeführt).
-Die Erkrankung an Covid-19, /X'/, kann nur indirekt durch Tests erhoben werden.
+- Die Person ist mit Covid-19 infiziert, /X'/ (kann nicht direkt beobachtet werden, sondern nur anhand von Tests). 
+
+*** Infektion und Test
+Die Infektion mit SARS-Cov2 ist eine nicht direkt beobachtbare Zufallsvariable /X/', und kann nur indirekt durch Tests erhoben werden.
 Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[fn::https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]:
 - Sensitivität: /1-P(X'=1 | X=0)/
 - Spezifizität: /1-P(X'=0 | X=1)/
 
 
 *** Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?
-Die Anteile (Wahrscheinlichkeiten) der versterbenden Personen in der Testpopulation sind 
+Die Anteile (Wahrscheinlichkeiten) der versterbenden Personen
 - wenn test-negativ: /P(Y=0 | X=0)/,
 - wenn test-positiv: /P(Y=0 | X=1)/.
 
@@ -159,7 +161,14 @@ Der /Z/-bedingte durchschnittliche kausale Effekt von Covid19 auf die Sterberate
 Dieser bedingte durchschnittliche Effekt /ACE_{Z=z}(Y | X)/ is spezifisch für Personen, die durch Kovariaten /Z=z/ (Alter, Vorerkrankungen, etc.) charakterisiert sind, und für diese Gruppe definiert als der Mehr-Anteil der versterbenden Personen, die Covid-19 positiv getestet wurden, über die zu erwartende Sterblichkeitsrate von Covid-19 negativ getesteten Personen hinaus.
 *Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.* 
 
-*** Verallgmeinerung auf die Bevölkerung
+*** Verallgemeinerung auf die Bevölkerung
+**** Durchschnittliche kausale Effekte
+Es ist möglich, die durchschnittlichen kausalen Effekte in der Gesamtbevölkerung zu berechnen, wenn die /Z */-bedingte kausale Regression* /E_{Z=z}(Y | X)/ kausal erwartungstreu und die Verteilung der Kovariaten in der Gesamtbevölkerung,  /P'(Z=z)/,  bekannt ist (/P'(Z)/ kann von der Verteilung /P(Z)/ in der getesteten Stichprobe abweichen! Dies ist insbesondere der Fall, wenn nur in symptomatische Patienten in Krankenhäusern getestet werden.).
+
+Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dann dem durchschnittlichen kausalen Effekt /ACE(Y | X) = \sum_{z \in Z(\Omega)} P'(Z=z) ACE_{Z=z}(Y | X)/.
+
+Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y | X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
+
 **** Kausale Erwartungstreue 
 Definitionen
 1. Der (/Z=z/) *-bedingte kausal erwartungstreue Erwartungswert* von /Y/ gegeben /X=x/ ist definiert als
@@ -190,17 +199,6 @@ Auf Basis einer repräsentativen Erhebung von Antikörpern scheint Bedingung 2. 
 Jedoch selbst in diesem Fall ist es vorteilhaft, möglichst umfangreiche Patientendaten zu veröffentlichen, um Kovariaten zu identifizieren, die einen Einfluss auf den Verlauf der Erkrankung haben, an die aber a-priori niemand gedacht hat.
 
 Steyer, R., Nachtigall, C., Wüthrich-Martone, O., & Kraus, K. (2002). Causal regression models III: Covariates, conditional, and unconditional average causal effects. Methods of Psychological Research Online, 7(1), 41–68.
-
-
-**** Durchschnittliche kausale Effekte
-Wenn die /Z */-bedingte kausale Regression* /E_{Z=z}(Y | X)/ kausal erwartungstreu ist, und die Verteilung der Kovariaten in der Gesamtbevölkerung bekannt ist,  /P'(Z=z)/ ist es möglich, die durchschnittlichen kausalen Effekte in der Gesamtbevölkerung zu berechnen (/P'(Z)/ kann von der Verteilung /P(Z)/ in der getesteten Stichprobe abweichen! Dies ist insbesondere der Fall, wenn nur in symptomatische Patienten in Krankenhäusern getestet werden.).
-
-Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dem durchschnittlichen kausalen Effekt /ACE(Y | X) = \sum_{z \in Z(\Omega)} P'(Z=z) ACE_{Z=z}(Y | X)/.
-
-Es ist beweisbar, dass Marginalisierung über /P'(Z=z)/ eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass /E_{Z=z}(Y | X)/ kausal erwartungstreu ist für alle /z \in Z(\Omega)/.
-
-
-
 
 
 *** Anmerkungen zur Erweiterung des Zufallsexperiments:
