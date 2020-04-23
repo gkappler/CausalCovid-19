@@ -39,15 +39,20 @@ Repräsentative Antikörpertests können diese Frage klären und auch Obduktione
 
 Die Ärzte in den Intensivstationen müssen täglich Behandlungsentscheidungen treffen.
 Kürzlich traten einige Ärzte in Europa und den USA an die Öffentlichkeit, und berichteten Ihre Erfahrungen mit dem Intubieren bei Covid-19 Erkrankten Patienten:
-Sie äußerten sich sehr überrascht, dass selbst bei so niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patienten ohne Intubation die Krankheit überstehen, jedoch die intubierten Patienten zumeist versterben
+Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patienten ohne Intubation die Krankheit überstehen, jedoch die intubierten Patienten zumeist versterben
 (https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html, https://www.youtube.com/watch?v=bp5RMutCNoI).
-Derlei Erfahrungen sind anekdotisch und nicht wissenschaftlich.
+Derlei Erfahrungen sind anekdotisch und haben sind noch nicht wissenschaftlich geprüft.
 Dennoch ist es wichtig und richtig, dass Ärzte sich über derlei Erfahrungen anektotisch austauschen:
 sie sollen effiziente Behandlungsmethoden finden um Patienten in Intensivstationen bestmöglich zu helfen und sie nicht in bester Absicht mit Behandlungen totzubehandeln, die zwar sonst am besten sind, aber vielleicht bei dieser neuen Erkrankung schädlich.
 Ärzte lernen von den Beobachtungen während ihrer Arbeit und durch Austausch und - leider - durch Versuch, Irrtum und Erfolg.
-Wissenschaftliche, randomisierte Studien zum Behandlungserfolg von Interventionen gibt es noch nicht.
+Diese Erfahrungen werden randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
+Doch dieser Prozess braucht seine Zeit, und heute müssen Entscheidungen getroffen werden.
+Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
 
-Es gibt jedoch statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
+Wie wichtig wäre es in dieser katastrophalen Situation, nicht nur Anekdoten zu teilen, sondern alle Informationen aus dem Krisengeschehen systematisch zu sammeln, und so verlässliche wissenschaftliche Einschätzungen der Situation zu erhalten?
+Wie wichtig wäre es so wissenschaftlich wie möglich über Ursachen und Wirkungen zu forschen und zu sprechen,  auch wenn kontrollierte Experimente noch nicht vorliegen?
+Dies ist nicht unmöglich!
+Es gibt statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
 Die Theorie kausaler Effekte von R. Steyer bzw. propensity score matching nach Rubin.
 Vereinfacht gesagt systematisieren diese Verfahren die Analyse anekdotischer Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
 Diese Verfahren ermöglichen auf Basis hinreichender Daten 
@@ -62,28 +67,41 @@ Vielmehr werden dort informierte, jedoch letztlich hypothetische Annahmen verwen
 
 
 Die Kausalitätstheorie wurde für Umstände wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.
-Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten jedes Einzelfalls in großem Umfang zu erheben und anonymisiert zur Verfügung zu stellen.
+Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten auf der Ebene von Einzelfällen zu erheben und anonymisiert der Forschung zur Verfügung zu stellen.
 
-
-Daten auf Ebene von Einzelfällen sind also dringend erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
-Sie fehlen aber.
-Leider werden derzeit fast ausschließlich zusammengefasste Fallzahlen, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht, und Alter veröffentlicht.
+Leider werden derzeit nur zusammengefasste Fallzahlen systematisch veröffentlicht, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht, und Alter.
 Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch obige drängendsten Fragen nicht beantworten.
-Stand [2020-04-19 So] hat meines Wissens nur China Daten infizierter Personen zur Verfügung gestellt, auf deren Basis bereits wichtige und hochrangig publizierte Studien ermöglicht wurden.
-- https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext 
-- https://www.bmj.com/content/369/bmj.m1327
 
-Wir regen an, die zentrale Sammlung und Veröffentlichung dieser Daten sofort zu veranlassen.
+
+Erstaunlich wenige Studien haben Daten auf der Ebene von Einzelfällen der Covid-19 Erkrankung ausgewertet:
+- [[https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltex][Verity, R., Okell, L. C., Dorigatti, I., Winskill, P., Whittaker, C., Imai, N., Cuomo-Dannenburg, G., Thompson, H., Walker, P. G. T., Fu, H., Dighe, A., Griffin, J. T., Baguelin, M., Bhatia, S., Boonyasiri, A., Cori, A., Cucunubá, Z., FitzJohn, R., Gaythorpe, K., … Ferguson, N. M. (2020). Estimates of the severity of coronavirus disease 2019: A model-based analysis. The Lancet Infectious Diseases, 0(0). https://doi.org/10.1016/S1473-3099(20)30243-7]]
+
+  Verwendet Korrekturverfahren, wie sie in der Epidemiologie verbreitet sind (Ghani, A. C., Donnelly, C. A., Cox, D. R., Griffin, J. T., Fraser, C., Lam, T. H., Ho, L. M., Chan, W. S., Anderson, R. M., Hedley, A. J., & Leung, G. M. (2005). Methods for estimating the case fatality ratio for a novel, emerging infectious disease. American Journal of Epidemiology, 162(5), 479–486. https://doi.org/10.1093/aje/kwi230). 
+- [[https://www.bmj.com/content/369/bmj.m1327][Mahase, E. (2020). Covid-19: Death rate is 0.66% and increases with age, study estimates. BMJ, 369. https://doi.org/10.1136/bmj.m1327]]
+
+- Johns-Hopkins Universität, enthält Daten aus Hubei Province, China, sowie einige Fälle aus den USA
+  - Analysen-Repository: https://github.com/HopkinsIDD/nCoV-Sandbox
+- Richardson, S., Hirsch, J. S., Narasimhan, M., Crawford, J. M., McGinn, T., Davidson, K. W., Barnaby, D. P., Becker, L. B., Chelico, J. D., Cohen, S. L., Cookingham, J., Coppa, K., Diefenbach, M. A., Dominello, A. J., Duer-Hefele, J., Falzon, L., Gitlin, J., Hajizadeh, N., Harvin, T. G., … Zanos, T. P. (2020). Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA. https://doi.org/10.1001/jama.2020.6775
+- Sun, K., Chen, J., & Viboud, C. (2020). Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: A population-level observational study. The Lancet Digital Health, 2(4), e201–e208. https://doi.org/10.1016/S2589-7500(20)30026-1
+- *Wenn Ihnen weitere Studien bekannt sind, fügen Sie diese bitte ein oder melden Sie diese als Kommentar in [[https://github.com/gkappler/CausalCovid-19/issues/1][Issue #1]].*
+Diese Studien verwenden Daten, welche mühsam von den Forschern aus den Sozialen Medien und oft ungenannten Quellen zusammengestellt wurden.
+Die meines Wissend umfangreichste Datensammlung der Johns-Hopkins Universität stellt zusammengeführte Daten als [[https://docs.google.com/spreadsheets/d/1jS24DjSPVWa4iuxuD4OAXrE3QeI8c9BC1hSlqr-NMiU/edit#gid=1841943470][google Tabelle]] zur Verfügung. Die darin enthaltenen Datenspalten sind in der [[Case-Data Exploration.ipynb][Daten-Exploration]] aufgelistet.
+
+
+Daten auf Ebene von Einzelfällen sind erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
+Sie fehlen aber, bzw. werden für einzelne Studien jeweils aus den Krankenhausdaten zusammengestellt, und nicht geteilt.
+
+Wir regen an, die zentrale Sammlung und anonymisierte Veröffentlichung dieser Daten zu veranlassen.
 Offensichtlich sind diese Gesundheitsdaten rechtlich besonders geschützt.
 Unsere westliche Demokratien sind bereit, die Notwendigkeit von Chinas autoritären Maßnahmen der Ausgangssperre und Ortsdatenüberwachung zur Eindämmung der Erkrankung zu erwägen und zu adaptieren.
 Westliche Demokratien sollten diskutieren, ob es nicht ein geringerer Eingriff in das soziale Gefüge freier Gesellschaften wäre, zuerst den Schutz persönlicher Daten für Erkrankte und Verstorbene im Seuchenfall einzuschränken.
-Es ist an der Vielzahl an Studien zu den Chinesischen Einzelfalldaten deutlich abzulesen, dass diese Aufhebung des Schutzes von Krankheitsdaten Wissenschaftlern ermöglich, wertvolle und praktische Erkenntnisse über die Covid-19 Erkrankheit zu erforschen.
+Es ist an den Studien auf Basis von Einzelfalldaten deutlich abzulesen, dass diese Aufhebung des Schutzes von Krankheitsdaten Wissenschaftlern ermöglicht, wertvolle und praktische Erkenntnisse über die Covid-19 Erkrankheit zu erforschen.
 
 
-Während für die Erforschung der durch den Virus verursachten Erkrankung Covid-19 augenfällig offene Daten fehlen, ist bei der Erforschung des SARS-Cov2 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
+Während für die Erforschung der durch den Virus verursachten Erkrankung Covid-19 augenfällig offene Daten aus offizieller Quelle fehlen, ist bei der Erforschung des SARS-Cov2 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
 die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe European Commission https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html).
 
-Zumindest die freiwillige Freigabe der Daten durch Patienteneinverständnis sollte ab sofort eingeholt werden, und eine entsprechende Dateninfrastruktur des Europäischen Center of Desease Control vorbereitet werden.
+Zumindest die freiwillige Freigabe der Daten durch Patienteneinverständnis sollte eingeholt werden, und eine entsprechende offizielle Dateninfrastruktur des Europäischen Center of Desease Control vorbereitet werden.
 Für bereits verstorbene Patienten sind wir der Überzeugung, dass eine Rechtsgüterabwägung die Nutzung dieser anonymisierten Daten ebenso oder leichter zulässt als die Erfassung von Bewegungsdaten der Bevölkerung.
 Wir wollen eine öffentliche Diskussion über den Umgang mit Daten zur Wissenschaftlichen Untersuchung in dieser Corona-Krise anregen.
 
