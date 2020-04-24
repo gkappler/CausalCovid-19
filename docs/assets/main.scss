@@ -4,10 +4,18 @@
 @import "comment-styles";
 
 input {
-    margin: 10px;
+    margin: 12px;
 }
 
 textarea {
-    margin: 10px;
+    margin: 12px;
+    padding: -12px;
+}
+
+.textfield {
     width: 100%;
+}
+
+.comments {
+    padding: 32px;
 }
