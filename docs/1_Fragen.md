@@ -12,20 +12,20 @@ Die Ärzte in den Intensivstationen müssen täglich Behandlungsentscheidungen t
 Kürzlich traten einige Ärzte in Europa und den USA an die Öffentlichkeit, und berichteten Ihre Erfahrungen mit dem Intubieren bei Covid-19 Erkrankten Patienten:
 Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patienten ohne Intubation die Krankheit überstehen, jedoch die intubierten Patienten zumeist versterben
 (https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html, https://www.youtube.com/watch?v=bp5RMutCNoI).
-Derlei Erfahrungen sind anekdotisch und noch nicht wissenschaftlich geprüft.
-Dennoch ist es wichtig und richtig, dass Ärzte sich über derlei Erfahrungen anektotisch austauschen:
+Derlei Erfahrungsberichte müssen erst wissenschaftlich geprüft werden.
+Dennoch ist es wichtig und richtig, dass Ärzte sich über derlei Erfahrungen informell "vorwissenschaftlich" austauschen:
 sie sollen effiziente Behandlungsmethoden finden um Patienten in Intensivstationen bestmöglich zu helfen und sie nicht in bester Absicht totzubehandeln, weil getroffene Maßnahmen zwar bei z.B. Influenza angezeigt sind, aber vielleicht bei dieser neuen Erkrankung schaden.
 Ärzte lernen von den Beobachtungen während ihrer Arbeit und durch Austausch und - leider - durch Versuch, Irrtum und Erfolg.
 Diese Erfahrungen werden randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
 Doch dieser Prozess braucht seine Zeit, und schon heute müssen Entscheidungen getroffen werden.
 Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
 
-Wie wichtig wäre es in dieser katastrophalen Situation, nicht nur Anekdoten zu teilen, sondern alle Informationen aus dem Krisengeschehen systematisch zu sammeln, und so verlässliche wissenschaftliche Einschätzungen der Situation zu erhalten?
+Wie wichtig wäre es in dieser katastrophalen Situation, nicht nur Erfahrungsberichte zu teilen, sondern alle Informationen aus dem Krisengeschehen systematisch zu sammeln, und so verlässliche wissenschaftliche Einschätzungen der Situation zu erhalten?
 Wie wichtig wäre es so wissenschaftlich wie möglich über Ursachen und Wirkungen zu forschen und zu sprechen,  auch wenn kontrollierte Experimente noch nicht vorliegen?
 Dies ist nicht unmöglich!
 Es gibt statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
 Die Theorie kausaler Effekte von R. Steyer bzw. propensity score matching nach Rubin.
-Vereinfacht gesagt systematisieren diese Verfahren die Analyse anekdotischer Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
+Vereinfacht gesagt systematisieren diese Verfahren die Analyse von beobachteten Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
 Diese Verfahren ermöglichen auf Basis hinreichender Daten 
 1. die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen
 3. eine dringend benötigte Schätzung der durchschnittliche Mortalität von Covid19 in der Gesamtbevölkerung zu berechnen,
