@@ -1,5 +1,6 @@
 ---
 title: Einzelfalldaten?
+slug: Daten
 layout: page
 ---
 

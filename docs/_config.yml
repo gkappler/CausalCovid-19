@@ -41,7 +41,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-staticman_url: https://staticman-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/comments
+staticman_url: https://staticman-dev-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/comments
+staticman_data_url: https://staticman-dev-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/data
 
 
   # you are going to want reCaptcha set up, but for now leave it disabled because we need the API

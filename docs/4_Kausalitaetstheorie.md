@@ -1,5 +1,6 @@
 ---
 title: Kausale Inferenzstatistik
+slug: Kausalitaetstheorie
 layout: page
 ---
 Eine Veröffentlichung von Falldaten würde eine große Zahl von Forschungsarbeiten ermöglichen, mit unterschiedlichen statistischen Verfahren.

@@ -1,5 +1,6 @@
 ---
 title: Welche Daten schützen?
+slug: Datenschutz
 layout: page
 ---
 Wir regen an, die zentrale Sammlung und anonymisierte Veröffentlichung dieser Daten zu veranlassen.

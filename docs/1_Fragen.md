@@ -1,5 +1,6 @@
 ---
 title: "Auswirkungen: Wichtige Fragen"
+slug: Fragen
 layout: page
 ---
 Derzeit wird viel diskutiert, ob Menschen "an" oder "mit" Corona versterben.
