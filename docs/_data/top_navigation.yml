@@ -1,0 +1,14 @@
+docs_list_title: Statistische Kausalität in der Coronakrise
+docs:
+
+- title: Wie gefährlich ist Covid19? Welche Behandlungen wirken?
+  url: 1_Fragen.html
+
+- title: Wenig und nicht systematische Daten über jeden einzelnen Fall
+  url: 2_Daten.html
+
+- title: Datenschutz -- für welche Daten?
+  url: 3_Datenschutz.html
+
+- title: Wie könnte kausale Inferenzstatistik mit diesen Daten die entscheidenden Fragen beantworten?
+  url: 4_Kausalitaetstheorie.html

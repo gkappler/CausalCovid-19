@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Corona: bedingte ursächliche Wirkungen"
+email: gregor.kappler@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Wir brauchen die richtigen Corona-Daten für Kausalitätstheoretische Statistik zu den wichtigen Fragen!
+baseurl: "/CausalCovid-19" # the subpath of your site, e.g. /blog
+url: "https://gkappler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: gkappler
+github_username:  gkappler
+
+# Build settings
+markdown: kramdown
+theme: minima
+##remote-theme: https://github.com/gcushen/hugo-academic
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+staticman_url: https://staticman-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/comments
+
+
+  # you are going to want reCaptcha set up, but for now leave it disabled because we need the API
+  # bridge up and running in order to encrypt the secrets that go in this section
+reCaptcha:
+  siteKey: 6LdXlu0UAAAAAM371OtaynAEHiHnIwpr0Dt_AHv0
+  secret: hxVUzjbFBL5nkCcvE6jQy9oeKKrtyACeq9na5pXa3wDCA/QUDv1ebDYqdQo/A1gsRQVZKM/8zeVpCKrWay0AXyGzQ4kKLwGcntr9h866hJ8hbANc8oN+cjwWjeK9VCfOtyAVB5ZwbBDTTT+gcscQYXrhWRXp5cBL1eoFWP/WEZaSvg9E0RAl+MNQk8s79xBGWzMufypoLxjmUBXY3VYtxR4nFTdaHddq8pVPke8SN2x3pxZ6jH0qRoenew/zzmFnPYGUT14X56Pf0VDXLqrnxb9cWDITYjcI/mU8q7cDMIsl7trTheXpqWDZ1jCDX4DGcSuC/huG+gkzyxiKDU08rxvbdBx8FMG25IEFKMdqi56UdyrANxcBPA3eGwhbC89yYBpjbg1CLsA3d+rFqOWtKOKWJZD7IjXPTJt2OOlcD3UYM9uhGDjjX0zpfbARcG+ZIxdPJdg1MI/kqcpncIZD6zoL1nDfJ6Zv9pKLyV6vy83waSPNIPZiPugIReSISw5k+kNrQRCZrb7ElIGDWrFgnmcWUP4icqXVH+YdeNqJesFqT1jOVVEShfcYnoQmWnD7GrqlrWlsLGuPc+KG4cYdZquikgukBpVVEp98tnjsdVjcMOQSKKRxRqy+0a4FCg2XHE4AuR8wVxNOnc3cqbmxBCs8eZgAob5TAmuGQfm59wU=
+
+
+  

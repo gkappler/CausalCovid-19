@@ -1,0 +1,30 @@
+---
+title: Einzelfalldaten?
+layout: page
+---
+
+Leider werden derzeit nur zusammengefasste Fallzahlen systematisch veröffentlicht, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht, und Alter.
+Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen lassen sich jedoch obige drängendsten Fragen nicht beantworten.
+
+
+Erstaunlich wenige Studien haben Daten auf der Ebene von Einzelfällen der Covid-19 Erkrankung ausgewertet:
+- [Verity, R., Okell, L. C., Dorigatti, I., Winskill, P., Whittaker, C., Imai, N., Cuomo-Dannenburg, G., Thompson, H., Walker, P. G. T., Fu, H., Dighe, A., Griffin, J. T., Baguelin, M., Bhatia, S., Boonyasiri, A., Cori, A., Cucunubá, Z., FitzJohn, R., Gaythorpe, K., … Ferguson, N. M. (2020). Estimates of the severity of coronavirus disease 2019: A model-based analysis. The Lancet Infectious Diseases, 0(0). https://doi.org/10.1016/S1473-3099(20)30243-7](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltex)
+
+  Verwendet Korrekturverfahren, wie sie in der Epidemiologie verbreitet sind (Ghani, A. C., Donnelly, C. A., Cox, D. R., Griffin, J. T., Fraser, C., Lam, T. H., Ho, L. M., Chan, W. S., Anderson, R. M., Hedley, A. J., & Leung, G. M. (2005). Methods for estimating the case fatality ratio for a novel, emerging infectious disease. American Journal of Epidemiology, 162(5), 479–486. https://doi.org/10.1093/aje/kwi230). 
+- [Mahase, E. (2020). Covid-19: Death rate is 0.66% and increases with age, study estimates. BMJ, 369. https://doi.org/10.1136/bmj.m1327](https://www.bmj.com/content/369/bmj.m1327)
+
+- Johns-Hopkins Universität, enthält Daten aus Hubei Province, China, sowie einige Fälle aus den USA
+  - Analysen-Repository: https://github.com/HopkinsIDD/nCoV-Sandbox
+- Richardson, S., Hirsch, J. S., Narasimhan, M., Crawford, J. M., McGinn, T., Davidson, K. W., Barnaby, D. P., Becker, L. B., Chelico, J. D., Cohen, S. L., Cookingham, J., Coppa, K., Diefenbach, M. A., Dominello, A. J., Duer-Hefele, J., Falzon, L., Gitlin, J., Hajizadeh, N., Harvin, T. G., … Zanos, T. P. (2020). Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA. https://doi.org/10.1001/jama.2020.6775
+- Sun, K., Chen, J., & Viboud, C. (2020). Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: A population-level observational study. The Lancet Digital Health, 2(4), e201–e208. https://doi.org/10.1016/S2589-7500(20)30026-1
+
+**Wenn Ihnen weitere Studien bekannt sind, fügen Sie diese bitte ein oder melden Sie diese als Kommentar in [Issue #1](https://github.com/gkappler/CausalCovid-19/issues/1).**
+
+
+Diese Studien verwenden Daten, welche mühsam von den Forschern aus den Sozialen Medien und oft ungenannten Quellen zusammengestellt wurden.
+Die meines Wissens umfangreichste Datensammlung der Johns-Hopkins Universität stellt zusammengeführte Daten als [Daten-Exploration](https://docs.google.com/spreadsheets/d/1jS24DjSPVWa4iuxuD4OAXrE3QeI8c9BC1hSlqr-NMiU/edit#gid=1841943470][google Tabelle]] zur Verfügung. Die darin enthaltenen Datenspalten sind in der [[Case-Data Exploration.ipynb) aufgelistet.
+**Wenn Ihnen weitere Datensätze bekannt sind, informieren Sie mich bitte als Kommentar in [Issue #2](https://github.com/gkappler/CausalCovid-19/issues/2).**
+
+
+Daten auf Ebene von Einzelfällen sind erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
+Sie fehlen aber, bzw. werden für einzelne Studien jeweils aus den Krankenhausdaten zusammengestellt und nicht öffentlich geteilt.
