@@ -1,5 +1,5 @@
 ---
-title: "Auswirkungen: Wichtige Fragen"
+title: "Forschungsfragen"
 slug: Fragen
 layout: page
 ---

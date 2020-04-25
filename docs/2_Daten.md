@@ -1,5 +1,5 @@
 ---
-title: Einzelfalldaten?
+title: Daten
 slug: Daten
 layout: page
 ---

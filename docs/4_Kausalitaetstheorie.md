@@ -1,5 +1,5 @@
 ---
-title: Kausale Inferenzstatistik
+title: Ursache-Wirkung
 slug: Kausalitaetstheorie
 layout: page
 ---

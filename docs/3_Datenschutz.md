@@ -1,5 +1,5 @@
 ---
-title: Welche Daten schützen?
+title: Datenschutz
 slug: Datenschutz
 layout: page
 ---
