@@ -53,8 +53,8 @@ Die Forschung benötigt Patientendaten.
 Patientendaten unterliegen ganz besonderem rechtlichen Schutz.
 Eine systematische globale Datenerfassung von Einzelfällen ist daher schwierig.
 
-Angesichts dieser nie dagewesenen Bedrohung durch Corona und Maßnahmen benötigt die Forschung dringend Patientendaten!
-Daher diskutiert diese Seite Strategien zur Sammlung und Veröffentlichung von Daten zur wissenschaftlichen Analyse.
+Wie können wir persönliche Daten schützen und zugleich der nie dagewesenen Bedrohung durch Corona und Maßnahmen informiert begegnen?
+Diese Seite lädt Sie ein, Strategien zur dezentralen anonymen Sammlung und Veröffentlichung Ihrer Daten zur Erforschung der Katastrophe zu diskutieren.
 
 <details><summary markdown="span">**Mit offenen anonymen Daten** können Heilungserfolge und Vorerkrankungsrisiken transparent beforscht werden!</summary>
 Ich und meine Kollegen forschten im Bereich kausaler Inferenzstatistik.
@@ -84,4 +84,4 @@ Alle auf dieser Seite erfassten Kommentare und Daten werden nachvollziehbar öff
 Moderierende Zensur ist nachvollziehbar.
 Es werden keine versteckten Besucherdaten erfasst.
 
-
+**Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit!**
