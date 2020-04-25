@@ -3,10 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 slug: index
 layout: home
+comments: true
 ---
 
 {::options parse_block_html="true" /}
-# Liebe Mitbürger, 
+## Liebe Mitbürger, 
 geschätzte wissenschaftliche Kollegen, sehr geehrte Politiker, 
 
 <details><summary markdown="span">Wir alle beobachten die Katastrophe der Corona-Pandemie.</summary>
@@ -44,7 +45,7 @@ Sonst gerät die offene Gesellschaft in eine Vertrauenskrise.
 </details>
 
 
-## Wir alle wollen Fakten transparenter Forschung!
+### Wir alle wollen Fakten transparenter Forschung!
 Jeder Bürger sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
 Zusammengefasste Fallzahlen und kleine Stichproben bieten ein verwirrendes Bild.
 
@@ -68,6 +69,7 @@ Um mit Ihrer Erfahrung
 systematisch erfasste medizinische Daten um sie wissenschaftlich auszuwerten und auf dieser Basis informierte Entscheidungen zu treffen.
 </details>
 
+<div style="height: 1em; display: block"/>
 <hr>
 <div style="height: 3em; display: block"/>
 

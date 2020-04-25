@@ -21,6 +21,3 @@ Bitte:
 - Schlagen Sie Korrekturen vor, wenn Sie Fehler in den Überlegungen dieses Dokuments sehen.
 - Tragen Sie statistische Regressionsmodelle bei, die der Kausalschätzung zugrundegelegt werden können.
 
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}

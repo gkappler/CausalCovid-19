@@ -1,5 +1,6 @@
-
-{% include comments.html %}
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
