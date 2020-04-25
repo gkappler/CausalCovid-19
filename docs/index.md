@@ -69,7 +69,41 @@ Um mit Ihrer Erfahrung
 systematisch erfasste medizinische Daten um sie wissenschaftlich auszuwerten und auf dieser Basis informierte Entscheidungen zu treffen.
 </details>
 
+
 <div style="height: 1em; display: block"/>
+<div style="border-radius: 1em; background-color: #dd33dd4d; padding: 1em;" markdown="1">
+Die Internetseite und Datenerfassung sind technisch fertiggestellt und in der Testphase.
+Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.
+
+Folgender Ablauf zur Datenerhebung ist (noch) ein Entwurf.
+Wir haben um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.
+
+- **Wenn Sie Security-Audits durchführen: bitte begutachten Sie die Software, und helfen Sie mit Lösungsvorschlägen bei Mängeln!**
+	- Ist Recaptcha sicher?
+    - 
+- **Wenn Sie Rechtskundig sind: bitte begutachten und verbessern Sie den vorgeschlagenen Datenerhebungsprozess!**
+- **Wenn Sie Mediziner oder Forscher sind: bitte begutachten und verbessern Sie vorgeschlagenen Datenerhebungsprozess!**
+- **Wenn Sie Programmierer sind:**
+
+<details><summary markdown="span">Wie kann das funktionieren?</summary>
+1. Anonyme Datenerfassung:
+   Ihre Gesundheitsdaten sind sehr privat, und daher ist es entscheidend, Ihre Identität zu schützen.
+   Veröffentlichung in dieser Krise besonders wertvoll.
+    - Sie können den Datensatz derzeit nicht mehr verändern.
+2. Öffentliche Daten für die internationale Öffentlichkeit:
+    - Ihr anonymer Datensatz wird im Datenarchiv nach Absendung öffentlich sichtbar.
+    - Der aktuellste Datenstand kann von der Wissenschaftsgemeinde beforscht werden. 
+3. Prüfung der Datenqualität durch behandelnde Ärzte und Kliniken.
+
+   Bei der Datenerfassung wird die email der behandelnden Ärzte erfragt.
+   Diese können anhand des Datums von Test, Aufnahme und Entlassung/Tod Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
+4. Die Initiatoren dieses Projekts sind als Forscher und Datenwissenschaftler unabhängig.
+    
+
+Durch freie quelloffene Software und Freigabe aller Daten Keine Interessenkonflikte. 
+</details>
+</div>
+
 <hr>
 <div style="height: 3em; display: block"/>
 
