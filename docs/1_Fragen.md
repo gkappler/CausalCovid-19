@@ -3,6 +3,7 @@ title: "Forschungsfragen"
 slug: Fragen
 layout: page
 ---
+{::options parse_block_html="true" /}
 ## Offene Forschungsfragen
 <details><summary markdown="span">Wie hoch ist Ihr persönliches Risiko falls Sie mit Corona infiziert sind?</summary>
 Es wurde viel diskutiert, ob Menschen "an" oder "mit" Corona versterben.
