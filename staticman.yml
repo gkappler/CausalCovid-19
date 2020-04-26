@@ -7,7 +7,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "url", "message", "replying_to_uid"]
+  allowedFields: ["name", "email", "url", "subject", "message", "replying_to_uid"]
 
   # (*) REQUIRED
   #
@@ -16,7 +16,7 @@ comments:
   branch: master
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "Comment from {fields.name} on {options.slug}"
+  commitMessage: "Comment from {fields.name} on {options.slug}: {fields.subject}"
 
   # (*) REQUIRED
   #
@@ -65,7 +65,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "docs/_data/comments/{options.slug}"
+  path: "docs/_data/comments/{options.slug}/{fields.subject}"
 
   # You may want a different set of "required fields". Staticman will
   # reject posts without all of these fields

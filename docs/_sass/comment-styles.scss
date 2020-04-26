@@ -5,6 +5,18 @@ $base-font-size:    18px !default;
 $comment-font-size: 17px !default;
 
 
+button.button {
+    border-style: solid;
+    border-radius: 1em;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-color: grey;
+    border-width: thin;
+    background-color: #afedaf;
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+
 //
 // Staticman new comment form
 //
@@ -26,7 +38,8 @@ fieldset {
 }
 
 .textfield {
-    width: 420px;
+    width: -moz-available;
+    width: -webkit-fill-available;
     max-width: 100%;
     padding: 0.5rem 0;
 }
@@ -39,9 +52,10 @@ textarea {
     vertical-align: top;
 }
 .textfield__input {
+    width: -moz-available;
+    width: -webkit-fill-available;
     border: 1px solid rgba(0,0,0,.12);
     padding: 4px 5px;
-    width: 100%;
     font-size: $comment-font-size;
 }
 .notify-me, .g-recaptcha {

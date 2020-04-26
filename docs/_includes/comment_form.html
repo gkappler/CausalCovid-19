@@ -1,7 +1,8 @@
 <form class="js-form form" method="post" action="{{ site.staticman_url }}">
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
   <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
-  <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+  <input type="hidden" id="subject" name="fields[subject]" value="{{ include.subject | "" }}">
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
   <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
   <input type="hidden" name="options[slug]" value="{{ page.slug }}">
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
@@ -40,10 +41,7 @@
   </fieldset>
 
   <fieldset>
-    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-  </fieldset>
-
-  <fieldset>
+    <span id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></span>
     <button class="button" id="comment-form-submit">
       Submit
     </button>

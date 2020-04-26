@@ -3,17 +3,11 @@
 @import "minima";
 @import "comment-styles";
 
-input {
-    margin: 12px;
+details {
+    border-style: solid;
+    border-radius: 1em;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-color: grey;
+    border-width: thin;
 }
-
-textarea {
-    margin: 12px;
-    padding: -12px;
-}
-
-.textfield {
-    width: 100%;
-}
-
-
