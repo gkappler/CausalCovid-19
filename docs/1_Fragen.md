@@ -23,7 +23,7 @@ Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsätti
 
 <details><summary markdown="span">Welche antiviralen Medikamente helfen wem?</summary>
 Ärzte lernen von den Beobachtungen während ihrer Arbeit und - in einer neuen Pandemie - durch Versuch, Irrtum und Erfolg.
-Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen
+Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
 Aber der kontrollierte Forschungsprozess braucht seine Zeit und muss ethisch sorgfältig abgewogen werden (vgl. Drosten.
 Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
 
