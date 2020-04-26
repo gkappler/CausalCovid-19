@@ -3,6 +3,15 @@
 @import "minima";
 @import "comment-styles";
 
+.details {
+    border-style: solid;
+    border-radius: 1em;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-color: grey;
+    border-width: thin;
+}
+
 details {
     border-style: solid;
     border-radius: 1em;

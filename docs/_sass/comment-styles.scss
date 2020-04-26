@@ -38,8 +38,6 @@ fieldset {
 }
 
 .textfield {
-    width: -moz-available;
-    width: -webkit-fill-available;
     max-width: 100%;
     padding: 0.5rem 0;
 }
@@ -52,8 +50,6 @@ textarea {
     vertical-align: top;
 }
 .textfield__input {
-    width: -moz-available;
-    width: -webkit-fill-available;
     border: 1px solid rgba(0,0,0,.12);
     padding: 4px 5px;
     font-size: $comment-font-size;
