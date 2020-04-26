@@ -45,8 +45,6 @@ Diese Verfahren ermöglichen auf Basis hinreichender Daten
 5. Die Folgen evidenzbasierter Pläne zur Herdenimmunisierung abzuschätzen, d.h. welche 60%-70% der Bevölkerung mit dem geringsten Risiko erkranken könnten, und wie groß das Risiko dieser Personengruppen wäre, an der Erkrankung zu versterben.
 6. Diese geschätzten Folgen einer kontrollierten Herdenimmunisieren können dann Annahmen des Risikos von Impfnebenwirkungen gegenübergestellt werden.
 Diese Fragen sind in der gegenwärtigen Situation von höchster Dringlichkeit, um Ärzte im Krankenhaus, besorgte Bürger sowie Politiker bei der Entscheidung von Maßnahmen zu beraten.
-Mit epidemiologischen Modellrechnungen lassen sich leider diese kausalen Fragen grundsätzlich nicht beantworten.
-Vielmehr werden dort informierte, jedoch letztlich hypothetische Annahmen verwendet um Modell-Vorhersagen zu Treffen.
 
 
 Die wahrscheinlichkeitstheoretische Kausalitätstheorie wurde für Umstände wie die Corona-Pandemie entwickelt um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, eine Kontroll- und Experimentalgruppe zu bilden.

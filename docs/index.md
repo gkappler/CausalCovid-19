@@ -9,46 +9,70 @@ layout: home
 ## Liebe Mitbürger\*innen, 
 geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen, 
 
+
+ich erlebe mit Ihnen die Corona-Pandemie, und schwanke wie viele zwischen gebanntem Schock und kritischer Vernunft.
+Die politischen Maßnahmen sind mit wissenschaftlichen Modellvorhersagen begründet.
+Als Wissenschaftler finde ich das gut und informiere mich über die aktuelle Forschung zu Covid-19.
+<details><summary markdown="span">Dieser aufklappbare Falttext ist ein Diskussionsvorschlag ... (klick!)</summary>
+<!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
+... den ich mich bemühe Punkt für Punkt übersichtlich darzustellen, und aufklappbar vertieft zu begründen.
+</details>
+
 <details><summary markdown="span">Wir alle beobachten die Katastrophe der Corona-Pandemie.</summary>
-Die Corona-Krise bestimmt derzeit maßgeblich unser Leben und unsere Überlegungen.
+Sie bestimmt derzeit maßgeblich unser Leben und unsere Überlegungen.
 Täglich ändert sich der Wissensstand und der Stand unserer Überlegungen und Einschätzungen.
 
 Die Ereignisse überstürzen sich.
 Das erschwert kontrollierte wissenschaftliche Studien, um Mortalität und geeignete medizinische Interventionen zu untersuchen.
-Experimente mit randomisierten Doppel-Blind-Versuchsreihen sind und bleiben der goldene Standard zur Untersuchung von Wirkungen und Nebenwirkungen, wie sie beispielsweise für pharmazeutische Zulassungsverfahren benötigt werden.
-Doch leider sind kontrollierte wissenschaftliche Studien nicht immer möglich.
+
+Der goldene Standard zur Untersuchung von Wirkungen und Nebenwirkungen sind Experimente mit randomisierten Doppel-Blind-Versuchsreihen, wie sie beispielsweise für pharmazeutische Zulassungsverfahren benötigt werden.
+
+Doch leider sind kontrollierte wissenschaftliche Studien nicht zeitnah möglich.
 Das führt diese Pandemie sehr deutlich vor Augen.
 </details>
 
 <details><summary markdown="span">Ärzt\*innen schildern uns ihre Erfahrungen.</summary>
-Die Ärzt\*innen in den Intensivstationen müssen täglich Behandlungsentscheidungen treffen.
+In den Intensivstationen müssen täglich Behandlungsentscheidungen getroffen werden.
 Kürzlich traten einige Ärzt\*innen in Europa und den USA an die Öffentlichkeit, und berichteten Ihre Erfahrungen mit dem Intubieren bei Covid-19 Erkrankten Patient\*innen:
-Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patient\*innen ohne Intubation die Krankheit überstehen, jedoch die intubierten Patient\*innen zumeist versterben
+Sie äußerten sich sehr überrascht, dass selbst bei extrem niedriger Sauerstoffsättigung im Blut viele Ihrer Patient\*innen ohne Intubation die Krankheit überstehen.
+Hingegen versterben die meisten intubierten Patient\*innen.
 ([New York Times Artikel](https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html){:target="_blank"},
 [New York Times @ YouTube](https://www.youtube.com/watch?v=bp5RMutCNoI){:target="_blank"}).
 
 
-Ärzt\*innen lernen von den Beobachtungen während ihrer Arbeit und - in einer neuen Pandemie - durch Versuch, Irrtum und Erfolg.
-Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
+Ärzt\*innen lernen von ihren Beobachtungen während ihrer Arbeit und - in einer Pandemie mit einem neuen Erreger - durch Versuch, Irrtum und Erfolg.
+Ihre Erfahrungen regen randomisierte Studien zur Wirksamkeit der Intubationsbehandlung an.
 Aber der kontrollierte Forschungsprozess braucht seine Zeit und muss ethisch sorgfältig abgewogen werden (vgl. Drosten).
-Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
+Heute gibt es leider noch kaum gesicherte Ergebnisse wissenschaftlicher, randomisierter Studien zum Behandlungserfolg von Interventionen.
 </details>
 
 <details><summary markdown="span">Beobachten wir systematisch!</summary>
-Das Wesen von Katastrophen ist:
+Das Wesen von Katastrophen ist eben:
 wir beobachten ihr Geschehen, aber können es kaum kontrolliert experimentell untersuchen.
 Wir sind also auf Beobachtungsdaten angewiesen.
 
 Diese Beobachtungen können systematisch erfasst werden.
 Dann können wir Krise und Interventionen evidenzbasiert beurteilen.
+</details>
 
-Beobachtungsstudien sind Datenerhebungen ohne experimentelle Kontrolle.
-Die **Kausale Inferenzstatistik** wurde entwickelt, um ursächliche Effekte auch in Beobachtungsstudien statistisch zu untersuchen, wenn bestimmte Bedingungen erfüllt sind.
+<details><summary markdown="span">Wir brauchen **evidenz-basierte Annahmen für modell-basierte Vorhersagen**!</summary>
+In epidemiologischen Modellrechnungen werden Annahmen verwendet um Vorhersagen zu treffen.
+Wieviele Opfer ein Erreger wirklich verursachen wird, lässt sich damit nur beantworten, 
+wenn dabei realistische und evidenz-basierte Annahmen verwendet werden.
+Es muss also statistisch zuverlässig abgeschätzt werden, wie tödlich der Erreger für wen ist -- eine zentrale kausale Frage in dieser Pandemie.
+Ohne ein realistisches Bild der Lage besteht folgende Gefahr:
+besorgt wird ein worst-case-Szenario angenommen,
+mathematisch-korrekte Projektionen führen zu gut-gemeinten extremen Maßnahmen,
+und wir übersehen dabei vielleicht effizientere Maßnahmen, die weniger Nebenwirkungen verursachen.
+
+Die systematische Datenerhebungen in einer Pandemie ist eine Beobachtungsstudie ohne experimentelle Kontrolle.
+Die **Kausale Inferenzstatistik** wurde entwickelt, um ursächliche Effekte in Beobachtungsstudien statistisch zu untersuchen.
+Mit ihren Methoden können Forscher die [ursächlichen Effekte des Corona-Virus und medizinischer Maßnahmen](1_Fragen.html) evidenz-basiert und realistisch einschätzen.
+<!-- , wenn bestimmte Bedingungen erfüllt sind. -->
 </details>
 
 
-
-### Wir alle wollen Fakten transparenter Forschung!
+### Wir alle wollen Fakten aus transparenter Forschung!
 Jede\*r Bürger\*in sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
 Zusammengefasste Fallzahlen und Studien mit ausgewählten Stichproben bieten ein verwirrendes Bild.
 
