@@ -131,16 +131,17 @@ Wir haben um rechtliche und medizinische Begutachtung gebeten und warten auf Rü
 1. Anonyme Datenerfassung:
    Ihre Gesundheitsdaten sind sehr privat, und daher ist es entscheidend, Ihre Identität zu schützen.
    Veröffentlichung in dieser Krise besonders wertvoll.
-    - Sie können den Datensatz derzeit nicht mehr verändern.
+   - Sie können den Datensatz derzeit nicht mehr verändern.
 2. Öffentliche Daten für die internationale Öffentlichkeit:
-    - Ihr anonymer Datensatz wird im Datenarchiv nach Absendung öffentlich sichtbar.
-    - Der aktuellste Datenstand kann von der Wissenschaftsgemeinde beforscht werden. 
+   - Ihr anonymer Datensatz wird im Datenarchiv nach Absendung mit einer Creative-Commons Lizenz veröffentlicht.
+   - Der aktuellste Datenstand kann von der Wissenschaftsgemeinde beforscht werden. 
 3. Prüfung der Datenqualität durch behandelnde Ärzt\*innen und Kliniken.
 
-   Bei der Datenerfassung wird die email der behandelnden Ärzt\*innen erfragt.
-   Diese können anhand des Datums von Test, Aufnahme und Entlassung/Tod Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
+   1. Bei der Datenerfassung wird die email des meldenden Gesundheitsamtes erfragt.
+   2. Das Gesundheitsamt kann anhand des Datums von Test, Aufnahme und Entlassung/Tod die behandelnde Ärzt\*in ermitteln. 
+   3. Die behandelnde Ärzt\*in kann Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
 4. Die Initiatoren dieses Projekts sind als Forscher\*innen und Datenwissenschaftler unabhängig.
-    
+   Daten und Software dieser Seite sind vollständig quelloffen
 
 Durch freie quelloffene Software und Freigabe aller Daten Keine Interessenkonflikte. 
 </details>
