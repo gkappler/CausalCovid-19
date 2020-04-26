@@ -8,8 +8,8 @@ layout: page
 <details><summary markdown="span">Wie hoch ist Ihr persönliches Risiko, falls Sie mit Corona [wissenschaftliche Bezeichnung: dem neuartigen Coronavirus, SarS-CoV2 oder Covid-19] infiziert sind?</summary>
 Es ist Gegenstand der Diskussion, in welchem Ausmaß Menschen "an" oder "mit" Covid-19 versterben.
 Die Frage ist, ob Corona *ursächlich* war für das Versterben einer Person, oder ob die Person nicht in einem überschaubaren Zeitraum ohnehin gestorben wäre. Damit zusammen hängt die Frage, wie gefährlich Covid-19 im Vergleich zu beispielsweise Influenza ist.
-Obwohl diese Frage relevant ist, um die getroffenen Maßnahmen zu beurteilen, ist sie anhand der veröffentlichten Zahlen leider nicht zu beantworten [Übersterblichkeit??].
-Antikörpertests auf einer representative ausgewählten Gruppe von Menschen können diese Frage statistisch klären. Bisher wurde die Frage in erster Linie auf Grundlage des Expertenwissens durch das Urteil des begutachtenden Pathologen durch Obduktionen geklärt.
+Obwohl diese Frage relevant ist, um die getroffenen Maßnahmen zu beurteilen [inwiefern? Berechtigung? Verhältnismäßigkeit?], ist sie anhand der veröffentlichten Zahlen leider nicht zu beantworten [Übersterblichkeit??].
+Antikörpertests auf einer representativ ausgewählten Gruppe von Menschen können diese Frage statistisch klären. Bisher wurde die Frage in erster Linie auf Grundlage des Expertenwissens durch das Urteil des begutachtenden Pathologen durch Obduktionen geklärt.
 </details>
 
 
@@ -38,13 +38,13 @@ Die Theorie kausaler Effekte von R. Steyer bzw. propensity score matching nach R
 Vereinfacht gesagt systematisieren diese Verfahren die Analyse von beobachteten Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
 
 Diese Verfahren ermöglichen auf Basis hinreichender Daten 
-1. die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen,
+1. die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen.
 2.?
-3. eine dringend benötigte Schätzung der durchschnittlichen Mortalität von Covid-19 bezogen auf die Gesamtbevölkerung zu berechnen,
-4. das bedingte Risiko, im Falle einer Infektion zu versterben, verlässlich zu quantifizieren, für Personen eines bestimmten Alters, Geschlechts und auch für Personen mit bestimmten bekannten Vorerkrankungen,
-5. die Folgen evidenzbasierter Pläne für einen Pfad, um einen hinlänglich großen Teil der Bevölkerung natürlich zu immunisieren, um dadurch eine Ausbreitung der Krankheit wesentlich zu vermindern (Herdenimmunisierung) abzuschätzen, d.h. welche 60%-70% der Bevölkerung mit dem geringsten Risiko eines schweren Krankheitsverlaufs erkranken könnten, und wie groß das Risiko dieser Personengruppen wäre, an der Erkrankung zu versterben, und
-6. diese zu erwartenden Folgen einer kontrollierten Herdenimmunisierung dann Annahmen zu den Folgen anderer Maßnahmen, zum Beispiel des Risikos von Nebenwirkungen eines in begrenztem Umfang Impfstoffs gegenüberzustellen.
-Diese Fragen sind in der gegenwärtigen Situation von höchster Dringlichkeit, um behandelnde Ärztinnen, Bürger*innen sowie Politikerinnen eine verlässlichere, öffentlich nachvollziehbare Grundlage für ihre Entscheidungen zu geben.
+3. eine dringend benötigte Schätzung der durchschnittlichen Mortalität von Covid-19 bezogen auf die Gesamtbevölkerung zu berechnen.
+4. das bedingte Risiko, im Falle einer Infektion zu versterben, verlässlich zu quantifizieren, für Personen eines bestimmten Alters, Geschlechts und auch für Personen mit bestimmten bekannten Vorerkrankungen.
+5. die Folgen evidenzbasierter Pläne, einen hinlänglich großen Teil der Bevölkerung natürlich zu immunisieren und um dadurch eine Ausbreitung der Krankheit wesentlich zu vermindern (Herdenimmunisierung): Dafür wäre die Frage zu beantworten, welche 60%-70% der Bevölkerung mit dem geringsten Risiko eines schweren Krankheitsverlaufs erkranken könnten, und wie groß das Risiko dieser Personengruppen wäre, an der Erkrankung zu versterben.
+6. diese zu erwartenden Folgen einer kontrollierten Herdenimmunisierung den erwarteten Folgen anderer Maßnahmen, zum Beispiel des Risikos von Nebenwirkungen eines in begrenztem Umfang getesteten Impfstoffs, gegenüberzustellen.
+Diese Fragen sind in der gegenwärtigen Situation von höchster Dringlichkeit, um behandelnden Ärzt*innen, Bürger*innen sowie Politiker*innen eine verlässlichere, öffentlich nachvollziehbare Grundlage für ihre Entscheidungen zu geben.
 
 Die wahrscheinlichkeitstheoretische Kausalitätstheorie wurde für Umstände wie die Covid-19-Pandemie entwickelt, um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, wie bei einem kontrollieren Experiment eine Kontroll- und Experimentalgruppe zu bilden.
  <!-- erlaubt es auf Basis nicht experimentell und randomisiert erhobener Daten ursächliche Effekte zu schätzen.Sie  -->
