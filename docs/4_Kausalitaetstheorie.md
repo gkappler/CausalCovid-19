@@ -79,7 +79,7 @@ Es ist beweisbar, dass Marginalisierung über $$P'(Z=z)$$ eine erwartungstreue S
 Definitionen
 1. Der ($$Z=z$$) *-bedingte kausal erwartungstreue Erwartungswert* von $$Y$$ gegeben $$X=x$$ ist definiert als
 
-   CUE_{Z=z}(Y \vert X=x) = \sum_u E_{Z=z}(Y \vert U=u,X=x)P_{Z=z}(U=u).
+   $$CUE_{Z=z}(Y \vert X=x) = \sum_u E_{Z=z}(Y \vert U=u,X=x)P_{Z=z}(U=u)$$.
 2. Die $$Z$$ *-bedingte kausale Regression* $$E_{Z=z}(Y \vert X)$$ ist kausal erwartungstreu, wenn für alle $$Z=z$$
 
    $$E(Y \vert Z=z, X=x)$$ = CUE_{Z=z}(Y \vert X=x).
@@ -171,4 +171,4 @@ Diese Frage beginnt erneut formalen Begriffsklärung durch das Zufallsexperiment
 - Verstirbt ($$Y=0$$) oder heilt ($$Y=1$$) die Person?
 
 Der bedingte Kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit $$Z=z, O=o$$ ist
-ACE_{Z=z,O=o}(Y \vert X) = $$P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)$$.
+$$ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)$$.
