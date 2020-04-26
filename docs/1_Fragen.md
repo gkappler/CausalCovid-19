@@ -3,29 +3,40 @@ title: "Forschungsfragen"
 slug: Fragen
 layout: page
 ---
-Derzeit wird viel diskutiert, ob Menschen "an" oder "mit" Corona versterben.
+## Offene Forschungsfragen
+<details><summary markdown="span">Wie hoch ist Ihr persönliches Risiko falls Sie mit Corona infiziert sind?</summary>
+Es wurde viel diskutiert, ob Menschen "an" oder "mit" Corona versterben.
 Die Frage ist, ob Corona *ursächlich* war für das Versterben einer Person, und wie gefährlich Covid-19 im Vergleich zu beispielsweise Influenza ist.
 Obwohl diese Frage alle getroffenen Maßnahmen betrifft, ist sie anhand der veröffentlichten Zahlen leider nicht zu beantworten.
 Repräsentative Antikörpertests können diese Frage klären und auch Obduktionen tragen durch das Expertengutachten wertvolle Informationen bei.
+</details>
 
+
+<details><summary markdown="span">Wann hilft und wann schadet Intubation?</summary>
 Die Ärzte in den Intensivstationen müssen täglich Behandlungsentscheidungen treffen.
 Kürzlich traten einige Ärzte in Europa und den USA an die Öffentlichkeit, und berichteten Ihre Erfahrungen mit dem Intubieren bei Covid-19 Erkrankten Patienten:
 Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsättigung von ca. 50% viele Ihrer Patienten ohne Intubation die Krankheit überstehen, jedoch die intubierten Patienten zumeist versterben
-(https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html, https://www.youtube.com/watch?v=bp5RMutCNoI).
-Derlei Erfahrungsberichte müssen erst wissenschaftlich geprüft werden.
-Dennoch ist es wichtig und richtig, dass Ärzte sich über derlei Erfahrungen informell "vorwissenschaftlich" austauschen:
-sie sollen effiziente Behandlungsmethoden finden um Patienten in Intensivstationen bestmöglich zu helfen und sie nicht in bester Absicht totzubehandeln, weil getroffene Maßnahmen zwar bei z.B. Influenza angezeigt sind, aber vielleicht bei dieser neuen Erkrankung schaden.
-Ärzte lernen von den Beobachtungen während ihrer Arbeit und durch Austausch und - leider - durch Versuch, Irrtum und Erfolg.
-Diese Erfahrungen werden randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
-Doch dieser Prozess braucht seine Zeit, und schon heute müssen Entscheidungen getroffen werden.
+([New York Times Artikel](https://www.nytimes.com/2020/04/14/nyregion/new-york-coronavirus.html){:target="_blank"},
+[New York Times @ YouTube](https://www.youtube.com/watch?v=bp5RMutCNoI){:target="_blank"}).
+</details>
+
+<details><summary markdown="span">Welche antiviralen Medikamente helfen wem?</summary>
+Ärzte lernen von den Beobachtungen während ihrer Arbeit und - in einer neuen Pandemie - durch Versuch, Irrtum und Erfolg.
+Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen
+Aber der kontrollierte Forschungsprozess braucht seine Zeit und muss ethisch sorgfältig abgewogen werden (vgl. Drosten.
 Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
 
-Wie wichtig wäre es in dieser katastrophalen Situation, nicht nur Erfahrungsberichte zu teilen, sondern alle Informationen aus dem Krisengeschehen systematisch zu sammeln, und so verlässliche wissenschaftliche Einschätzungen der Situation zu erhalten?
-Wie wichtig wäre es so wissenschaftlich wie möglich über Ursachen und Wirkungen zu forschen und zu sprechen,  auch wenn kontrollierte Experimente noch nicht vorliegen?
+In dieser katastrophalen Situation ist es besonders wichtig, nicht nur Erfahrungsberichte zu teilen oder auf kontrollierte Studien zu warten. 
+Informationen über die Umstände können systematisch mit einer Erkrankungs-Datenspende gesammelt werden, um so wissenschaftliche Einschätzungen der Situation zu erhalten.
+</details>
+
+Kann man wissenschaftlich über Ursachen und Wirkungen forschen und sprechen, auch wenn kontrollierte Experimente noch nicht vorliegen?
 Dies ist nicht unmöglich!
 Es gibt statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
 Die Theorie kausaler Effekte von R. Steyer bzw. propensity score matching nach Rubin.
+
 Vereinfacht gesagt systematisieren diese Verfahren die Analyse von beobachteten Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
+
 Diese Verfahren ermöglichen auf Basis hinreichender Daten 
 1. die Wirksamkeit medizinischer Maßnahmen durch systematische Beobachtung und Erfassung zu bestimmen
 3. eine dringend benötigte Schätzung der durchschnittliche Mortalität von Covid19 in der Gesamtbevölkerung zu berechnen,
@@ -41,6 +52,3 @@ Die wahrscheinlichkeitstheoretische Kausalitätstheorie wurde für Umstände wie
  <!-- erlaubt es auf Basis nicht experimentell und randomisiert erhobener Daten ursächliche Effekte zu schätzen.Sie  -->
  <!-- , beispielsweise aus ethischen oder ökonomischen Gründen. -->
 Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten auf der Ebene von Einzelfällen zu erheben und anonymisiert der Forschung zur Verfügung zu stellen.
-
-
-
