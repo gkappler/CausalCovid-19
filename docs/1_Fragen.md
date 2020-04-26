@@ -27,7 +27,7 @@ Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsb
 Aber der übliche kontrollierte Forschungsprozess braucht Zeit und erfodert unter anderem  sorgfältig ethische Abwägungen, wie... (vgl. Drosten.
 Heute gibt es diese wissenschaftlichen, randomisierten Studien zum Behandlungserfolg von Interventionen noch nicht
 In dieser katastrophalen Situation ist es besonders wichtig, nicht nur Erfahrungsberichte zu teilen oder auf kontrollierte Studien zu warten. 
-Bis dahin könnten Informationen über Interventionen und deren Erfolg systematisch mit einer Erkrankungs-Datenspende gesammelt werden, um so wissenschaftliche Einschätzungen der Situation zu erhalten.
+Bis dahin könnten Informationen über Interventionen und deren Erfolg systematisch mit einer Datenspende erkrankter Personen gesammelt werden, um so wissenschaftliche Einschätzungen zu erhalten.
 </details>
 
 Kann man wissenschaftlich über Ursachen und Wirkungen forschen und sprechen, auch wenn kontrollierte Experimente noch nicht vorliegen?
