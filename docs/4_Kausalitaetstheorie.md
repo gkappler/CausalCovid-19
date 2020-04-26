@@ -58,7 +58,7 @@ Hier stellen sich grundsätzliche Probleme:
 - Die Wahrscheinlichkeit mit negativem Test zu versterben ist anhand der erfassten Testdaten nicht möglich.
   Diese Wahrscheinlichkeit könnte jedoch auf Basis veröffentlichter Sterberaten der Vorjahre abgeschätzt werden.
 - Die Zufallsvariablen der Genesung $$Y$$ kann erst nach dem Ende der Erkrankung erhoben werden. 
-  # Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind.
+  <!-- Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind. -->
 
 Für Personen, die durch Geschlecht, Alter und Vorerkrankungen $$Z=z$$ charakterisiert sind, und 
 - positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko $$P(Y=0 \vert Z=z,X=1)$$,
