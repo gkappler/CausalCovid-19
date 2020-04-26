@@ -29,7 +29,7 @@ Sie äußerten sich sehr überrascht, dass selbst bei niedriger Sauerstoffsätti
 
 
 Ärzt\*innen lernen von den Beobachtungen während ihrer Arbeit und - in einer neuen Pandemie - durch Versuch, Irrtum und Erfolg.
-Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen
+Diese Erfahrungen können randomisierte Studien zur Wirksamkeit der Intubationsbehandlung anregen.
 Aber der kontrollierte Forschungsprozess braucht seine Zeit und muss ethisch sorgfältig abgewogen werden (vgl. Drosten).
 Heute gibt es diese wissenschaftlichen, randomisierte Studien zum Behandlungserfolg von Interventionen noch nicht.
 </details>
@@ -49,7 +49,7 @@ Die **Kausale Inferenzstatistik** wurde entwickelt, um ursächliche Effekte auch
 
 
 ### Wir alle wollen Fakten transparenter Forschung!
-Jede Bürger\*in sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
+Jede\*r Bürger\*in sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
 Zusammengefasste Fallzahlen und Studien mit ausgewählten Stichproben bieten ein verwirrendes Bild.
 
 Die Forschung benötigt Patientendaten.
