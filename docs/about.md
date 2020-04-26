@@ -25,8 +25,16 @@ GitHub pages erzeugt aus dem Git Projekt diese statische Website. Staticman wird
 - [<img src="https://git-scm.com/images/logo@2x.png" style="height: 1em;">](https://git-scm.com/) zur Versionierung und Organisation der Daten und Diskussion. 
 - [<img src="https://github.com/eduardoboucas/staticman/blob/master/logo.png?raw=true" style="height: 1em;"> Staticman](https://staticman.net/) wird zur Erfassung und von Kommentaren und Daten genutzt. 
 
+Die Quellen dieser Seite sind verfügbar auf (https://github.com/gkappler/CausalCovid-19).
+<details><summary markdown="span">Führen Sie Security-Audits durch?</summary>
+- Bitte begutachten Sie die Software, und helfen Sie mit Lösungsvorschlägen bei Mängeln!
+- Wie kann unser Vorschlag verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
+- Könnte durch Recaptcha und verwendete google APIs bei der Datenübertragung deanonymisiert werden?
+<div markdown="0">
+	{% include comment_form.html subject="legal" %}
+</div>
+</details>
 
 ## Server und Onlinezugriff
 Jeder Kommentar und jeder Datensatz werden in einem GitHub Projekt gespeichert.
-Git ist quelloffen und ermöglicht die dezentrale verteilte Entwicklung, Moderation von Diskussionen, und Prüfung der Daten mit Versionsgeschichte, sowie
-problemlose Sicherungskopien des Projektes ohne Versionskonflikte.
+Git ist quelloffen und ermöglicht die dezentrale verteilte Entwicklung, die Moderation von Diskussionen und Prüfung der Daten mit Versionsgeschichte, sowie problemlose Sicherungskopien des Projektes ohne Versionskonflikte.
