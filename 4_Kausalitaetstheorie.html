@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ursache-Wirkung | Corona - Offene Wissenschaft</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Ursache-Wirkung" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wir brauchen die richtigen Corona-Daten für Kausalitätstheoretische Statistik zu den wichtigen Fragen!" />
+<meta property="og:description" content="Wir brauchen die richtigen Corona-Daten für Kausalitätstheoretische Statistik zu den wichtigen Fragen!" />
+<link rel="canonical" href="https://gkappler.github.io/CausalCovid-19/4_Kausalitaetstheorie.html" />
+<meta property="og:url" content="https://gkappler.github.io/CausalCovid-19/4_Kausalitaetstheorie.html" />
+<meta property="og:site_name" content="Corona - Offene Wissenschaft" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"https://gkappler.github.io/CausalCovid-19/4_Kausalitaetstheorie.html","headline":"Ursache-Wirkung","description":"Wir brauchen die richtigen Corona-Daten für Kausalitätstheoretische Statistik zu den wichtigen Fragen!","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/CausalCovid-19/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://gkappler.github.io/CausalCovid-19/feed.xml" title="Corona - Offene Wissenschaft" /></head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/CausalCovid-19/"><img src="/CausalCovid-19/assets/images/440px-SARS-CoV-2_without_background.png" height="50px" style="padding-right: 10px">Corona - Offene Wissenschaft</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/CausalCovid-19/2.1_DataCollection.html">Datenspende</a><a class="page-link" href="/CausalCovid-19/3_Datenschutz.html">Datenschutz</a><a class="page-link" href="/CausalCovid-19/4_Kausalitaetstheorie.html">Ursache-Wirkung</a><a class="page-link" href="/CausalCovid-19/about.html">Impressum</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Ursache-Wirkung</h1>
+  </header>
+
+  <div class="post-content">
+    <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<details><summary>Welche medizinischen Maßnahmen helfen an Corona erkrankten?</summary>
+Ich und meine Kollegen forschten im Bereich kausaler Inferenzstatistik.
+Wir sind überzeugt, dass diese Methoden in der heutigen Situation helfen können, entscheidende aber noch immer offenstehende Fragen für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
+Im folgenden bemühe ich mich, aus dieser theoretischen Perspektive Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
+</details>
+<p>Eine Veröffentlichung von Falldaten würde eine große Zahl von Forschungsarbeiten ermöglichen, mit unterschiedlichen statistischen Verfahren.</p>
+
+<h2 id="wie-viele-menschen-sterben-an-covid-19-übersterblichkeit-und-kausalität">Wie viele Menschen sterben an Covid-19? Übersterblichkeit und Kausalität</h2>
+<p>Die Kausalitätstheorie nach Rolf Steyer beginnt mit einer formalen Begriffsklärung durch das Zufallsexperiment.
+Zur verständlichen Beschreibung der Theorie in Bezug auf Corona die reduzierteste Fassung ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:</p>
+<ul>
+  <li>Zur Testung wird eine Person <script type="math/tex">U=u</script> aus der Population ausgewählt (nicht randomisiert, sondern gemäß Testprotokoll).</li>
+  <li>Das Testergebnis der Person wird erhoben, <script type="math/tex">X=x</script>.</li>
+  <li>Kovariaten werden erhoben <script type="math/tex">Z=z</script> (Alter, Geschlecht und Vorerkrankungen etc..)
+ <!-- - Erkrankt die Person ($$S=1$$) oder bleibt sie asymptomatisch ($$S=0$$) --></li>
+  <li>Verstirbt (<script type="math/tex">Y=0</script>) oder heilt (<script type="math/tex">Y=1</script>) die Person?</li>
+</ul>
+
+<p>Wahrscheinlichkeitstheoretisch sind dies Zufallsvariablen
+<script type="math/tex">% <![CDATA[
+\begin{align}
+U & : \Omega \rightarrow \text{Population}\\
+X & : \Omega \rightarrow {0,1}\\
+Z & : \Omega \rightarrow Z_{1} \times...\times Z_{n}\\
+% <!-- - S & : \Omega \rightarrow {0,1} -->
+Y & : \Omega \rightarrow {0,1}
+\end{align} %]]></script></p>
+<h3 id="teststichprobe-und-population">Teststichprobe und Population</h3>
+<p>Die Testung und die Auswahl der Stichprobe gewährleistet keine direkte Einschätzung, wieviele Personen in der Bevölkerung wirklich infiziert sind. 
+Dazu müssten im obigen Zufallsexperiment die Verteilung der Probanden <script type="math/tex">U</script> durch eine randomisierte/repräsentative Auswahl <script type="math/tex">U'</script> ersetzt werden.</p>
+<ul>
+  <li>Eine Person <script type="math/tex">U'=u</script> wird gleichverteilt aus der Population ausgewählt (randomisiert, wird aus test-ökonomischen Gründen nicht/kaum duchgeführt).</li>
+  <li>Die Person ist mit Covid-19 infiziert, <script type="math/tex">X'</script> (kann nicht direkt beobachtet werden, sondern nur anhand von Tests).</li>
+</ul>
+
+<h3 id="infektion-und-test">Infektion und Test</h3>
+<p>Die Infektion mit SARS-Cov2 ist eine nicht direkt beobachtbare Zufallsvariable <script type="math/tex">X'</script>, und kann nur indirekt durch Tests erhoben werden.
+Tests sind niemals absolut zuverlässig sondern durch Sensititivtät und Spezifizität gekennzeichnet, in bedingten Wahrscheinlichkeiten ausgedrückt[fn::https://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html]:</p>
+<ul>
+  <li>Sensitivität <script type="math/tex">1-P(X'=1 \vert X=0)</script></li>
+  <li>Spezifizität <script type="math/tex">1-P(X'=0 \vert X=1)</script></li>
+</ul>
+
+<h3 id="was-ist-die-übersterblichkeit-durch-corona-in-der-erhobenen-stichprobe">Was ist die Übersterblichkeit durch Corona in der erhobenen Stichprobe?</h3>
+<p>Die Anteile (Wahrscheinlichkeiten) der versterbenden Personen</p>
+<ul>
+  <li>wenn test-negativ: <script type="math/tex">P(Y=0 \vert X=0)</script>,</li>
+  <li>wenn test-positiv: <script type="math/tex">P(Y=0 \vert X=1)</script>.</li>
+</ul>
+
+<p>Der durchschnittliche kausale Effekt einer Covid-19 Erkrankung auf die Sterblichkeit innerhalb der getesteten Stichprobe entspricht der Differenz dieser Wahrscheinlichkeiten <script type="math/tex">P(Y=0 \vert X=1)-P(Y=0 \vert X=0)</script> und kann als durch <em>Covid-19 bedingte Übersterblichkeit innerhalb der Stichprobe</em> interpretiert werden.</p>
+
+<p>Hier stellen sich grundsätzliche Probleme:</p>
+<ul>
+  <li>Die Stichprobe ist nicht repräsentativ für die Gesamtbevölkerung.</li>
+  <li>Die Wahrscheinlichkeit mit negativem Test zu versterben ist anhand der erfassten Testdaten nicht möglich.
+Diese Wahrscheinlichkeit könnte jedoch auf Basis veröffentlichter Sterberaten der Vorjahre abgeschätzt werden.</li>
+  <li>Die Zufallsvariablen der Genesung <script type="math/tex">Y</script> kann erst nach dem Ende der Erkrankung erhoben werden. 
+<!-- Wahrscheinlichkeit mit positivem Test zu versterben ist nur für den Anteil der positiv getesteten zu ermitteln, die bereits genesen oder verstorben sind. --></li>
+</ul>
+
+<p>Für Personen, die durch Geschlecht, Alter und Vorerkrankungen <script type="math/tex">Z=z</script> charakterisiert sind, und</p>
+<ul>
+  <li>positiv auf Covid19 getestet wurden, ist das bedingte Sterberisiko <script type="math/tex">P(Y=0 \vert Z=z,X=1)</script>,</li>
+  <li>negativ auf Covid19 getestet wurden, ist das bedingte Sterberisiko <script type="math/tex">P(Y=0 \vert Z=z,X=0)</script>,
+Der <script type="math/tex">Z</script>-bedingte durchschnittliche kausale Effekt von Covid19 auf die Sterberate ist definiert als die Differenz dieser bedingten Wahrscheinlichkeiten: <script type="math/tex">ACE_{Z=z}(Y \vert X) = P(Y=0 \vert Z=z,X=1) - P(Y=0 \vert Z=z,X=0)</script>.
+Dieser bedingte durchschnittliche Effekt <script type="math/tex">ACE_{Z=z}(Y \vert X)</script> is spezifisch für Personen, die durch Kovariaten <script type="math/tex">Z=z</script> (Alter, Vorerkrankungen, etc.) charakterisiert sind, und für diese Gruppe definiert als der Mehr-Anteil der versterbenden Personen, die Covid-19 positiv getestet wurden, über die zu erwartende Sterblichkeitsrate von Covid-19 negativ getesteten Personen hinaus.
+<em>Es handelt sich also um die Covid-19 bedingte Übersterblichkeit von Personen mit Kovariaten Z=z.</em></li>
+</ul>
+
+<h3 id="verallgemeinerung-auf-die-bevölkerung">Verallgemeinerung auf die Bevölkerung</h3>
+<h4 id="durchschnittliche-kausale-effekte">Durchschnittliche kausale Effekte</h4>
+<p>Es ist möglich, die durchschnittlichen kausalen Effekte in der Gesamtbevölkerung zu berechnen, wenn die <script type="math/tex">Z *</script>-bedingte kausale Regression* <script type="math/tex">E_{Z=z}(Y \vert X)</script> kausal erwartungstreu und die Verteilung der Kovariaten in der Gesamtbevölkerung,  <script type="math/tex">P'(Z=z)</script>,  bekannt ist (<script type="math/tex">P'(Z)</script> kann von der Verteilung <script type="math/tex">P(Z)</script> in der getesteten Stichprobe abweichen! Dies ist insbesondere der Fall, wenn nur in symptomatische Patienten in Krankenhäusern getestet werden.).</p>
+
+<p>Die zu erwartende durchschnittliche Mortalitätsrate von Covid19 in der Gesamtbevölkerung entspricht dann dem durchschnittlichen kausalen Effekt <script type="math/tex">ACE(Y \vert X) = \sum_{z \in Z(\Omega)} P'(Z=z) ACE_{Z=z}(Y \vert X)</script>.</p>
+
+<p>Es ist beweisbar, dass Marginalisierung über <script type="math/tex">P'(Z=z)</script> eine erwartungstreue Schätzung des durchschnittlichen kausalen Effekts ergibt, wenn die Bedingung erfüllt ist, dass <script type="math/tex">E_{Z=z}(Y \vert X)</script> kausal erwartungstreu ist für alle <script type="math/tex">z \in Z(\Omega)</script>.</p>
+
+<h4 id="kausale-erwartungstreue">Kausale Erwartungstreue</h4>
+<p>Definitionen</p>
+<ol>
+  <li>
+    <p>Der (<script type="math/tex">Z=z</script>) <em>-bedingte kausal erwartungstreue Erwartungswert</em> von <script type="math/tex">Y</script> gegeben <script type="math/tex">X=x</script> ist definiert als</p>
+
+    <p><script type="math/tex">CUE_{Z=z}(Y \vert X=x) = \sum_u E_{Z=z}(Y \vert U=u,X=x)P_{Z=z}(U=u)</script>.</p>
+  </li>
+  <li>
+    <p>Die <script type="math/tex">Z</script> <em>-bedingte kausale Regression</em> <script type="math/tex">E_{Z=z}(Y \vert X)</script> ist kausal erwartungstreu, wenn für alle <script type="math/tex">Z=z</script></p>
+
+    <p><script type="math/tex">E(Y \vert Z=z, X=x)</script> = CUE_{Z=z}(Y \vert X=x).</p>
+  </li>
+</ol>
+
+<p>Es ist beweisbar, dass <script type="math/tex">E_{Z=z}(Y \vert X)</script> kausal erwartungstreu ist, wenn mindestens eine folgender Bedingungen erfüllt ist:</p>
+<ol>
+  <li>
+    <p>Die Überlebenswahrscheinlichkeit <script type="math/tex">E(Y \vert X, U, Z)</script>, bedingt auf Person <script type="math/tex">U</script> mit Testung <script type="math/tex">X</script> und Kovariaten <script type="math/tex">Z</script>, fast sicher (d.h. für alle Kovariaten <script type="math/tex">Z=z</script> mit <script type="math/tex">P(Z=z)>0</script>) gleich der Überlebenswahrscheinlichkeit <script type="math/tex">E(Y \vert X, Z)</script>, bedingt auf Testung <script type="math/tex">X</script> und Kovariaten <script type="math/tex">Z</script> ist.</p>
+
+    <p>Dies ist <em>erfüllt, wenn</em> <script type="math/tex">Z</script> <em>all jene Kovariaten umfasst, welche Genesungs-/Sterbewahrscheinlichkeit einer Person beeinflussen.</em></p>
+
+    <p>Daher ist eine umfangreiche Erfassung und Veröffentlichung aller Risiko und Protektivfaktoren der Erkrankten notwendig.</p>
+  </li>
+  <li>
+    <p>Positive Testung <script type="math/tex">X</script> und Auswahlwahrscheinlichkeit <script type="math/tex">U</script> stochastisch unabhängig gegeben <script type="math/tex">Z</script> sind.</p>
+
+    <p>Das Ziel der selektiven Testung durch Kontaktnachverfolgung ist, die Infizierten mit größerer wahrscheinlicher zu testen als die wahrscheinlich nicht Infizierten.  Wenn dieses Ziel erreicht wird, ist diese Bedingung <em>nicht erfüllt</em>.</p>
+  </li>
+  <li>
+    <p>Personen-Infektions-Homogenität <script type="math/tex">E(Y \vert X,U)</script> = E(Y \vert X) gegeben ist.</p>
+
+    <p>Dies ist <em>nicht erfüllt</em>, da offenbar nicht alle test-positiven Personen die gleichen Wahrscheinlichkeiten zu genesen und zu versterben haben.
+Nur die erste dieser Bedingungen ist erfüllbar, wenn aufgrund der Testkapazitäten nicht randomisiert getestet wird (2.).
+Daher ist es nötig, umfangreiche Patientendaten zur Verfügung zu stellen.</p>
+  </li>
+</ol>
+
+<p>Auf Basis einer repräsentativen Erhebung von Antikörpern scheint Bedingung 2. erfüllt, und eine Einschränkung der Personendaten auf bestimmte Fragestellungen wie Alter, Geschlecht, bestimmte Vorerkrankungen ist hinreichend.
+Jedoch selbst in diesem Fall ist es vorteilhaft, möglichst umfangreiche Patientendaten zu veröffentlichen, um Kovariaten zu identifizieren, die einen Einfluss auf den Verlauf der Erkrankung haben, an die aber a-priori niemand gedacht hat.</p>
+
+<p>Steyer, R., Nachtigall, C., Wüthrich-Martone, O., &amp; Kraus, K. (2002). Causal regression models III: Covariates, conditional, and unconditional average causal effects. Methods of Psychological Research Online, 7(1), 41–68.</p>
+
+<h3 id="anmerkungen-zur-erweiterung-des-zufallsexperiments">Anmerkungen zur Erweiterung des Zufallsexperiments:</h3>
+<ul>
+  <li><script type="math/tex">X</script>: Berücksichtigung verschiedener Tests</li>
+  <li>Berücksichtigungen der Zeitpunkte von Testungen, ggf. des Krankheitsverlaufs.</li>
+  <li><script type="math/tex">Y</script>: Vielleicht mit Zeitintervall der Genesung 2 Wochen, vielleicht mehrwertig: genesen, hospitalisiert, verstorben.</li>
+</ul>
+
+<h3 id="statistische-modellierung">Statistische Modellierung</h3>
+<p>Kausale Inferenzstatistik selbst ist kein statistisches Modell!
+Vielmehr formuliert kausale Inferenzstatistik die abstrakte wahrscheinlichkeitstheoretische Frage, wie kausale Effekte allgemein definiert sind, auch für nicht-randomisierte kontrollierte Studien.
+Statistische Modelle werden in einem zweiten Schritt verwendet um die Wahrscheinlichkeiten an Covid-19 zu versterben, bedingt auf Kovariaten und Teststatus in Regressionen zu schätzen.
+In diesem zweiten Schritt haben Forscher statistische Modelle zu testen und kritisch auszuwählen, um zu erwartungstreuen Vorhersagen und Abschätzungen ihrer Zuverlässigkeit zu gelangen.</p>
+
+<!-- Dieses sei an einem sehr einfachen Modell illustriert, um den Altersgruppen-bedingten kausalen Effekt von Covid-19 auf die Sterblichkeit zu schätzen. -->
+<!-- So kann die Covid-19 bedingte Übersterblichkeit für jede Altergruppe geschätzt werden. -->
+
+<!-- Die hierfür benötigten Daten seien aufbereitet wie in folgender Tabelle: -->
+<!-- \vert i \vert Fall          \vert A: Alter, Jahre \vert X: Covid-19 Test \vert Y: genesen \vert verstorben   \vert -->
+<!-- \vert---+---------------+-----------------+------------------+------------+--------------\vert -->
+<!-- \vert 1 \vert verstorben    \vert              72 \vert                1 \vert          0 \vert            1 \vert -->
+<!-- \vert 2 \vert genesen       \vert              75 \vert                1 \vert          1 \vert            0 \vert -->
+<!-- \vert 3 \vert noch erkrankt \vert              65 \vert                1 \vert          0 \vert            0 \vert -->
+<!-- \vert   \vert ...           \vert                 \vert                  \vert            \vert              \vert -->
+<!-- \vert n \vert               \vert                 \vert                  \vert            \vert              \vert -->
+<!-- (Anmerkung: 0=nein, 1=ja, Fett: Abkürzung in Formeln im Folgenden) -->
+<!-- Solange positive Testfälle noch erkrankt sind, werden sie im Modell nicht berücksichtigt. -->
+
+<!-- Zähle in jeder Altersdekade $$I_{d}(a)=\left\{\begin{array}{ll}1 & \text{falls }  10 d\le a<10 (d+1)\\ 0 & \text{sonst}\end{array}$$: -->
+<!--   - die Verstorbenen $$N^V_{d}=\sum_{i=1}^n I_{d}(a_i)V_i$$, -->
+<!--   - die Genesenen $$N^G_{d}=\sum_{i=1}^n I_{d}(a_i)G_i$$. -->
+<!-- Damit kann die Wahrscheinlichkeit -->
+<!-- $$P(Y=0 \vert Z=z, X=1) \approx \hat{P}(Y=0 \vert Z=z, X=1) = \frac{}{}$$, -->
+
+<!-- Es ist fraglich ob Daten für Covid-19 negative Fälle entsprechend erfasst werden könnten: -->
+<!-- \vert Fall             \vert Alter \vert Test \vert verstorben \vert genesen \vert -->
+<!-- \vert------------------+-------+------+------------+---------\vert -->
+<!-- \vert 1, noch erkrankt \vert    62 \vert    0 \vert          0 \vert       0 \vert -->
+<!-- \vert 2, verstorben    \vert    82 \vert    0 \vert          1 \vert       0 \vert -->
+<!-- \vert 3, genesen       \vert    35 \vert    0 \vert          0 \vert       0 \vert -->
+<!-- \vert ...              \vert       \vert      \vert            \vert         \vert -->
+<!-- (Anmerkung: genesen ist hier konstant 0=nein) -->
+<!-- Selbst wenn diese Daten zur Verfügung stehen, ist die Frage der Sterblichkeit kritisch: -->
+<!-- Zeitpunkt, Erfassung und Zuordnung  die Personen , wann  -->
+
+<!-- Die Modellierung demonstriert auch eine Möglichkeit, fehlenden Daten zur Sterblichkeit Fälle auszugleichen. -->
+
+<p>Logistische Regressionen</p>
+<ol>
+  <li>Modelle logit <script type="math/tex">P(Y=0 \vert Z_{i}, X) = \alpha_{0} + \alpha_{1} X + \beta Z_{i} + \gamma X Z_{i}</script> für alle Kovariaten <script type="math/tex">Z_{i}</script>.</li>
+  <li>Haupteffekte und Interaktionseffekte mit <script type="math/tex">X</script>: logit <script type="math/tex">P(Y=0 \vert Z, X) = \alpha_{0} + \alpha_{1} X + \sum_{i} \beta_{i} Z_{i}  + \sum_{i} \gamma_{i} X Z_{i}</script>.</li>
+  <li>Komplexere Modelle zur Abschätzung sind denkbar und wünschenswert.  Ich schlage vor, dass diese Daten anonymisiert öffentlich gemacht werden sollten, um einen freien Wettbewerb für die Vorhersage der Mortalität aus den Kovariaten einzuladen.</li>
+  <li>Bei den voraussichtlich großen Fallzahlen ist ggf. eine nonparametrische und modellfreie Vorhersage möglich.</li>
+</ol>
+
+<h4 id="empfehlungen-zur-aktuellen-datenveröffentlichung">Empfehlungen zur aktuellen Datenveröffentlichung</h4>
+<h2 id="wann-hilft-und-wann-schadet-intubation-als-medizinische-maßnahme">Wann hilft und wann schadet Intubation als medizinische Maßnahme?</h2>
+
+<p>Diese Frage beginnt erneut formalen Begriffsklärung durch das Zufallsexperiment.</p>
+<ul>
+  <li>Zur Testung wird eine SARS-COV2 positive Person <script type="math/tex">U=u</script> in Intensivpflege ausgewählt</li>
+  <li>Die Sauerstoffsättigung wird erhoben, <script type="math/tex">O=o</script>.</li>
+  <li>Kovariaten werden erhoben <script type="math/tex">Z=z</script> (Alter, Geschlecht und Vorerkrankungen etc..).</li>
+  <li>Wird die Person intubiert (<script type="math/tex">X=1</script>) oder wird sie nicht intubiert (<script type="math/tex">X=0</script>)</li>
+  <li>Verstirbt (<script type="math/tex">Y=0</script>) oder heilt (<script type="math/tex">Y=1</script>) die Person?</li>
+</ul>
+
+<p>Der bedingte Kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit <script type="math/tex">Z=z, O=o</script> ist
+<script type="math/tex">ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)</script>.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/CausalCovid-19/assets/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="/CausalCovid-19/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Corona - Offene Wissenschaft</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Corona - Offene Wissenschaft</li><li><a class="u-email" href="mailto:gregor.kappler@gmail.com">gregor.kappler@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/gkappler"><svg class="svg-icon"><use xlink:href="/CausalCovid-19/assets/minima-social-icons.svg#github"></use></svg> <span class="username">gkappler</span></a></li><li><a href="https://www.twitter.com/gkappler"><svg class="svg-icon"><use xlink:href="/CausalCovid-19/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">gkappler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Wir brauchen die richtigen Corona-Daten für Kausalitätstheoretische Statistik zu den wichtigen Fragen!</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
