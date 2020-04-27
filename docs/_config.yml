@@ -22,6 +22,14 @@ url: "https://gkappler.github.io" # the base hostname & protocol for your site, 
 twitter_username: gkappler
 github_username:  gkappler
 
+header_pages:
+  - 1_Fragen.html
+  - 2.1_DataCollection.md
+  - 2_Daten.md
+  - 3_Datenschutz.md
+  - 4_Kausalitaetstheorie.md
+  - about.md
+  
 # Build settings
 markdown: kramdown
 theme: minima
