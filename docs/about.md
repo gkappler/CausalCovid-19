@@ -21,6 +21,11 @@ GitHub pages erzeugt aus dem Git Projekt diese statische Website. Staticman wird
 **Wenn Sie mitwirken wollen, kontaktieren Sie mich bitte per Mail.
 
 ## Open-Source und Creative Commons
+Wir unterstützen mit Creative Commons den [Open COVID Pledge](https://opencovidpledge.org/) (
+[Creative Commons’ Response to COVID-19](https://creativecommons.org/creative-commons-response-to-covid-19/)).
+Sie können sogar eine abgeleitete Version auf Ihrer Internetseite veröffentlichen und so die Datensammlung unterstützen.
+Kein Kommerz mit Krankheit oder Krieg: Die Seiteninhalte sowie Ihre Dateneingaben und Kommentare sind gemäß Creative-Commons-Lizenz bei Ausschluss kommerzieller Nutzung eingeschränkt.
+
 - [<img src="https://github.com/jekyll/brand/blob/master/jekyll-logo-black-red-solid.png?raw=true" style="height: 1em;">](https://jekyllrb.com/) Jekyll für das Schreiben und Generieren der Internetseite.
 - [<img src="https://git-scm.com/images/logo@2x.png" style="height: 1em;">](https://git-scm.com/) zur Versionierung und Organisation der Daten und Diskussion. 
 - [<img src="https://github.com/eduardoboucas/staticman/blob/master/logo.png?raw=true" style="height: 1em;"> Staticman](https://staticman.net/) wird zur Erfassung und von Kommentaren und Daten genutzt. 
@@ -35,9 +40,6 @@ Die Quellen dieser Seite sind verfügbar auf (https://github.com/gkappler/Causal
 </div>
 </details>
 
-Wir unterstützen mit Creative Commons den [Open COVID Pledge](https://opencovidpledge.org/) (
-[Creative Commons’ Response to COVID-19](https://creativecommons.org/creative-commons-response-to-covid-19/)).
-Wir sind gegen Kommerz mit Krankheit und Krieg: Die Seiteninhalte sowie Ihre Dateneingaben und Kommentare sind gemäß Creative-Commons-Lizenz bei Ausschluss kommerzieller Nutzung eingeschränkt.
 
 ## Server und Onlinezugriff
 Jeder Kommentar und jeder Datensatz werden in einem GitHub Projekt gespeichert.
