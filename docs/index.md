@@ -13,9 +13,11 @@ geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen,
 ich erlebe mit Ihnen die Corona-Pandemie, und schwanke wie viele zwischen gebanntem Schock und kritischer Vernunft.
 Die politischen Maßnahmen sind mit wissenschaftlichen Modellvorhersagen begründet.
 Als Wissenschaftler finde ich das gut und informiere mich über die aktuelle Forschung zu Covid-19.
-<details><summary markdown="span">Dieser aufklappbare Falttext ist ein Diskussionsvorschlag ... (klick!)</summary>
+<details><summary markdown="span">Dieser aufklappbare Falttext ist ein Diskussionsvorschlag ... **klick!**</summary>
 <!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
-... den ich mich bemühe Punkt für Punkt übersichtlich darzustellen, und aufklappbar vertieft zu begründen.
+... der versucht, Punkt für Punkt übersichtlich darzustellen.
+
+Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um dazu mehr zu lesen.
 </details>
 
 <details><summary markdown="span">Wir alle beobachten die Katastrophe der Corona-Pandemie.</summary>
