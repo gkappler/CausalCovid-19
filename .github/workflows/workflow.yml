@@ -20,13 +20,15 @@ jobs:
     - name: Build Jekyll site
       run: |
         set -xo pipefail
+        cd docs
         rm -rf _site/*
         gem install bundler
         bundle install
         bundle exec jekyll build
-        cp CNAME _site/CNAME
+        cd ..
+        # cp CNAME _site/CNAME
     - name: Deploy
-      if: github.ref == 'refs/heads/source'
+      if: github.ref == 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
@@ -34,9 +36,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git checkout gh-pages
-        ls -Q | grep -v _site | xargs rm -rf
-        mv _site/* .
-        rm -rf _site
+        ls -Q | grep -v docs/_site | xargs rm -rf
+        mv docs/_site/* .
+        rm -rf docs/_site
         rm -rf .jekyll-cache
         [[ -n "$(git status --porcelain)" ]] || exit 0
         git add .
