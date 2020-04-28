@@ -160,7 +160,15 @@ Logistische Regressionen
 3. Komplexere Modelle zur Abschätzung sind denkbar und wünschenswert.  Ich schlage vor, dass diese Daten anonymisiert öffentlich gemacht werden sollten, um einen freien Wettbewerb für die Vorhersage der Mortalität aus den Kovariaten einzuladen.
 4. Bei den voraussichtlich großen Fallzahlen ist ggf. eine nonparametrische und modellfreie Vorhersage möglich.
 
-#### Empfehlungen zur aktuellen Datenveröffentlichung
+
+### Falls Daten fehlen
+Voraussichtlich sind manche dieser Daten nicht für alle getesteten Personen verfügbar.
+In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglichen werden.
+
+Falls die Vorerkrankungen Test-negativer Personen nicht verfügbar sind, ist ggf. eine akzeptable Annahme, dass die Vorerkrankungen der Getesteten ebenso verteilt sind wie in der Gesamtpopulation, bedingt auf das Alter.
+
+Da Sterbedaten der negativ getesteten nicht verfügbar sein dürften, könnte ihre Sterberate anhand publizierter Mortalitäten der Vorerkrankungen und des Alters pro Jahr abgeschätzt werden.
+
 ## Wann hilft und wann schadet Intubation als medizinische Maßnahme?  
 
 Diese Frage beginnt erneut formalen Begriffsklärung durch das Zufallsexperiment.
@@ -172,3 +180,4 @@ Diese Frage beginnt erneut formalen Begriffsklärung durch das Zufallsexperiment
 
 Der bedingte Kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit $$Z=z, O=o$$ ist
 $$ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)$$.
+

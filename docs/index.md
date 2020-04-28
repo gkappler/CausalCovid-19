@@ -122,7 +122,7 @@ Helfen wir uns selbst mit Transparenz durch die Veröffentlichung unserer Erkran
 
 
 <div style="height: 1em; display: block"/>
-<div style="border-radius: 1em; background-color: #dd33dd4d; padding: 1em;" markdown="1">
+<div class="draft" markdown="1">
 Die Internetseite und Datenerfassung sind technisch fertiggestellt und in der Testphase.
 Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.
 

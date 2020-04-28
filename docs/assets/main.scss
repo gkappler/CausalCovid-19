@@ -3,6 +3,12 @@
 @import "minima";
 @import "comment-styles";
 
+.draft {
+    border-radius: 1em;
+    background-color: #dd33dd4d;
+    padding: 1em;
+}
+
 details {
     border-style: solid;
     border-radius: 1em;

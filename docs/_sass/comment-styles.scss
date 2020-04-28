@@ -22,9 +22,12 @@ button.button {
 //
 input, select, textarea, label, button {
 //    @extend body;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    margin-left: .5em;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+//    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
         -moz-font-feature-settings: "kern" 1;
