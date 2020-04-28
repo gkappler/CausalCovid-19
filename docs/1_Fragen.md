@@ -2,6 +2,7 @@
 title: "Forschungsfragen"
 slug: Fragen
 layout: page
+comments: yes
 ---
 {::options parse_block_html="true" /}
 <details><summary markdown="span">Wie hoch ist Ihr persönliches Risiko, falls Sie mit SarS-CoV2 infiziert sind?</summary>

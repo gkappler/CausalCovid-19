@@ -1,5 +1,10 @@
+
+
 {% if page.comments == true %}
+<section class="comments">
+  <h2>Ihr anonymer Kommentar:<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h2>
   {% include comments.html %}
+</section>
 {% endif %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ '/assets/main.js' | relative_url }}"></script>

@@ -191,7 +191,7 @@ Es werden keine versteckten Besucherdaten erfasst.
 - Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
 - Wie könnten wir die Datenerfassung ändern, um auf Ihre Sorgen Rücksicht zu nehmen?
 <div markdown="0">
-	{% include comment_form.html subject="" %}
+	{% include comment_form.html subject="deceased" %}
 </div>
 </details>
 
@@ -202,7 +202,7 @@ Bitte begutachten und verbessern Sie vorgeschlagenen [Datenerhebungsprozess](2.1
 <details><summary markdown="span">Sind Sie Politiker\*in oder Journalist\*in?</summary>
 - Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende empfehlen?
 <div markdown="0">
-	{% include comment_form.html %}
+	{% include comment_form.html subject="media" %}
 </div>
 </details>
 

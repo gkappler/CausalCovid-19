@@ -2,6 +2,7 @@
 title: Grundrechte
 slug: Grundrechte
 layout: page
+comments: yes
 ---
 Gesundheitsdaten sind rechtlich besonders geschützt.
 Während für die Erforschung der durch den Virus verursachten Covid-19 Erkrankung augenfällig offene Daten aus offizieller Quelle fehlen, ist bei der Erforschung des SARS-Cov2 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
