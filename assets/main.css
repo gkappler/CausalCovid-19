@@ -516,9 +516,11 @@ button.button {
   width: -webkit-fill-available; }
 
 input, select, textarea, label, button {
+  width: -moz-available;
+  width: -webkit-fill-available;
+  margin-left: .5em;
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
-  background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -664,6 +666,11 @@ button:hover {
   filter: alpha(opacity=65);
   box-shadow: none;
   opacity: 0.65; }
+
+.draft {
+  border-radius: 1em;
+  background-color: #dd33dd4d;
+  padding: 1em; }
 
 details {
   border-style: solid;
