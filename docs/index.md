@@ -159,13 +159,14 @@ Mit ihren Methoden können Forscher die [ursächlichen Effekte des Corona-Virus 
 Jede\*r Bürger\*in sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
 Zusammengefasste Fallzahlen und Studien mit ausgewählten Stichproben bieten ein verwirrendes Bild.
 
-Die Forschung benötigt Patientendaten.
+<details><summary markdown="span">Die Forschung benötigt Patientendaten.</summary>
 Patientendaten unterliegen ganz besonderem rechtlichen Schutz.
 Eine systematische globale Datenerfassung von Einzelfällen ist daher schwierig.
 
 Wie können wir persönliche Daten schützen und zugleich der nie dagewesenen Bedrohung durch Corona und Maßnahmen informiert begegnen?
 
 Diese Seite lädt Sie ein, Strategien zur dezentralen anonymen Sammlung und Veröffentlichung Ihrer Erkrankungsdaten zur Erforschung der Katastrophe zu diskutieren.
+</details>
 
 
 <details><summary markdown="span">Mit offenen anonymen Erkrankungs-Datenspenden können wir gemeinsam Leben retten!</summary>
@@ -177,14 +178,16 @@ und Vorerkrankungsrisiken transparent beforscht werden.
 </details>
 
 <details><summary markdown="span">**Zielgenaue Datenspende der Erkrankten statt Überwachung!**</summary>
-Wir schlagen eine Alternative zu den Datenspenden des Robert-Koch-Instituts und den Tracking-Apps vor, die technisch auch zur Überwachung von Gesunden verwendet werden können (vgl.
-[Coronavirus-Update #30: "Forscher hoffen auf Datenspenden" | NDR Podcast @ youtube](https://www.youtube.com/watch?v=ZbftrKLzaa0&list=PLkKON9te6p3OpxqDskVsxXOmhfW0uPi1H&index=7&t=264s){:target="_blank"}).
-Überwachungsdaten zielen auf die Erforschung und Verhinderung der epidemiologischen Ausbreitung - und auf jeden Fall bei einem Zombie-Virus eine gute Maßnahme.
+Wir schlagen eine Alternative zu den Datenspenden des Robert-Koch-Instituts und den umstrittenen Tracking-Apps vor.
+Diese Daten zielen darauf ab, die Ausbreitung des Virus zu erforschen und zu beschränken.
+<!-- , die technisch auch zur Überwachung von Gesunden verwendet werden können (vgl. -->
+<!-- [Coronavirus-Update #30: "Forscher hoffen auf Datenspenden" | NDR Podcast @ youtube](https://www.youtube.com/watch?v=ZbftrKLzaa0&list=PLkKON9te6p3OpxqDskVsxXOmhfW0uPi1H&index=7&t=264s){:target="_blank"}). -->
+<!-- Überwachungsdaten zielen auf die Erforschung und Verhinderung der epidemiologischen Ausbreitung - und auf jeden Fall bei einem Zombie-Virus eine gute Maßnahme. -->
 
 Unser Vorschlag zur Erkrankungs-Datenspende zielt darauf ab, 
 1. die medizinische Behandlung zu verbessern, und 
 2. die Gefährlichkeit des Virus verlässlich und für spezifische Personengruppen zu erforschen.
-So kann demokratisch und evidenzbasiert auf Basis der Erforschung der Erkrankung über Maßnahmen diskutiert werden.
+Damit kann demokratisch und evidenzbasiert auf Basis der Erforschung der Erkrankung über Maßnahmen diskutiert werden.
 </details>
 
 <details><summary markdown="span">Wir alle wollen vertrauenswürde Maßnahmen!</summary>
