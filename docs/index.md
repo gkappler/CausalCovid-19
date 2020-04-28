@@ -10,17 +10,99 @@ layout: home
 geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen, 
 
 
-ich erlebe mit Ihnen die Corona-Pandemie, und schwanke wie viele zwischen gebanntem Schock und kritischer Vernunft.
-Die politischen Maßnahmen sind mit wissenschaftlichen Modellvorhersagen begründet.
-Als Wissenschaftler finde ich das gut und informiere mich über die aktuelle Forschung zu Covid-19.
-<details><summary markdown="span">Dieser aufklappbare Falttext ist ein Diskussionsvorschlag ... **klick!**</summary>
-<!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
-... der versucht, Punkt für Punkt übersichtlich darzustellen.
+Wir haben derzeit Probleme.
 
-Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um dazu mehr zu lesen.
+Träumen Sie auch von gemeinsamer solidarischer Aufklärung der gegenwärtigen beängstigenden Ungewissheit?
+Ich habe folgenden Vorschlag:
+1. Wir teilen **anonym und öffentlich** Informationen über unsere persönlichen Situationen.
+2. Die Informationen sollten von staatlicher Stelle **prüfbar** sein.
+3. Gemeinsam **erforschen wir offen die Pandemie und ihre großräumigen Folgen**.
+4. Systematisch einigen wir uns, wie wir uns als Demokratie weiterhelfen.
+
+<details><summary markdown="span">Ihre schicksalhaften Erlebnisse und Lebenslagen ... **klick!**</summary>
+<!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
+...  sollten gehört und berücksichtigt werden!
+
+In dieser Zeit ist es besonders wichtig, dass wir uns miteinander vernetzen. 
+
+Auf dieser Seite stelle ich einen Vorschlag Punkt für Punkt übersichtlich dar, wie wir Informationen aus der Bürgerschaft zusammenzubringen können mit Wissenschaft und Politik.
+Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um dazu mehr zu lesen und zu kommentieren.
+
+<div class="draft" markdown="1">
+Die Internetseite und Datenerfassung sind technisch fertiggestellt und in der Testphase.
+Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.
+
+Folgender Ablauf zur Erkrankungs-Datenspende ist (noch) ein Entwurf.
+Wir haben um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.
+</div>
 </details>
 
-<details><summary markdown="span">Wir alle beobachten die Katastrophe der Corona-Pandemie.</summary>
+### Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit:
+
+<details class="question"><summary markdown="span">Haben Sie einen Angehörigen durch Corona verloren?</summary>
+Mein aufrichtiges Beileid für Ihren schweren Verlust.
+Mögen Ihnen Familie und Freunde Trost spenden!
+Ich wünsche Ihnen sehr, dass Sie einen würdevollen Weg finden persönlich Abschied zu nehmen, 
+wenn Ihnen ein letzter Besuch verwehrt war.
+
+Bitte schreiben Sie uns Ihre Erlebnisse, Gedanken und Gefühle:
+<div markdown="0">
+	{% include comment_form.html subject="deceased" %}
+</div>
+- Würden Sie sich ein online-Mahnmal der Corona-Opfer (Mit Bild und Nachruf) wünschen?
+- Würden Sie Gesundheitsdaten Ihres verstorbenen Angehörigen anonym und öffentlich spenden?
+- Welche Sorgen hätten Sie beim Spenden dieser Daten?
+- Wie könnten wir die Datenerfassung gestalten, um auf Ihre Sorgen Rücksicht zu nehmen?
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie von Corona genesen?</summary>
+Bitte schreiben Sie uns Ihre Erlebnisse, Gedanken und Gefühle:
+<div markdown="0">
+	{% include comment_form.html subject="recovered"%}
+</div>
+- Würden Sie Ihre gesundheitlichen Daten anonym und öffentlich zur Verfügung stellen?
+- Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
+- Wie könnten wir die Datenerfassung gestalten, um auf Ihre Sorgen Rücksicht zu nehmen?
+</details>
+
+<details class="question"><summary markdown="span">Hatten Sie noch keine bestätigte Corona-Infektion?</summary>
+Bitte schreiben Sie uns Ihre Erlebnisse, Gedanken und Gefühle im Lockdown:
+<div markdown="0">
+	{% include comment_form.html subject="general" %}
+</div>
+- Würden Sie im Erkrankungsfall Ihre gesundheitlichen Daten anonym und öffentlich zur Verfügung stellen?
+- Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
+- Wie könnten wir die Datenerfassung gestalten, um auf Ihre Sorgen Rücksicht zu nehmen?
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie Ärzt\*in, Forscher\*in oder Jurist\*in?</summary>
+Bitte begutachten und verbessern Sie vorgeschlagenen [Datenerhebungsprozess](2.1_DataCollection).
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie Politiker\*in oder Journalist\*in?</summary>
+- Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende empfehlen?
+<div markdown="0">
+	{% include comment_form.html subject="media" %}
+</div>
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie Demokrat?</summary>
+Wie tödlich muss eine Infektionskrankheit Ihrer Meinung nach sein (z.B. im Vergleich mit der Mortalität von Influenza-Viren), 
+damit Sie persönlich
+- einen gesellschaftlichen Lock-Down befürworten?
+- eine Überwachungs-App freiwillig installieren?
+- gesetzlich verpflichtende Impfungen befürworten?
+<div markdown="0">
+  <div id="respond" class="comment__new">
+{% include comment_form.html subject="democracy" %}
+  </div>
+</div>
+</details>
+
+
+## Wir alle suchen Fakten aus transparenter Forschung!
+
+<details><summary markdown="span">Wir beobachten die Katastrophe der Corona-Pandemie.</summary>
 Sie bestimmt derzeit maßgeblich unser Leben und unsere Überlegungen.
 Täglich ändert sich der Wissensstand und der Stand unserer Überlegungen und Einschätzungen.
 
@@ -74,7 +156,6 @@ Mit ihren Methoden können Forscher die [ursächlichen Effekte des Corona-Virus 
 </details>
 
 
-### Wir alle wollen Fakten aus transparenter Forschung!
 Jede\*r Bürger\*in sucht verlässliche Informationen und Forschungsergebnisse zur Pandemie.
 Zusammengefasste Fallzahlen und Studien mit ausgewählten Stichproben bieten ein verwirrendes Bild.
 
@@ -122,100 +203,32 @@ Helfen wir uns selbst mit Transparenz durch die Veröffentlichung unserer Erkran
 
 
 <div style="height: 1em; display: block"/>
-<div class="draft" markdown="1">
-Die Internetseite und Datenerfassung sind technisch fertiggestellt und in der Testphase.
-Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.
-
-Folgender Ablauf zur Erkrankungs-Datenspende ist (noch) ein Entwurf.
-Wir haben um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.
 
 <details><summary markdown="span">**Wie funktioniert die Erkrankungs-Datenspende?**</summary>
 1. Anonyme Datenerfassung:
    Ihre Gesundheitsdaten sind sehr privat, und daher ist es entscheidend, Ihre Identität zu schützen.
-   Veröffentlichung in dieser Krise besonders wertvoll.
-   - Sie können den Datensatz derzeit nicht mehr verändern.
 2. Öffentliche Daten für die internationale Öffentlichkeit:
    - Ihr anonymer Datensatz wird im Datenarchiv nach Absendung mit einer Creative-Commons Lizenz veröffentlicht.
    - Der aktuellste Datenstand kann von der Wissenschaftsgemeinde beforscht werden. 
 3. Prüfung der Datenqualität durch behandelnde Ärzt\*innen und Kliniken.
-
    1. Bei der Datenerfassung wird die email des meldenden Gesundheitsamtes erfragt.
    2. Das Gesundheitsamt kann anhand des Datums von Test, Aufnahme und Entlassung/Tod die behandelnde Ärzt\*in ermitteln. 
    3. Die behandelnde Ärzt\*in kann Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
-4. Die Initiatoren dieses Projekts sind als Forscher\*innen und Datenwissenschaftler unabhängig.
-   Daten und Software dieser Seite sind vollständig quelloffen
-
-Durch freie quelloffene Software und Freigabe aller Daten Keine Interessenkonflikte. 
 </details>
-</div>
 
-<hr>
 <div style="height: 3em; display: block"/>
 
 ## Diese Seite bietet eine Plattform zur Vernetzung von Bürger\*innen, Forscher\*innen und Nicht-Forscher\*innen.
 
-Wir bieten quelloffene Software für eine
+Die Initiatoren dieses Projekts sind als Forscher\*innen und Datenwissenschaftler unabhängig.
+Daten und Software dieser Seite sind vollständig quelloffen und ermöglichen
 1. anonyme und moderierte Diskussion,
 2. dezentrale Datenerhebung, 
 3. dezentrale Datenspeicherung, 
 4. Überprüfung anonymer Daten,
-5. verteilter Fakten-Check von Forschungsergebnissen.
+5. verteilten Fakten-Check von Forschungsergebnissen.
+6. nachvollziehbare moderierende Zensur.
 
-Alle auf dieser Seite erfassten Kommentare und Daten werden nachvollziehbar öffentlich zur Erforschung und Archivierung gespeichert.
-Moderierende Zensur ist nachvollziehbar.
+Durch freie quelloffene Software und Freigabe aller Daten werden Interessenkonflikte verhindert. 
 Es werden keine versteckten Besucherdaten erfasst.
 
-### Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit!
-
-<details><summary markdown="span">Hatten Sie noch keine bestätigte Corona-Infektion?</summary>
-- Würden Sie im Erkrankungsfall Daten anonym und öffentlich zur Verfügung stellen?
-- Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
-- Wie könnten wir die Datenerfassung ändern, um auf Ihre Sorgen rücksicht zu nehmen?
-<div markdown="0">
-	{% include comment_form.html subject="general" %}
-</div>
-</details>
-
-<details><summary markdown="span">Sind Sie von Corona genesen?</summary>
-- Würden Sie gesundheitliche Daten anonym und öffentlich zur Verfügung stellen?
-- Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
-- Wie könnten wir die Datenerfassung ändern, um auf Ihre Sorgen Rücksicht zu nehmen?
-<div markdown="0">
-	{% include comment_form.html subject="recovered"%}
-</div>
-</details>
-
-<details><summary markdown="span">Haben Sie einen Angehörigen durch oder mit Corona verloren?</summary>
-- Würden Sie sich ein online-Mahnmal der Corona-Opfer (Mit Bild und Nachruf) wünschen?
-- Würden Sie Daten des verstorbenen Angehörigen anonym und öffentlich zur Verfügung stellen?
-- Welche Sorgen hätten Sie beim Spenden Ihrer Genesungsdaten?
-- Wie könnten wir die Datenerfassung ändern, um auf Ihre Sorgen Rücksicht zu nehmen?
-<div markdown="0">
-	{% include comment_form.html subject="deceased" %}
-</div>
-</details>
-
-<details><summary markdown="span">Sind Sie Ärzt\*in, Forscher\*in oder Jurist\*in?</summary>
-Bitte begutachten und verbessern Sie vorgeschlagenen [Datenerhebungsprozess](2.1_DataCollection).
-</details>
-
-<details><summary markdown="span">Sind Sie Politiker\*in oder Journalist\*in?</summary>
-- Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende empfehlen?
-<div markdown="0">
-	{% include comment_form.html subject="media" %}
-</div>
-</details>
-
-<details><summary markdown="span">Sind Sie Demokrat?</summary>
-Wie tödlich muss eine Infektionskrankheit sein (z.B. im Vergleich mit der Mortalität von Influenza-Viren), 
-damit Sie persönlich
-- einen gesellschaftlichen Lock-Down befürworten
-- eine Tracking-App freiwillig installieren
-- gesetzlich verpflichtende Impfungen befürworten
-?
-<div markdown="0">
-  <div id="respond" class="comment__new">
-{% include comment_form.html subject="democracy" %}
-  </div>
-</div>
-</details>
