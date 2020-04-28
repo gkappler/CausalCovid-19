@@ -4,13 +4,6 @@ slug: Grundrechte
 layout: page
 comments: yes
 ---
-Gesundheitsdaten sind rechtlich besonders geschützt.
-Während für die Erforschung der durch den Virus verursachten Covid-19 Erkrankung augenfällig offene Daten aus offizieller Quelle fehlen, ist bei der Erforschung des SARS-Cov2 Genoms eine vorbildlich offene Forschungssituation zu beobachten:
-die nötigen Daten für die wissenschaftliche Gemeinschaft sind offen verfügbar und ermöglichen eine nie dagewesene Beschleunigung der Erforschung (siehe [European Commission](https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html)).
-
-Diese Seite bietet in der gegenwärtigen Pandemie eine konkrete Möglichkeit, Erkrankungs-Daten anonymisiert dezentral zu sammeln und frei zu veröffentlichen.
-So kann die offene Erforschung der gesundheitlichen Folgen der Pandemie in gleicher Weise beschleunigt werden.
-
 Um bei zukünftigen Ausbrüchen von Seuchen angemessen reagieren zu können, scheint es uns ganz besonders wichtig, aus dieser Katastrophe zu lernen, wie schneller ein gutes Bild der Lage erlangt werden kann.
 Diese Seite will eine öffentliche Diskussion anregen über den Umgang mit Daten zur wissenschaftlichen Untersuchung im Pandemiefall.
 
