@@ -1,3 +1,9 @@
+<tr><td colspan="2" class="draft">
+<p>Der Ablauf zur Erkrankungs-Datenspende ist (noch) ein Entwurf.
+Ich freue mich über Verbesserungen und Kommentare.
+Ich habe um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.</p>
+<p>Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.</p>
+</td></tr>
 <tr><td colspan="2">
     <label for="female">weiblich<input type="radio" id="female" name="fields[gender]"></label>
     <label for="male">männlich<input type="radio" id="male" name="fields[gender]"></label>

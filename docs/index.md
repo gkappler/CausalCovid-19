@@ -24,17 +24,6 @@ In dieser Zeit ist es besonders wichtig, dass wir uns miteinander vernetzen.
 
 Auf dieser Seite stelle ich Punkt für Punkt übersichtlich dar, warum wir Informationen aus der Bürgerschaft zusammenbringen sollten mit Wissenschaft und Politik.
 Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um dazu mehr zu lesen und zu kommentieren.
-
-<div class="draft" markdown="1">
-Die Internetseite und Datenerfassung funktionieren technisch in der Testphase.
-Die Seite wünscht sich ein schöneres Design und Bilder, und wäre auch gerne einfach verständlich geschrieben.
-Wenn Sie die Idee inspiriert freue ich mich über Ihre Änderungen auf [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19).
-
-Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.
-
-Der Ablauf zur Erkrankungs-Datenspende ist (noch) ein Entwurf.
-Wir haben um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.
-</div>
 </details>
 
 [Warum brauchen wir eine Erkrankungs-Datenspende?](Warum.html)

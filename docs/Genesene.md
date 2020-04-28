@@ -2,6 +2,7 @@
 title: "Dateneingabe Genesene - Entwurf"
 slug: data-recovered
 layout: page
+comments: true
 ---
 {::options parse_block_html="true" /}
 
