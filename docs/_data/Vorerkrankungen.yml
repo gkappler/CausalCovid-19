@@ -1,0 +1,23 @@
+- name: Diabetes
+  id: diabetes
+- name: Bluthochdruck
+  id: hypertension
+- name: Übergewicht
+  id: obesity
+- name: OCPD
+  id: ocpd
+- name: Krebs
+  id: cancer
+- name: Asthma
+  id: asthma
+- name: Herzschwäche
+  id: heart
+- name: Immunschwäche
+  id: immune-insufficient
+- name: Herzinfarkt
+  id: heart-attack
+- name: chronische Entzündungskrankheit
+  id: inflammation
+- name: Allergien
+  id: allergies
+

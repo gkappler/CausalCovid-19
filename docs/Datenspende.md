@@ -23,33 +23,10 @@ Als Erkrankter können sie das in besonders wirksamer Weise mit einer anonymen e
    - Die behandelnde Ärzt\*in kann Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
 </details>
 
-
-## Dateneingabe -- Entwurf:
-  
-<form class="draft" method="POST" action="{{ site.staticman_data_url }}">
-  <table>
-  <input name="options[redirect]" type="hidden" value="https://gkappler.github.io/CausalCovid-19/">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <tr><td><label>Region<input name="fields[date_test]" type="text"></label></td></tr>
-  <tr><td><label>E-Mail Gesundheitsamt<input name="fields[doctor]" type="email"></label></td></tr>
-  <tr><td><label>Testdatum<input name="fields[date_test]" type="date"></label></td></tr>
-  <tr><td><label>Testart(?) und Testergebnis<input name="fields[test_result]" type="text"></label></td></tr>
-  <tr><td><label>Geschlecht<input name="fields[gender]" type="numeric"></label></td></tr>
-  <tr><td><label>Alter bei Test<input name="fields[age]" type="numeric"></label></td></tr>
-  <tr><td><label>Symptome<input name="fields[symptoms]" type="text"></label></td></tr>
-  <tr><td><label>Beginn der Erkrankung<input name="fields[disease_onset]" type="date"></label></td></tr>
-  <tr><td><label>Hospitalisierung<input name="fields[date_hospital]" type="date"></label></td></tr>
-  <tr><td><label>Interventionen<input name="fields[interventions]" type="text"></label></td></tr>
-  <tr><td><label>Genesung<input name="fields[date_recovered]" type="date"></label></td></tr>
-  <tr><td><label>Sterbedatum<input name="fields[date_deceased]" type="date"></label></td></tr>
-  <tr><td><label>offizielle Todesursache<input name="fields[cause_of_death]" type="text"></label></td></tr>
-  <tr><td><label>Erfahrungsbericht<textarea name="fields[message]"></textarea></label></td></tr>
-  <tr><td><label>Nachruf<textarea name="fields[obituary]"></textarea></label></td></tr>
-  </table>
-  <button class="button" type="submit">Absenden</button>
-</form>
-
+<details class="question"><summary markdown="span">Zur Dateneingabe</summary>
+- [Sind Sie von einer Covid-19-Erkrankung genesen?](Genesene.html)
+- [Haben Sie einen Angehörigen mit einer Covid-19-Erkrankung verloren?](Angehoerige.html)
+</details>
 
 <details class="question"><summary markdown="span">Sind Sie Software-Experte/Programmierer?</summary>
 - Wie würden Sie die technische Umsetzung dieses Projekts verbessern?
