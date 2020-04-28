@@ -24,11 +24,10 @@ twitter_username: gkappler
 github_username:  gkappler
 
 header_pages:
-  - 1_Fragen.md
-  - 2.1_DataCollection.md
-  - 2_Daten.md
-  - 3_Datenschutz.md
-  - 4_Kausalitaetstheorie.md
+  - index.md
+  - Warum.md
+  - Datenspende.md
+  - Kausalitaet.md
   - about.md
   
 # Build settings
