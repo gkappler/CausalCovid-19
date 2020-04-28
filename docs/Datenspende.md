@@ -58,11 +58,11 @@ Als Erkrankter können sie das in besonders wirksamer Weise mit einer anonymen e
 
 # Benötigte Daten
 Derzeit werden nur zusammengefasste Fallzahlen systematisch veröffentlicht, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht und Alter.
-Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen, lassen sich jedoch [wichtige Fragen](1_Fragen.html) nicht zuverlässig beantworten.
+Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen, lassen sich jedoch [wichtige Fragen](Fragen.html) nicht zuverlässig beantworten.
 Daten auf Ebene von Einzelfällen sind erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
 
 <details><summary markdown="span">Gibt es keine wissenschaftlichen Studien mit Einzelfalldaten?</summary>
-Es liegen bisher erst wenige [Studien zu Daten auf der Ebene von Einzelfällen](2.2_Studien.html) der Covid-19-Erkrankung vor.
+Es liegen bisher erst wenige [Studien zu Daten auf der Ebene von Einzelfällen](Studien.html) der Covid-19-Erkrankung vor.
 Diese Studien sind auf vergleichsweise kleine Datensätze beschränkt, 
 die je Studie aus den Krankenhausdaten zusammengestellt und nicht öffentlich geteilt werden.
 In einigen Fällen wurden Daten mühsam von den Forschern aus Sozialen Medien und oft ungenannten Quellen zusammengestellt.

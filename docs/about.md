@@ -27,7 +27,7 @@ Die Quellen dieser Seite sind verfügbar auf (https://github.com/gkappler/Causal
 Diese Seite nutzt folgende quelloffene Software:
 - [<img src="https://github.com/jekyll/brand/blob/master/jekyll-logo-black-red-solid.png?raw=true" style="height: 1em;">](https://jekyllrb.com/) Jekyll für das Schreiben und Generieren der Internetseite.
 - [<img src="https://git-scm.com/images/logo@2x.png" style="height: 1em;">](https://git-scm.com/) zur Versionierung und Organisation der Daten und Diskussion. 
-- [<img src="https://github.com/eduardoboucas/staticman/blob/master/logo.png?raw=true" style="height: 1em;"> Staticman](https://staticman.net/) wird zur Erfassung und von Kommentaren und Daten genutzt. 
+- [<img src="https://github.com/eduardoboucas/staticman/blob/master/logo.png?raw=true" style="height: 1em;"> Staticman](https://staticman.net/) wird zur Erfassung von Kommentaren und Daten genutzt. 
 
 GitHub pages erzeugt aus dem Git Projekt die [statische Website](https://gkappler.github.io/CausalCovid-19). 
 
