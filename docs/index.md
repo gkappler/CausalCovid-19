@@ -7,12 +7,12 @@ layout: home
 geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen, 
 
 
-Wir haben derzeit Probleme.
+Corona verursacht derzeit direkt und indirekt viele Probleme.
 
-Träumen Sie auch von der Aufklärung der gegenwärtigen beängstigenden Ungewissheit?
-Ich habe folgenden Vorschlag:
-1. Wir teilen **anonym, öffentlich und systematisch Informationen über den Krankheitsverlauf** und unsere persönlichen Situationen.
-2. Die Informationen sollten von staatlicher Stelle **prüfbar** sein.
+Hier werden Forschungsergebnisse ausgewogen eingeordnet und 
+Sie können helfen bei der schnelleren Aufklärung der gegenwärtigen beängstigenden Ungewissheit. 
+1. Teilen Sie **anonym, öffentlich und systematisch Informationen über den Krankheitsverlauf** und Ihre persönliche Situation.
+2. Die Echtheit gesammelter Informationen kann prinzipiell von staatlicher Stelle **geprüft** werden.
 3. Gemeinsam helfen **wir öffentlich die Pandemie und ihre großräumigen Folgen zu erforschen**.
 4. Systematisch einigen wir uns, wie wir uns als Demokratie weiterhelfen.
 
