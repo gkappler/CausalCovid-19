@@ -23,42 +23,21 @@ Als Erkrankter können sie das in besonders wirksamer Weise mit einer anonymen e
    - Die behandelnde Ärzt\*in kann Ihre Angaben mit Patientenakten abgleichen und auf Korrektheit bestätigen.
 </details>
 
-<details class="question"><summary markdown="span">Zur Dateneingabe</summary>
-- [Sind Sie von einer Covid-19-Erkrankung genesen?](Genesene.html)
-- [Haben Sie einen Angehörigen mit einer Covid-19-Erkrankung verloren?](Angehoerige.html)
-</details>
-
-<details class="question"><summary markdown="span">Sind Sie Software-Experte/Programmierer?</summary>
-- Wie würden Sie die technische Umsetzung dieses Projekts verbessern?
-- Können Sie helfen?
-<div markdown="0">
-	{% include comment_form.html subject="programming" %}
-</div>
-</details>
-
-<details class="question"><summary markdown="span">Führen Sie Security-Audits durch?</summary>
-- Wie kann unser Vorschlag verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
-<div markdown="0">
-	{% include comment_form.html subject="data-security" %}
-</div>
-</details>
-
-<details class="question"><summary markdown="span">Sind Sie Experte für rechtliche Fragen?</summary>
-- Unter welcher Creative-Commons Lizenz sollten die Daten veröffentlicht werden.
-- Sollte jede kommerzielle Nutzung der Daten ausgeschlossen werden? [das wird jeder wollen!]
-- Wie kann der Vorschlag dieser Seite verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
-- Haben Hinterbliebenen das Recht, die Daten Ihrer verstorbenen Angehörigen zu veröffentlichen?
-- Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende aktiv oder auf Nachfrage empfehlen?
-<div markdown="0">
-	{% include comment_form.html subject="legal" %}
-</div>
-</details>
-
+### Zur Dateneingabe
+<a class="button" href="Genesene.html" style="display: block;">
+	Sind Sie von einer Covid-19-Erkrankung genesen?
+</a>
+<a class="button" href="Angehoerige.html" style="display: block;">
+   Haben Sie einen Angehörigen mit einer Covid-19-Erkrankung verloren?
+</a>
+<a class="button" href="Nichterkrankte.html" style="display: block;">
+   Können Sie uns mitteilen, wie Sie **indirekt** von der Corona-Pandemie betroffen sind?
+</a>
 
 
 # Benötigte Daten
 Derzeit werden nur zusammengefasste Fallzahlen systematisch veröffentlicht, mit unterschiedlicher Aufschlüsselung nach Land, Geschlecht und Alter.
-Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen, lassen sich jedoch [wichtige Fragen](Fragen.html) nicht zuverlässig beantworten.
+Auf Basis dieser Fallzahlen, d.h. ohne Daten auf Ebene von Einzelfällen, lassen sich jedoch [wichtige ursächliche Fragen](Kausalitaet.html) nicht zuverlässig beantworten.
 Daten auf Ebene von Einzelfällen sind erforderlich zur bestmöglichen Erforschung der Gefährlichkeit der Erkrankung und der Wirksamkeit von medizinischen Maßnahmen.
 
 <details><summary markdown="span">Gibt es keine wissenschaftlichen Studien mit Einzelfalldaten?</summary>
@@ -92,7 +71,7 @@ Das hat möglicherweise folgende Gründe:
 </ul>
 </details>
 
-Eine erwartungstreue Schätzung kausaler Effekte ist möglich, wenn all jene Kovariaten erfasst werden, welche Genesungs-/Sterbewahrscheinlichkeit einer Person mit beeinflussen (vgl. [Kausalitätstheorie](4_Kausalitaetstheorie.html#kausale-erwartungstreue)).
+Eine erwartungstreue Schätzung kausaler Effekte ist möglich, wenn all jene Kovariaten erfasst werden, welche Genesungs-/Sterbewahrscheinlichkeit einer Person mit beeinflussen (vgl. [Kausalitätstheorie](Kausalitaetsmodell.html#kausale-erwartungstreue)).
 Daher ist eine umfangreiche Erfassung und Veröffentlichung aller Risiko- und Protektivfaktoren der Erkrankten notwendig.
 
 Optimalerweise stünden für die Forschung folgende anonymisierten Daten zu jeder getesteten Person zur Verfügung:

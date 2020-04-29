@@ -3,6 +3,10 @@
 @import "minima";
 @import "comment-styles";
 
+main a {
+    text-decoration: underline
+}
+
 .question {
     background-color: #faebd7;
 }

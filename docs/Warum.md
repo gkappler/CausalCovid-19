@@ -49,7 +49,7 @@ Diese Beobachtungen können systematisch erfasst werden.
 Dann können wir Krise und Interventionen evidenzbasiert beurteilen.
 </details>
 
-<details><summary markdown="span">Wir brauchen **evidenz-basierte Annahmen für modell-basierte Vorhersagen**!</summary>
+<details><summary markdown="span">Wir brauchen **evidenz-basierte Zahlen für modell-basierte Vorhersagen**!</summary>
 In epidemiologischen Modellrechnungen werden Annahmen verwendet um Vorhersagen zu treffen.
 Wieviele Opfer ein Erreger wirklich verursachen wird, lässt sich damit nur beantworten, 
 wenn dabei realistische und evidenz-basierte Annahmen verwendet werden.
@@ -116,5 +116,27 @@ Sonst gerät die offene Gesellschaft in eine Vertrauenskrise.
 Helfen wir uns selbst mit Transparenz durch die Veröffentlichung unserer Erkrankungsdaten!
 </details>
 
+[Wie funktioniert die Erkrankungs-Datenspende?](Datenspende.html)
+
+[Welche Fragen können mit einer Erkrankungs-Datenspende beantwortet werden?](Kausalitaet.html)
 
 
+<details class="question"><summary markdown="span">Sind Sie Politiker\*in oder Journalist\*in?</summary>
+- Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende empfehlen?
+<div markdown="0">
+	{% include comment_form.html subject="media" %}
+</div>
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie Demokrat?</summary>
+Wie tödlich muss eine Infektionskrankheit Ihrer Meinung nach sein (z.B. im Vergleich mit der Mortalität von Influenza-Viren), 
+damit Sie persönlich
+- einen gesellschaftlichen Lock-Down befürworten?
+- eine Überwachungs-App freiwillig installieren?
+- gesetzlich verpflichtende Impfungen befürworten?
+<div markdown="0">
+  <div id="respond" class="comment__new">
+{% include comment_form.html subject="democracy" %}
+  </div>
+</div>
+</details>

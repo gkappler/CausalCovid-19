@@ -31,11 +31,29 @@ Diese Seite nutzt folgende quelloffene Software:
 
 GitHub pages erzeugt aus dem Git Projekt die [statische Website](https://gkappler.github.io/CausalCovid-19). 
 
+<details class="question"><summary markdown="span">Sind Sie Software-Experte/Programmierer?</summary>
+- Wie würden Sie die technische Umsetzung dieses Projekts verbessern?
+- Können Sie helfen?
+<div markdown="0">
+	{% include comment_form.html subject="programming" %}
+</div>
+</details>
 
-<details><summary markdown="span">Führen Sie Security-Audits durch?</summary>
+<details class="question"><summary markdown="span">Führen Sie Security-Audits durch?</summary>
 - Bitte begutachten Sie die Software, und helfen Sie mit Lösungsvorschlägen bei Mängeln!
 - Wie kann unser Vorschlag verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
 - Könnte durch Recaptcha und verwendete google APIs bei der Datenübertragung deanonymisiert werden?
+<div markdown="0">
+	{% include comment_form.html subject="data-security" %}
+</div>
+</details>
+
+<details class="question"><summary markdown="span">Sind Sie Experte für rechtliche Fragen?</summary>
+- Unter welcher Creative-Commons Lizenz sollten die Daten veröffentlicht werden.
+- Sollte jede kommerzielle Nutzung der Daten ausgeschlossen werden? [das wird jeder wollen!]
+- Wie kann der Vorschlag dieser Seite verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
+- Haben Hinterbliebenen das Recht, die Daten Ihrer verstorbenen Angehörigen zu veröffentlichen?
+- Unter welchen Umständen würden Sie eine Erkrankungs-Datenspende aktiv oder auf Nachfrage empfehlen?
 <div markdown="0">
 	{% include comment_form.html subject="legal" %}
 </div>
