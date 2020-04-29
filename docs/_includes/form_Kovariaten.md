@@ -1,4 +1,6 @@
 <tr><td colspan="2" class="draft">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+  <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 <p>Der Ablauf zur Erkrankungs-Datenspende ist (noch) ein Entwurf.
 Ich freue mich über Verbesserungen und Kommentare.
 Ich habe um rechtliche und medizinische Begutachtung gebeten und warten auf Rückmeldungen.</p>
