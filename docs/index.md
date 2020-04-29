@@ -10,20 +10,18 @@ geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen,
 Corona verursacht derzeit direkt und indirekt viele Probleme.
 Unsere Welt verändert sich gerade beängstigend schnell.
 
-Hier werden Forschungsergebnisse ausgewogen eingeordnet und 
 Sie können helfen bei der schnelleren Aufklärung der gegenwärtigen beängstigenden Ungewissheit. 
 1. [Teilen Sie **anonym, öffentlich und systematisch Informationen über den Krankheitsverlauf** und Ihre persönliche Situation.](Datenspende.html)
 2. Die Echtheit gesammelter Informationen kann prinzipiell von staatlicher Stelle **geprüft** werden.
 3. [Gemeinsam helfen **wir öffentlich die Pandemie und ihre großräumigen Folgen zu erforschen**.](Kausalitaet.html)
 4. Systematisch einigen wir uns, wie wir uns als Demokratie weiterhelfen.
 
-[Warum brauchen wir eine Erkrankungs-Datenspende?](Warum.html)
+Hier werden Corona-bezogene Ursachen und Wirkungen mit statistischen Methoden bedacht.
+[Für diese Forschung brauchen wir eine Erkrankungs-Datenspende!](Warum.html)
 
-### Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit:
-
-<details markdown="1"><summary markdown="span">Ihre schicksalhaften Erkrankungen und Lebenslagen ... **klick!**</summary>
+<details markdown="1" class="question"><summary markdown="span">Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit! **klick!**</summary>
 <!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
-...  sollten gehört und berücksichtigt werden!
+Ihre schicksalhaften Erkrankungen und Lebenslagen sollten gehört und berücksichtigt werden!
 
 In dieser Zeit ist es besonders wichtig, dass wir uns miteinander vernetzen. 
 
@@ -35,10 +33,10 @@ Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um
 </details>
 
 
-## Diese Seite bietet eine Plattform zur Vernetzung von Bürger\*innen, Forscher\*innen und Nicht-Forscher\*innen.
+### Diese Seite bietet eine Plattform zur Vernetzung von Bürger\*innen, Forscher\*innen und Nicht-Forscher\*innen.
 
 Der Initiator dieses Projekts ist als Forscher\*innen und Datenwissenschaftler unabhängig.
-Daten und Software dieser Seite sind vollständig quelloffen und ermöglichen
+[Daten und Software dieser Seite sind vollständig quelloffen](about.html) und ermöglichen
 1. anonyme Datenerhebung und Diskussion,
 2. dezentrale Datenerhebung und Datenspeicherung, 
 3. verteilten Fakten-Check von Forschungsergebnissen und nachvollziehbar moderierte Diskussionen.

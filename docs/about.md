@@ -59,10 +59,10 @@ GitHub pages erzeugt aus dem Git Projekt die [statische Website](https://gkapple
 </div>
 </details>
 
+Wenn Sie mitwirken wollen, tun Sie das am bequemsten unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19).
+Oder kontaktieren Sie mich per Mail.
+
 
 ## Beteiligte Personen
 Die Inhalte dieser Seite werden von Dr. Gregor Kappler redaktioniert.
-
-Wenn Sie mitwirken wollen, tun Sie das am bequemsten unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19).
-Oder kontaktieren Sie mich per Mail.
 
