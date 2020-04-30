@@ -50,7 +50,7 @@ Ich bin überzeugt, dass diese und ähnliche Methoden in der heutigen Situation 
 Im folgenden versuche ich, aus der theoretischen Perspektive <a class="citation" href="#mayer_theory_2014">(Mayer et al., 2014)</a> vereinfachte Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
 <strong>Ich bitte interessierte Wissenschaftler um kritischen Review.</strong>.</p>
 
-<h2 id="wie-viele-menschen-sterben-an-covid-19-übersterblichkeit-und-kausalität">Wie viele Menschen sterben an Covid-19? Übersterblichkeit und Kausalität</h2>
+<h2 id="schätzung-der-übersterblichkeit-aus-beobachteten-erkrankungsdaten">Schätzung der Übersterblichkeit aus beobachteten Erkrankungsdaten</h2>
 <p>Die Beschreibung der Datenerhebung als Zufallsexperiment ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:</p>
 <ul>
   <li>Eine Person <script type="math/tex">U=u</script> aus der Population gibt Daten ein (nicht repräsentativ, nicht randomisiert).</li>
@@ -117,7 +117,7 @@ Dies entspricht dem <script type="math/tex">Z=z</script>-bedingten kausalen Effe
 
 <h3 id="verallgemeinerung-auf-die-bevölkerung">Verallgemeinerung auf die Bevölkerung</h3>
 <h4 id="durchschnittliche-kausale-effekte">Durchschnittliche kausale Effekte</h4>
-<p>Es ist möglich, die durchschnittliche Übersterblichkeit (den durchschnittlichen kausalen Effekte) in der Gesamtbevölkerung zu berechnen, wenn die <em><script type="math/tex">Z</script>-bedingte kausale Regression</em> <script type="math/tex">P(Y \vert X,Z)</script> kausal erwartungstreu und die Verteilung der Kovariaten in der Gesamtbevölkerung,  <script type="math/tex">P'(Z=z)</script>,  bekannt ist 
+<p>Es ist möglich, die durchschnittliche Übersterblichkeit (den durchschnittlichen kausalen Effekte) in der Gesamtbevölkerung zu berechnen, wenn die <em><script type="math/tex">Z</script>-bedingte kausale Regression</em> <script type="math/tex">P(Y \vert X,Z)</script> <a href="Kausalitaetsmodell.html#kausale-erwartungstreue">kausal erwartungstreu</a> und die Verteilung der Kovariaten in der Gesamtbevölkerung,  <script type="math/tex">P'(Z=z)</script>,  bekannt ist 
 (<script type="math/tex">P'(Z)</script> kann von der Verteilung <script type="math/tex">P(Z)</script> in der getesteten Stichprobe abweichen! 
 Dies ist insbesondere der Fall, wenn nur symptomatische Patienten getestet werden.
 Beispielsweise ist war das Durchschnittsalter getesteter Personen in Deutschland am 30. April 2020 ca 50 Jahre, in der Gesamtbevölkerung ca 45 Jahre.).</p>
@@ -171,7 +171,21 @@ In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglic
   <li><script type="math/tex">Y</script>: Vielleicht mit Zeitintervall der Genesung 2 Wochen, vielleicht mehrwertig: genesen, hospitalisiert, verstorben.</li>
 </ul>
 
-<h4 id="kausale-erwartungstreue">Kausale Erwartungstreue</h4>
+<h2 id="wann-hilft-und-wann-schadet-intubation-als-medizinische-maßnahme">Wann hilft und wann schadet Intubation als medizinische Maßnahme?</h2>
+
+<p>Diese Frage beginnt erneut mit der formalen Begriffsklärung durch das Zufallsexperiment.</p>
+<ul>
+  <li>Zur Testung wird eine SARS-CoV2 positive Person <script type="math/tex">U=u</script> in Intensivpflege ausgewählt</li>
+  <li>Die Sauerstoffsättigung im Blut wird erhoben, <script type="math/tex">O=o</script>.</li>
+  <li>Kovariaten werden erhoben <script type="math/tex">Z=z</script> (Alter, Geschlecht und Vorerkrankungen etc..).</li>
+  <li>Wird die Person intubiert (<script type="math/tex">X=1</script>) oder wird sie nicht intubiert (<script type="math/tex">X=0</script>)</li>
+  <li>Ist die Person verstorben (<script type="math/tex">Y=0</script>) oder ist sie genesen (<script type="math/tex">Y=1</script>)?</li>
+</ul>
+
+<p>Der bedingte kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit <script type="math/tex">Z=z, O=o</script> ist
+<script type="math/tex">ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)</script>.</p>
+
+<h2 id="kausale-erwartungstreue">Kausale Erwartungstreue</h2>
 <p>Definitionen</p>
 <ol>
   <li>
@@ -244,21 +258,6 @@ Daher ist es nötig, umfangreiche Patientendaten zur Verfügung zu stellen.</p>
 <!-- Zeitpunkt, Erfassung und Zuordnung  die Personen , wann  -->
 
 <!-- Die Modellierung demonstriert auch eine Möglichkeit, fehlenden Daten zur Sterblichkeit Fälle auszugleichen. -->
-
-<h2 id="wann-hilft-und-wann-schadet-intubation-als-medizinische-maßnahme">Wann hilft und wann schadet Intubation als medizinische Maßnahme?</h2>
-
-<p>Diese Frage beginnt erneut mit der formalen Begriffsklärung durch das Zufallsexperiment.</p>
-<ul>
-  <li>Zur Testung wird eine SARS-CoV2 positive Person <script type="math/tex">U=u</script> in Intensivpflege ausgewählt</li>
-  <li>Die Sauerstoffsättigung im Blut wird erhoben, <script type="math/tex">O=o</script>.</li>
-  <li>Kovariaten werden erhoben <script type="math/tex">Z=z</script> (Alter, Geschlecht und Vorerkrankungen etc..).</li>
-  <li>Wird die Person intubiert (<script type="math/tex">X=1</script>) oder wird sie nicht intubiert (<script type="math/tex">X=0</script>)</li>
-  <li>Ist die Person verstorben (<script type="math/tex">Y=0</script>) oder ist sie genesen (<script type="math/tex">Y=1</script>)?</li>
-</ul>
-
-<p>Der bedingte kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit <script type="math/tex">Z=z, O=o</script> ist
-<script type="math/tex">ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)</script>.</p>
-
 
   </div>
 
