@@ -14,7 +14,7 @@ Ich bin überzeugt, dass diese und ähnliche Methoden in der heutigen Situation 
 Im folgenden versuche ich, aus der theoretischen Perspektive {% cite mayer_theory_2014 %} vereinfachte Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
 **Ich bitte interessierte Wissenschaftler um kritischen Review.**.
 
-## Wie viele Menschen sterben an Covid-19? Übersterblichkeit und Kausalität
+## Schätzung der Übersterblichkeit aus beobachteten Erkrankungsdaten
 Die Beschreibung der Datenerhebung als Zufallsexperiment ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
 - Eine Person $$U=u$$ aus der Population gibt Daten ein (nicht repräsentativ, nicht randomisiert).
 - Das Testergebnis der Person wird erhoben, $$X=x$$. 
@@ -75,7 +75,7 @@ $$
 
 ### Verallgemeinerung auf die Bevölkerung
 #### Durchschnittliche kausale Effekte
-Es ist möglich, die durchschnittliche Übersterblichkeit (den durchschnittlichen kausalen Effekte) in der Gesamtbevölkerung zu berechnen, wenn die *$$Z$$-bedingte kausale Regression* $$P(Y \vert X,Z)$$ kausal erwartungstreu und die Verteilung der Kovariaten in der Gesamtbevölkerung,  $$P'(Z=z)$$,  bekannt ist 
+Es ist möglich, die durchschnittliche Übersterblichkeit (den durchschnittlichen kausalen Effekte) in der Gesamtbevölkerung zu berechnen, wenn die *$$Z$$-bedingte kausale Regression* $$P(Y \vert X,Z)$$ [kausal erwartungstreu](Kausalitaetsmodell.html#kausale-erwartungstreue) und die Verteilung der Kovariaten in der Gesamtbevölkerung,  $$P'(Z=z)$$,  bekannt ist 
 ($$P'(Z)$$ kann von der Verteilung $$P(Z)$$ in der getesteten Stichprobe abweichen! 
 Dies ist insbesondere der Fall, wenn nur symptomatische Patienten getestet werden.
 Beispielsweise ist war das Durchschnittsalter getesteter Personen in Deutschland am 30. April 2020 ca 50 Jahre, in der Gesamtbevölkerung ca 45 Jahre.).
@@ -122,7 +122,22 @@ In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglic
 - Berücksichtigungen der Zeitpunkte von Testungen, ggf. des Krankheitsverlaufs. 
 - $$Y$$: Vielleicht mit Zeitintervall der Genesung 2 Wochen, vielleicht mehrwertig: genesen, hospitalisiert, verstorben.
 
-#### Kausale Erwartungstreue 
+
+
+## Wann hilft und wann schadet Intubation als medizinische Maßnahme?  
+
+Diese Frage beginnt erneut mit der formalen Begriffsklärung durch das Zufallsexperiment.
+- Zur Testung wird eine SARS-CoV2 positive Person $$U=u$$ in Intensivpflege ausgewählt
+- Die Sauerstoffsättigung im Blut wird erhoben, $$O=o$$.
+- Kovariaten werden erhoben $$Z=z$$ (Alter, Geschlecht und Vorerkrankungen etc..).
+- Wird die Person intubiert ($$X=1$$) oder wird sie nicht intubiert ($$X=0$$)
+- Ist die Person verstorben ($$Y=0$$) oder ist sie genesen ($$Y=1$$)?
+
+Der bedingte kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit $$Z=z, O=o$$ ist
+$$ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)$$.
+
+
+## Kausale Erwartungstreue 
 Definitionen
 1. Der ($$Z=z$$) *-bedingte kausal erwartungstreue Erwartungswert* von $$Y$$ gegeben $$X=x$$ ist definiert als
 
@@ -184,17 +199,3 @@ Daher ist es nötig, umfangreiche Patientendaten zur Verfügung zu stellen.
 <!-- Zeitpunkt, Erfassung und Zuordnung  die Personen , wann  -->
 
 <!-- Die Modellierung demonstriert auch eine Möglichkeit, fehlenden Daten zur Sterblichkeit Fälle auszugleichen. -->
-
-
-## Wann hilft und wann schadet Intubation als medizinische Maßnahme?  
-
-Diese Frage beginnt erneut mit der formalen Begriffsklärung durch das Zufallsexperiment.
-- Zur Testung wird eine SARS-CoV2 positive Person $$U=u$$ in Intensivpflege ausgewählt
-- Die Sauerstoffsättigung im Blut wird erhoben, $$O=o$$.
-- Kovariaten werden erhoben $$Z=z$$ (Alter, Geschlecht und Vorerkrankungen etc..).
-- Wird die Person intubiert ($$X=1$$) oder wird sie nicht intubiert ($$X=0$$)
-- Ist die Person verstorben ($$Y=0$$) oder ist sie genesen ($$Y=1$$)?
-
-Der bedingte kausale Effekt der Intubation auf die Genesungswahrscheinlichkeit für Patienten mit $$Z=z, O=o$$ ist
-$$ACE_{Z=z,O=o}(Y \vert X) = P(Y=1 \vert X=1, Z=z, O=o)-P(Y=1 \vert X=0, Z=z, O=o)$$.
-
