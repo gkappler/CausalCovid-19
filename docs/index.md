@@ -44,3 +44,5 @@ Der Initiator dieses Projekts ist als Forscher\*innen und Datenwissenschaftler u
 Durch freie quelloffene Software und Freigabe aller Daten werden Interessenkonflikte verhindert. 
 Es werden keine versteckten Besucherdaten erfasst.
 
+Eine englische Version ist in Vorbereitung.
+Wenn Sie helfen wollen, indem Sie diese Seite in weitere Sprachen übersetzen, können Sie das unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19) tun.
