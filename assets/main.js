@@ -28,12 +28,16 @@
         grecaptcha.reset();
       },
       error: function (err) {
-        console.log(err);
-        var ecode = (err.responseJSON || {}).errorCode || "unknown";
-        showModal('Error', 'An error occured.<br>[' + ecode + ']');
-        $("#comment-form-submit").html("Submit")
-        $(form).removeClass('disabled');
-        grecaptcha.reset();
+          console.log(err);
+          var ecode = (err.responseJSON || {}).errorCode || "unknown";
+	  if (ecode == "MISSING_REQUIRED_FIELDS") {
+              showModal('Error', 'Bitte ergänzen Sie folgende Felder:<br>[' + err.responseJSON.data + ']');
+	  } else {
+              showModal('Error', 'An error occured.<br>[' + ecode + ']');
+	  }
+          $("#comment-form-submit").html("Submit")
+          $(form).removeClass('disabled');
+          grecaptcha.reset();
       }
     });
     return false;
