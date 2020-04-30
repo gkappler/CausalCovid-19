@@ -14,8 +14,8 @@ Ich habe um rechtliche und medizinische Begutachtung gebeten und warten auf Rüc
 	<td><label>Alter bei Test<input name="fields[age]" type="numeric"></label></td></tr>
 <tr><td><label>Testart<input name="fields[test_type]" type="text"></label></td>
 	<td>
-    <label for="positive">positiv<input type="radio" id="positive" name="fields[test_result]"></label>
-    <label for="negative">negativ<input type="radio" id="negative" name="fields[test_result]"></label>
+    <label for="positive">positiv<input type="radio" id="positive" value="positive" name="fields[test_result]"></label>
+    <label for="negative">negativ<input type="radio" id="negative" value="negative" name="fields[test_result]"></label>
 </td></tr>
 <tr><td><label>Gesundheitsamt Region<input name="fields[date_test]" type="text"></label></td>
 <td><label>Gesundheitsamt E-Mail<input name="fields[doctor]" type="email"></label></td></tr>
