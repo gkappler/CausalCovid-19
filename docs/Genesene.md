@@ -9,7 +9,7 @@ comments: true
 Bitte stellen Sie Ihre gesundheitlichen Daten anonym und öffentlich zur Verfügung:
 
 Bitte schreiben Sie uns Ihre Erlebnisse, Gedanken und Gefühle:
-<form class="draft" method="POST" action="{{ site.staticman_data_url }}">
+<form class="js-form form draft" method="post" action="{{ site.staticman_data_url }}">
   <table>
   <input name="options[redirect]" type="hidden" value="https://gkappler.github.io/CausalCovid-19/">
   <tr><td colspan="2">

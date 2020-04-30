@@ -14,7 +14,7 @@ Bitte schreiben Sie uns Ihre Erlebnisse, Gedanken und Gefühle:
 - Welche Sorgen hätten Sie beim Spenden dieser Daten?
 - Wie könnten wir die Datenerfassung gestalten, um auf Ihre Sorgen Rücksicht zu nehmen?
 
-<form class="draft" method="POST" action="{{ site.staticman_data_url }}">
+<form class="js-form form draft" method="post" action="{{ site.staticman_data_url }}">
   <table>
   <input name="options[redirect]" type="hidden" value="https://gkappler.github.io/CausalCovid-19/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
