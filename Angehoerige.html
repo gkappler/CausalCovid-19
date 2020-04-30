@@ -73,31 +73,21 @@ Ich habe um rechtliche und medizinische Begutachtung gebeten und warten auf Rüc
 <p>Zu Beginn der Erhebung werden die Dateneingaben der Testphase ins Archiv entfernt.</p>
 </td></tr>
 <tr><td colspan="2">
-    <label for="female">weiblich<input type="radio" id="female" name="fields[gender]" /></label>
-    <label for="male">männlich<input type="radio" id="male" name="fields[gender]" /></label>
+    <label for="female">weiblich<input type="radio" id="female" value="female" name="fields[gender]" /></label>
+    <label for="male">männlich<input type="radio" id="male" value="male" name="fields[gender]" /></label>
 </td></tr>
 <tr><td><label>Testdatum<input name="fields[date_test]" type="date" /></label></td>
 	<td><label>Alter bei Test<input name="fields[age]" type="numeric" /></label></td></tr>
 <tr><td><label>Testart<input name="fields[test_type]" type="text" /></label></td>
 	<td>
-    <label for="positive">positiv<input type="radio" id="positive" name="fields[test_result]" /></label>
-    <label for="negative">negativ<input type="radio" id="negative" name="fields[test_result]" /></label>
+    <label for="positive">positiv<input type="radio" id="positive" value="positive" name="fields[test_result]" /></label>
+    <label for="negative">negativ<input type="radio" id="negative" value="negative" name="fields[test_result]" /></label>
 </td></tr>
 <tr><td><label>Gesundheitsamt Region<input name="fields[date_test]" type="text" /></label></td>
 <td><label>Gesundheitsamt E-Mail<input name="fields[doctor]" type="email" /></label></td></tr>
-<tr><td colspan="2">Vorerkrankungen:<label for="diabetes">Diabetes</label>
-            <input type="checkbox" id="diabetes" /><label for="hypertension">Bluthochdruck</label>
-            <input type="checkbox" id="hypertension" /><label for="obesity">Übergewicht</label>
-            <input type="checkbox" id="obesity" /><label for="ocpd">OCPD</label>
-            <input type="checkbox" id="ocpd" /><label for="cancer">Krebs</label>
-            <input type="checkbox" id="cancer" /><label for="asthma">Asthma</label>
-            <input type="checkbox" id="asthma" /><label for="heart">Herzschwäche</label>
-            <input type="checkbox" id="heart" /><label for="immune-insufficient">Immunschwäche</label>
-            <input type="checkbox" id="immune-insufficient" /><label for="heart-attack">Herzinfarkt</label>
-            <input type="checkbox" id="heart-attack" /><label for="inflammation">chronische Entzündungskrankheit</label>
-            <input type="checkbox" id="inflammation" /><label for="allergies">Allergien</label>
-            <input type="checkbox" id="allergies" /><br />
-	<label>Sonstige Vorerkrankungen<input name="fields[preconditions]" type="text" /></label></td></tr>
+<tr><td colspan="2">
+	<label>Vorerkrankungen<input name="fields[preconditions]" type="text" /></label>
+</td></tr>
 <tr><td colspan="2"><label>Symptome<input name="fields[symptoms]" type="text" /></label></td></tr>
 <tr><td><label>Beginn der Erkrankung<input name="fields[disease_onset]" type="date" /></label></td>
 	<td><label>Hospitalisierung<input name="fields[date_hospital]" type="date" /></label></td></tr>
