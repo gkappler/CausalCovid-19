@@ -27,10 +27,10 @@ Diese Zufallsvariablen des Zufallsexperiments
 $$
 \begin{align}
 U & : \Omega \rightarrow \text{Population}\\
-X \vert U & : \Omega \rightarrow {0,1}\\
+X \vert U & : \Omega \rightarrow \{0,1\}\\
 Z \vert U & : \Omega \rightarrow Z_{1} \times...\times Z_{n}\\
 % <!-- - S & : \Omega \rightarrow {0,1} -->
-Y \vert U & : \Omega \rightarrow {0,1}
+Y \vert U & : \Omega \rightarrow \{0,1\}
 \end{align}
 $$
 
