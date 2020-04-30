@@ -15,7 +15,10 @@ Vereinfacht gesagt systematisieren diese Verfahren die Analyse von beobachteten 
 Diese Verfahren wurden für Umstände wie die Covid-19-Pandemie entwickelt, um kausale Effekte in Beobachtungsstudien zu schätzen, d.h. wenn es nicht möglich ist, wie bei einem kontrollieren Experiment eine Kontroll- und Experimentalgruppe zu bilden.
  <!-- erlaubt es auf Basis nicht experimentell und randomisiert erhobener Daten ursächliche Effekte zu schätzen.Sie  -->
  <!-- , beispielsweise aus ethischen oder ökonomischen Gründen. -->
+Zur Veranschaulichung der Modellierung mit bedingten Wahrscheinlichkeiten lesen Sie bitte [die Darstellung zur wahrscheinlichkeitstheoretischen Definition der Übersterblichkeit](Kausalitaetsmodell.html), welche eine Abschätzung erlauben würde, *ohne Antikörpertests* in einer Zufallsstichprobe.
 Zur Schätzung von kausalen Inferenz-Modellen wäre es erforderlich, in Krankenhäusern und Gesundheitsämtern vorliegende Daten auf der Ebene von Einzelfällen zu erheben und anonymisiert der Forschung zur Verfügung zu stellen.
+
+
 
 <details><summary markdown="span">Diese Verfahren ermöglichen mit hinreichender Daten evidenz-basierte Schätzungen, um...</summary>
 1. die **Wirksamkeit medizinischer Maßnahmen** durch systematische Beobachtung und Erfassung zu bestimmen.

@@ -17,7 +17,7 @@ Sie können helfen bei der schnelleren Aufklärung der gegenwärtigen beängstig
 4. Systematisch einigen wir uns, wie wir uns als Demokratie weiterhelfen.
 
 Hier werden Corona-bezogene Ursachen und Wirkungen mit statistischen Methoden bedacht.
-[Für diese Forschung brauchen wir eine Erkrankungs-Datenspende!](Warum.html)
+Lesen Sie hier, [warum](Warum.html) für [Kausale Inferenzstatistik](Kausalitaet.html) eine [Erkrankungs-Datenspende](Datenspende.html) benötigt wird.
 
 <details markdown="1" class="question"><summary markdown="span">Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit! **klick!**</summary>
 <!-- Kommentar: Klapp-knöpfe wurden übersehen... -->
