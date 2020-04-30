@@ -12,7 +12,7 @@ Eine Veröffentlichung von Falldaten würde eine diverse Forschungsarbeiten mit 
 Ich selbst forschte und lehrte an der Universität auch im Bereich kausaler Inferenzstatistik.
 Ich bin überzeugt, dass diese und ähnliche Methoden in der heutigen Situation helfen können, entscheidende, aber noch immer [offene Fragen](Fragen.html) für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
 Im folgenden versuche ich, aus der theoretischen Perspektive {% cite mayer_theory_2014 %} vereinfachte Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
-**Wenn Sie Review und Mitautoren gesucht**.
+**Ich bitte interessierte Wissenschaftler um kritischen Review.**.
 
 ## Wie viele Menschen sterben an Covid-19? Übersterblichkeit und Kausalität
 Die Beschreibung der Datenerhebung als Zufallsexperiment ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
