@@ -12,7 +12,8 @@ Eine Veröffentlichung von Falldaten würde eine diverse Forschungsarbeiten mit 
 Ich selbst forschte und lehrte an der Universität auch im Bereich kausaler Inferenzstatistik.
 Ich bin überzeugt, dass diese und ähnliche Methoden in der heutigen Situation helfen können, entscheidende, aber noch immer [offene Fragen](Fragen.html) für die Allgemeinheit, Politiker und Wissenschaftler zu klären.
 Im folgenden versuche ich, aus der theoretischen Perspektive {% cite mayer_theory_2014 %} vereinfachte Möglichkeiten zur Analyse und den Bedarf an Daten allgemeinverständlich darzustellen.
-**Ich bitte interessierte Wissenschaftler um kritischen Review.**.
+Ich teile hier frei meine eigenen Überlegungen zum Verstehen und Mitdenken und als Vorschlag für eine Analysestrategie.
+**Ich bitte interessierte Wissenschaftler um kritischen Review.**
 
 ## Schätzung der Übersterblichkeit aus beobachteten Erkrankungsdaten
 Die Beschreibung der Datenerhebung als Zufallsexperiment ohne Berücksichtigung der Zeitpunkte oder des Krankheitsverlaufs:
@@ -97,8 +98,9 @@ Logistische Regressionen
 1. Modelle logit $$P(Y=0 \vert Z_{i}, X) = \alpha_{0} + \alpha_{1} X + \beta Z_{i} + \gamma X Z_{i}$$ für alle Kovariaten $$Z_{i}$$.
 
    Diese einfachen Modelle erlauben die Übersterblichkeiten spezifisch für einzelne Kovariaten zu bestimmen.
-   $$\alpha_0$$ kann mit publizierter Mortalitäten der Kovariate $$Z_i$$ (Vorerkrankungen oder Alters) pro Jahr abgeschätzt werden, 
-   logit $$P(Y=0 \vert Z_{i}) = \alpha_{0}$$.
+   $$\alpha_0$$ kann mit publizierter Mortalitäten der Kovariate $$Z_i$$ (Vorerkrankungen oder Alters) in der Population pro Jahr, 
+   $$P'(Y=0 \vert Z_i=z_i)$$ abgeschätzt werden, 
+   logit $$P'(Y=0 \vert Z_{i}) = \alpha_{0}$$.
 2. Haupteffekte und Interaktionseffekte mit $$X$$: 
 
    logit $$P(Y=0 \vert Z, X) = \alpha_{0} + \alpha_{1} X + \sum_{i} \beta_{i} Z_{i}  + \sum_{i} \gamma_{i} X Z_{i}$$.
@@ -112,11 +114,11 @@ Logistische Regressionen
 Voraussichtlich sind einige Daten die zu einer Schätzung nötig sind, nicht verfügbar.
 In diesem Fall kann mit geeigneten Verteilungsannahmen die Datenlücke ausgeglichen werden:
 - es scheint eine eine akzeptable Annahme, dass die Vorerkrankungen der negativ getesteten ebenso verteilt sind wie in der Gesamtpopulation, bedingt auf das Alter.
-- Die Sterberate Test-negativer Personen, $$P(Y=0 \vert Z=z,X=0)$$, könnte anhand publizierter Mortalitäten der Vorerkrankungen und des Alters pro Jahr abgeschätzt werden.
+- Die Sterberate Test-negativer Personen, $$P(Y=0 \vert Z=z,X=0)$$, könnte anhand publizierter Mortalitäten der Vorerkrankungen und des Alters pro Jahr abgeschätzt werden, $$P'(Y=0 \vert Z_i=z_i)$$.
   
-  Da publizierte Sterberaten vorliegen für einzelne Vorerkrankungen, aber nicht alle möglichen Kombinationen der Kovariaten, könnte die Verteilung angenähert werden durch die Annahme angenähert werden, dass Personen stochastisch unabhängig an irgendeiner der Vorerkrankungen versterben,
-  $$P(Y=0 \vert Z=(z_1,...z_n),X=0) = 1 - \prod_i [ 1-P(Y=0 \vert Z_i=z_i) ]$$.
-
+  Da publizierte Sterberaten vorliegen für einzelne Vorerkrankungen, aber nicht alle möglichen Kombinationen der Kovariaten, könnte die Verteilung angenähert werden durch die Annahme, dass Personen stochastisch unabhängig an irgendeiner ihrer Vorerkrankungen versterben,
+  $$P(Y=0 \vert Z=(z_1,...z_n),X=0) = 1 - \prod_i [ 1-P'(Y=0 \vert Z_i=z_i) ]$$.
+  (Das müsste noch korrigiert werden, da hier ohne Vorerkrankung zu sterben sooft als Möglichkeit berücksichtigt wird, wie es Vorerkrankungen gibt. Ideen?)
 ### Anmerkungen zur Erweiterung des Zufallsexperiments:
 - $$X$$: Berücksichtigung verschiedener Tests
 - Berücksichtigungen der Zeitpunkte von Testungen, ggf. des Krankheitsverlaufs. 
@@ -144,7 +146,7 @@ Definitionen
    $$CUE_{Z=z}(Y \vert X=x) = \sum_u E_{Z=z}(Y \vert U=u,X=x)P_{Z=z}(U=u)$$.
 2. Die $$Z$$ *-bedingte kausale Regression* $$E_{Z=z}(Y \vert X)$$ ist kausal erwartungstreu, wenn für alle $$Z=z$$
 
-   $$E(Y \vert Z=z, X=x)$$ = CUE_{Z=z}(Y \vert X=x).
+   $$E(Y \vert Z=z, X=x) = CUE_{Z=z}(Y \vert X=x)$$.
 
 Es ist beweisbar, dass $$E_{Z=z}(Y \vert X)$$ kausal erwartungstreu ist, wenn mindestens eine der folgenden Bedingungen erfüllt ist:
 1. Die Überlebenswahrscheinlichkeit $$E(Y \vert X, U, Z)$$, bedingt auf Person $$U$$ mit Testung $$X$$ und Kovariaten $$Z$$, ist fast sicher (d.h. für alle Kovariaten $$Z=z$$ mit $$P(Z=z)>0$$) gleich der Überlebenswahrscheinlichkeit $$E(Y \vert X, Z)$$, bedingt auf Testung $$X$$ und Kovariaten $$Z$$.
