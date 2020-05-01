@@ -4,20 +4,25 @@ slug: index
 layout: home
 ---
 {::options parse_block_html="true" /}
-geschätzte wissenschaftliche Kolleg\*innen, sehr geehrte Politiker\*innen, 
+geschätzte wissenschaftliche Kolleg\*innen, 
 
 
 Corona verursacht derzeit direkt und indirekt viele Probleme.
 Unsere Welt verändert sich gerade beängstigend schnell.
 
-Sie können helfen bei der schnelleren Aufklärung der gegenwärtigen beängstigenden Ungewissheit. 
-1. [Teilen Sie **anonym, öffentlich und systematisch Informationen über den Krankheitsverlauf** und Ihre persönliche Situation.](Datenspende.html)
-2. Die Echtheit gesammelter Informationen kann prinzipiell von staatlicher Stelle **geprüft** werden.
-3. [Gemeinsam helfen **wir öffentlich die Pandemie und ihre großräumigen Folgen zu erforschen**.](Kausalitaet.html)
-4. Systematisch einigen wir uns, wie wir uns als Demokratie weiterhelfen.
+Auf dieser Internetseite werden Corona-bezogene Ursachen und Wirkungen mit statistischen Methoden bedacht.
+Lesen Sie hier weiter, [warum](Warum.html) für [kausale Inferenzstatistik](Kausalitaet.html) Fallzahlen nicht ausreichen, sondern [Erkrankungs-Daten einzelner Personen](Daten.html) benötigt werden.
 
-Hier werden Corona-bezogene Ursachen und Wirkungen mit statistischen Methoden bedacht.
-Lesen Sie hier, [warum](Warum.html) für [Kausale Inferenzstatistik](Kausalitaet.html) eine [Erkrankungs-Datenspende](Datenspende.html) benötigt wird.
+### Patientendaten
+Ich versuche mit einer Gruppe von Wissenschaftlern dem Forschungsnetzwerk Corona beizutreten, um die dem Robert-Koch-Institut vorliegenden Patientendaten mit kausaler Inferenzstatistik beforschen zu können.
+
+
+### Anonyme Datenspenden
+
+Erkrankte könnten mit ihren Erkrankungs-Daten helfen bei der schnelleren Aufklärung der gegenwärtigen beängstigenden Ungewissheit. 
+1. Genesene und die Angehörigen von Verstorbenen könnten **anonym, öffentlich und systematisch Informationen über den Krankheitsverlauf** und Ihre persönliche Situation [teilen](Datenspende.html).
+2. Die Echtheit gesammelter Erkrankungs-Informationen kann von staatlicher Stelle **geprüft** werden.
+Mit derlei Datenspenden könnte international frühzeitig und bestmöglich evidenz-basierte Forschung ermöglicht werden, auch in zukünftigen Epidemien.
 
 <details markdown="1" class="question"><summary markdown="span">Mischen Sie sich ein!  Stellen Sie Fragen!  Diskutieren Sie mit! **klick!**</summary>
 <!-- Kommentar: Klapp-knöpfe wurden übersehen... -->

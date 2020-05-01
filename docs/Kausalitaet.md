@@ -7,7 +7,7 @@ comments: yes
 {::options parse_block_html="true" /}
 Kann man wissenschaftlich über Ursachen und Wirkungen forschen und sprechen, auch wenn kontrollierte Experimente noch nicht vorliegen?
 Dies ist nicht unmöglich!
-Es gibt statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen:
+Es gibt statistische Verfahren der kausalen Inferenzstatistik, um *ohne* randomisierte Studien zu schätzen, welche medizinischen Maßnahmen Heilung ursächlich begünstigen bzw. negativ beeinflussen, wenn hinreichend Informationen über Kovariaten (Alter, geschlecht, Vorerkrankungen) erhoben werden.
 Kausale Inferenzstatistik liegt in verschiedene Formulierungen vor, z.B. von Pearl {% cite pearl_causality_2009 %}, propensity-score Methoden {% cite rosenbaum_central_1983 %}, und der Theorie kausaler Effekte {% cite steyer_causal_2000 mayer_theory_2014 %} .
 
 Vereinfacht gesagt systematisieren diese Verfahren die Analyse von beobachteten Erfahrungen und korrigieren mathematisch die Verzerrungen, welche bei nicht-randomisierten Beobachtungen unvermeidlich sind.
