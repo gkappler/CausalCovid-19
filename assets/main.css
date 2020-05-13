@@ -516,8 +516,6 @@ table {
   width: -webkit-fill-available; }
 
 input, select, textarea, label, button {
-  width: -moz-available;
-  width: -webkit-fill-available;
   margin-left: .5em;
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
@@ -673,3 +671,19 @@ details {
   margin-bottom: .5em;
   border-color: grey;
   border-width: thin; }
+
+.bibbutton {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.doi {
+  background-color: #4CAF50; }

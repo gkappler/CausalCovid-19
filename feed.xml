@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://gkappler.github.io/CausalCovid-19/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gkappler.github.io/CausalCovid-19/" rel="alternate" type="text/html" /><updated>2020-05-01T18:09:03+00:00</updated><id>https://gkappler.github.io/CausalCovid-19/feed.xml</id><title type="html">Corona - Wirkungs - Forschung</title><subtitle>Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!</subtitle><author><name>Dr. Gregor Kappler</name></author><entry><title type="html">Bitte um kritische Prüfung, Verbesserung und Mitarbeit!</title><link href="https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments.html" rel="alternate" type="text/html" title="Bitte um kritische Prüfung, Verbesserung und Mitarbeit!" /><published>2020-04-24T06:37:59+00:00</published><updated>2020-04-24T06:37:59+00:00</updated><id>https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments</id><content type="html" xml:base="https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments.html">&lt;p&gt;Da die Zeit drängt, veröffentliche ich diesen Entwurf mit Vorschlägen zur Datenerhebung, -veröffentlichung und auswertung hier auf GitHub als “lebendes” Dokument.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://gkappler.github.io/CausalCovid-19/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gkappler.github.io/CausalCovid-19/" rel="alternate" type="text/html" /><updated>2020-05-13T09:48:40+00:00</updated><id>https://gkappler.github.io/CausalCovid-19/feed.xml</id><title type="html">Corona - Wirkungs - Forschung</title><subtitle>Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!</subtitle><author><name>Dr. Gregor Kappler</name></author><entry><title type="html">Unterstützungsangebot an das Robert-Koch-Institut</title><link href="https://gkappler.github.io/CausalCovid-19/letter/2020/05/05/Robert-Koch-Institut.html" rel="alternate" type="text/html" title="Unterstützungsangebot an das Robert-Koch-Institut" /><published>2020-05-05T00:00:00+00:00</published><updated>2020-05-05T00:00:00+00:00</updated><id>https://gkappler.github.io/CausalCovid-19/letter/2020/05/05/Robert-Koch-Institut</id><content type="html" xml:base="https://gkappler.github.io/CausalCovid-19/letter/2020/05/05/Robert-Koch-Institut.html">&lt;p&gt;Prof. Steyer und ich haben kausalstatistische Auswertungen am 5. Mai 2020 dem Robert-Koch-Institut ageboten. 
+Das Angebot wird vom Robert-Koch-Institut geprüft, aber wegen ihrer erheblichen Arbeitsbelastung derzeit nicht verfolgt.&lt;/p&gt;
+
+&lt;p&gt;Sehr geehrte Damen und Herren,&lt;/p&gt;
+
+&lt;p&gt;ich schreibe Ihnen, weil ich glaube, dass Prof. Rolf Steyer und ich
+Sie unterstützen können, Beobachtungsdaten zu COVID-19 mit
+statistischen Methoden der kausalen Inferenzstatistik auszuwerten.
+Wir haben u.a. zu kausaler Inferenzstatistik bei logistischer
+Regression an der FSU Jena universitär geforscht und
+gelehrt, und ich entwickle derzeit Software auf Basis meiner
+psychometrischen Forschung.&lt;/p&gt;
+
+&lt;p&gt;Das RKI hat als nationales Public Health Institute u.a. die Aufgabe,
+die Exzessmortalität zu berechnen. Prof. Steyer und ich sind der
+Überzeugung, dass die &lt;strong&gt;kausale Inferenzstatistik&lt;/strong&gt; wertvolle statistische
+Schätzungen zu folgenden dringlichen Fragen beitragen kann, &lt;strong&gt;anhand
+von Beobachtungsdaten, solange randomisierte Studien fehlen&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Welche &lt;strong&gt;medizinischen Maßnahmen&lt;/strong&gt; begünstigen/verschlechtern die
+Heilungsaussichten von schwer an Covid-19 Erkrankten (im Sinne der
+auf Kovariaten bedingten Effekte der medizinischen Intervention auf
+die Genesung)?&lt;/li&gt;
+  &lt;li&gt;Wie hoch ist die zu erwartende &lt;strong&gt;Erhöhung der Sterbewahrscheinlichkeit
+durch SARS-Cov2-Infektion gegeben Kovariaten wie Alter und
+Vorerkrankungen&lt;/strong&gt; (im Sinne eines Kovariaten-bedingten Effekts der
+Infektion auf die Sterblichkeit).&lt;/li&gt;
+  &lt;li&gt;Die zu erwartende Erhöhung der Sterbewahrscheinlichkeit durch
+SARS-Cov2-Infektion in der Population könnte aus diesen bedingten
+Effekten und anhand der Verteilung der Kovariaten in der Population
+abgeschätzt werden.
+Laut Aussagen auf der Pressekonferenz vom 28. April 2020 liegen dem
+Robert-Koch-Institut für etwa 80% der Covid-19 Erkrankten
+Patientendaten vor. Voraussetzung für unsere Arbeit wäre es, dass Sie
+uns derartige Patientendaten anonymisiert zur Verfügung stellen. Gerne
+würden wir für Datenaustausch und methodische Diskussion auch dem
+Forschungsnetzwerk Corona beitreten.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Repräsentative und randomisierte Studien wären wünschenswert, doch
+besteht die Pflicht, das zweitbestmögliche zu tun, solange sie nicht
+möglich sind. Während unserer Diskussionen schien ein erster statistischer
+Analyse-Entwurf mangels öffentlich zugänglicher Daten derzeit nicht
+aussichtsreich. (Eine unverfälschte Schätzung kausaler Effekte ist
+möglich, wenn all jene Kovariaten erfasst werden, die
+Genesungs-/Sterbewahrscheinlichkeit einer Person mit beeinflussen.)&lt;/p&gt;
+
+&lt;p&gt;Daraus entwickelte sich auch die Idee einer &lt;strong&gt;praktikablen Möglichkeit&lt;/strong&gt;,
+zeitnah gemeinsam mit der Ärzteschaft und den Erkrankten mit der
+Erfassung notwendiger Daten zu beginnen: mit einer &lt;strong&gt;freiwilligen
+dezentralen Sammlung anonymer Erkrankungs-Datenspenden&lt;/strong&gt;, um offene und
+transparente internationale Erforschung zu erleichtern.&lt;/p&gt;
+
+&lt;p&gt;In der letzten Woche habe ich dazu eine quelloffene Internetseite
+entworfen, welche Vorhaben und vorläufige Modellüberlegungen
+darstellt: https://gkappler.github.io/CausalCovid-19/. Diese Seite
+stellt eine allgemeinverständliche Diskussionsgrundlage dar. Den
+&lt;strong&gt;funktionalen Prototypen&lt;/strong&gt; finden Sie ebenfalls auf der Website. Diese
+Seite ist bisher nur einem eingeschränkten Personenkreis mit der Bitte
+um Feedback und und zur Mitwirkung bekannt gemacht, darunter der Chaos
+Computer Club und das Netzwerk evidenzbasierte Medizin e.V.&lt;/p&gt;
+
+&lt;p&gt;Wie Sie bin ich überzeugt, dass Maßnahmen auf medizinischer,
+organisatorischer und gesellschaftlicher Ebene evidenzbasiert zu
+treffen sind. Dazu können derzeit medizinische Beobachtungen
+systematisch erfasst werden, um einen statistischen Überblick zu
+gewinnen, der aussichtsreiche randomisierte Studien informiert.
+Optimalerweise wäre diese Erfassung international organisiert.&lt;/p&gt;
+
+&lt;p&gt;Ich möchte gerne beitragen, eine solche praktikable Daten-Erfassung zu
+gestalten und Analysemodelle zu diskutieren. Hoffentlich ergreifen Sie
+die Initiative auf der Basis Ihrer medizinischen Kenntnisse, Ihren
+Erfahrungen mit dem Gesundheitssystem und Ihrem Netzwerk praktischer
+Ärzte. Gerne biete ich an, meine Vorarbeit in eine solche Initiative
+einzubringen und die Datenerfassung und Analyse zu beraten.&lt;/p&gt;
+
+&lt;p&gt;Ich hoffe, unsere Vorschläge und Analysetechniken sind konkret
+hilfreich, um diese Katastrophe besser zu beobachten und ihre
+negativen Effekte zu minimieren.&lt;/p&gt;
+
+&lt;p&gt;Mit besten kollegialen Grüßen,&lt;/p&gt;
+
+&lt;p&gt;Dr. Gregor Kappler&lt;/p&gt;
+
+&lt;div style=&quot;border-top-style: dashed; border-top-width: 1px;&quot;&gt;
+  &lt;p&gt;Wenn Sie diesen Artikel mit Interesse gelesen haben, schauen Sie sich die &lt;a href=&quot;/CausalCovid-19/&quot;&gt;Übersichtsseite&lt;/a&gt; an.&lt;/p&gt;
+  &lt;ul&gt;
+  
+    &lt;li&gt;
+      &lt;h2&gt;&lt;a href=&quot;/call/2020/04/24/call-for-comments.html&quot;&gt;Bitte um kritische Prüfung, Verbesserung und Mitarbeit!&lt;/a&gt;&lt;/h2&gt;
+      &lt;p&gt;Da die Zeit drängt, veröffentliche ich diesen Entwurf mit Vorschlägen zur Datenerhebung, -veröffentlichung und auswertung hier auf GitHub als “lebendes” Dokument.
+Auf diese Weise ist es möglich, sehr schnell und öffentlich&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;gemeinsam diese Pläne zu diskutieren und auszuarbeiten&lt;/li&gt;
+  &lt;li&gt;Daten zusammenzustellen&lt;/li&gt;
+  &lt;li&gt;statistische Modelle zu veröffentlichen und zu begutachten.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    &lt;/li&gt;
+  
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name>Dr. Gregor Kappler</name></author><summary type="html">Prof. Steyer und ich haben kausalstatistische Auswertungen am 5. Mai 2020 dem Robert-Koch-Institut ageboten. Das Angebot wird vom Robert-Koch-Institut geprüft, aber wegen ihrer erheblichen Arbeitsbelastung derzeit nicht verfolgt.</summary></entry><entry><title type="html">Bitte um kritische Prüfung, Verbesserung und Mitarbeit!</title><link href="https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments.html" rel="alternate" type="text/html" title="Bitte um kritische Prüfung, Verbesserung und Mitarbeit!" /><published>2020-04-24T06:37:59+00:00</published><updated>2020-04-24T06:37:59+00:00</updated><id>https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments</id><content type="html" xml:base="https://gkappler.github.io/CausalCovid-19/call/2020/04/24/call-for-comments.html">&lt;p&gt;Da die Zeit drängt, veröffentliche ich diesen Entwurf mit Vorschlägen zur Datenerhebung, -veröffentlichung und auswertung hier auf GitHub als “lebendes” Dokument.
 Auf diese Weise ist es möglich, sehr schnell und öffentlich&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;gemeinsam diese Pläne zu diskutieren und auszuarbeiten&lt;/li&gt;
