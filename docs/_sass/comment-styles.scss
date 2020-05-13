@@ -22,8 +22,6 @@ $comment-font-size: 17px !default;
 //
 input, select, textarea, label, button {
 //    @extend body;
-    width: -moz-available;
-    width: -webkit-fill-available;
     margin-left: .5em;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;

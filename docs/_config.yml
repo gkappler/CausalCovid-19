@@ -50,6 +50,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+scholar:
+  locale: de
+  bibliography_template: bibtemplate
+
 staticman_url: https://staticman-dev-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/comments
 staticman_data_url: https://staticman-dev-gkappler.herokuapp.com/v2/entry/gkappler/CausalCovid-19/master/data
 
