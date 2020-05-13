@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Impressum
-slug: impressum
+title: Über diese Seite
+slug: about
 ---
 
 
