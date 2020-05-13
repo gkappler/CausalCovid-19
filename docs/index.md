@@ -14,7 +14,11 @@ Auf dieser Internetseite werden Corona-bezogene Ursachen und Wirkungen mit stati
 Lesen Sie hier weiter, [warum](Warum.html) für [kausale Inferenzstatistik](Kausalitaet.html) Fallzahlen nicht ausreichen, sondern [Erkrankungs-Daten einzelner Personen](Daten.html) benötigt werden.
 
 ### Patientendaten
-Ich versuche mit einer Gruppe von Wissenschaftlern dem Forschungsnetzwerk Corona beizutreten, um die dem Robert-Koch-Institut vorliegenden Patientendaten mit kausaler Inferenzstatistik beforschen zu können.
+Prof. Rolf Steyer und Dr. Gregor Kappler bemühen sich als
+Kausalitätsforscher, vom Robert-Koch-Institut COVID-19
+Erkrankungsdaten zur Auswertung zu erhalten. Unser [Analyseangebot
+liegt dem Robert-Koch-Institut vor](letter/2020/05/05/Robert-Koch-Institut.html), wird aber wegen dessen erheblichen
+Arbeitsbelastung derzeit nicht verfolgt.
 
 
 ### Anonyme Datenspenden
