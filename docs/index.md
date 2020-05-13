@@ -44,7 +44,6 @@ Wenn eine Zeile mit &#x2BC8; beginnt, können Sie durch **klick!** aufklappen um
 
 ### Diese Seite bietet eine Plattform zur Vernetzung von Bürger\*innen, Forscher\*innen und Nicht-Forscher\*innen.
 
-Der Initiator dieses Projekts ist als Forscher\*innen und Datenwissenschaftler unabhängig.
 [Daten und Software dieser Seite sind vollständig quelloffen](about.html) und ermöglichen
 1. anonyme Datenerhebung und Diskussion,
 2. dezentrale Datenerhebung und Datenspeicherung, 
@@ -52,6 +51,12 @@ Der Initiator dieses Projekts ist als Forscher\*innen und Datenwissenschaftler u
 
 Durch freie quelloffene Software und Freigabe aller Daten werden Interessenkonflikte verhindert. 
 Es werden keine versteckten Besucherdaten erfasst.
+
+Der Initiator dieses Projekts ist Dr. Gregor Kappler, unabhängiger Forscher auf dem Gebiet der
+Wahrscheinlichkeitstheorie in den Sozialwissenschaften und
+Big-Data-Scientist. Er hat u.a. zu kausaler Inferenzstatistik bei
+logistischer Regression mit Prof. Steyer universitär geforscht und gelehrt,
+und entwicket derzeit Software auf Basis seiner psychometrischen Forschung.
 
 Eine englische Version ist in Vorbereitung.
 Wenn Sie helfen wollen, indem Sie diese Seite in weitere Sprachen übersetzen, können Sie das unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19) tun.
