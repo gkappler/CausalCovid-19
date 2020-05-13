@@ -20,7 +20,7 @@ Erkrankungsdaten zur Auswertung zu erhalten. Unser [Analyseangebot
 liegt dem Robert-Koch-Institut vor](letter/2020/05/05/Robert-Koch-Institut.html), wird aber wegen dessen erheblichen
 Arbeitsbelastung derzeit nicht verfolgt.
 
-
+Eine [Petition](https://gkappler.github.io/CausalCovid-19/Petition) wird vorbereitet.
 ### Anonyme Datenspenden
 
 Erkrankte könnten mit ihren Erkrankungs-Daten helfen bei der schnelleren Aufklärung der gegenwärtigen beängstigenden Ungewissheit. 
