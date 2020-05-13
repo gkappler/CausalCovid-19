@@ -6,3 +6,26 @@ Um Teil der Lösung zu sein habe ich eine Internetseite entworfen, welche das Pr
 Das Projekt wurde im Geiste der Creative Commons und der transparenten Forschung in einer offenen Gesellschaft initiiert und entworfen.
 
 Ich lade ein, Mängel zu finden -- und freue mich besonders über Mitarbeit per pull-request!
+
+Offene Fragen:
+- Datensätze können derzeit nicht mehr verändert werden.
+
+
+
+** Open-Source und Creative Commons
+Wir unterstützen mit Creative Commons den [Open COVID Pledge](https://opencovidpledge.org/) (
+[Creative Commons’ Response to COVID-19](https://creativecommons.org/creative-commons-response-to-covid-19/)).
+Sie können sogar eine abgeleitete Version auf Ihrer Internetseite veröffentlichen und so die Datensammlung unterstützen.
+
+Diese Seite nutzt folgende quelloffene Software:
+- (https://jekyllrb.com/) Jekyll für das Schreiben und Generieren der Internetseite.
+- (https://git-scm.com/) zur Versionierung und Organisation der Daten und Diskussion. 
+- (https://staticman.net/) wird zur Erfassung von Kommentaren und Daten genutzt. 
+
+GitHub pages erzeugt aus dem Git Projekt die [[https://gkappler.github.io/CausalCovid-19][statische Website]].
+
+
+Führen Sie Security-Audits durch?
+- Bitte begutachten Sie die Software, und helfen Sie mit Lösungsvorschlägen bei Mängeln!
+- Wie kann unser Vorschlag verbessert werden, um alle datenschutzrechtlichen Vorgaben zu erfüllen und Bedenken zu berücksichtigen?
+- Könnte durch Recaptcha und verwendete google APIs bei der Datenübertragung deanonymisiert werden?
