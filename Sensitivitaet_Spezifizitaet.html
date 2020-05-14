@@ -48,15 +48,27 @@
 
 <p>Die Definitionen der Zufallsvariablen und Symbole finden Sie im Kapitel: <a href="Wahrscheinlichkeitstheorie.html">Was alles vorstellbar ist: Wahrscheinlichkeitstheorie</a></p>
 
-<p>Die Prävalenz einer Infektion ist die Wahrscheinlichkeit, dass eine Person in einer Zufallsstichprobe gerade infiziert ist (Symbolisch gesprochen <script type="math/tex">P(X'=1)</script>, wenn <script type="math/tex">P(U)</script> eine Gleichverteilung ist). 
-Das sind viele neue Wörter, über die ich später genau berichte: was ist eine “Wahrscheinlichkeit”, was ist “Zufallsstichprobe” oder “Gleichverteilung”?</p>
-
-<p>Aber jetzt wird es so spannend, dass ich zuerst schreibe, warum diese Wörter so interessant sind.
+<p>Für die Infektionsdaten des RKI werden Personen <script type="math/tex">U</script> zur Untersuchung gemäß Testprotokoll erhoben, 
+und ein PCRE Test <script type="math/tex">X</script> durchgeführt, um eine Infektion mit SARS-COV-2 <script type="math/tex">X'</script> festzustellen.
 Ein Test ist nicht dasselbe wie die Infektion, aber er zeigt die Infektion an.
-Die entscheidenden Gütekriterien eines Tests sind dabei zwei bedingte Wahrscheinlichkeiten:</p>
+In mathematischer Notation des Zufallsexperiments:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+U & : \Omega \rightarrow \mathbb{U}\\
+X & : \Omega \rightarrow \{0, 1\} \\
+X' & : \Omega \rightarrow \{0, 1\}
+\end{align} %]]></script>
+
+<p>Die Prävalenz einer Infektion ist die Wahrscheinlichkeit, dass eine Person zum Testzeitpunkt infiziert ist (Symbolisch gesprochen <script type="math/tex">P(X'=1)</script><!-- , wenn $$P(U)$$ eine Gleichverteilung ist -->).</p>
+
+<!-- Das sind viele neue Wörter, über die ich später genau berichte: was ist eine "Wahrscheinlichkeit", was ist "Zufallsstichprobe" oder "Gleichverteilung"? -->
+<!-- Aber jetzt wird es so spannend, dass ich zuerst schreibe, warum diese Wörter so interessant sind. -->
+
+<p>Die entscheidenden Gütekriterien eines Tests sind dabei zwei bedingte Wahrscheinlichkeiten:</p>
 <ul>
-  <li>die Sensitivität <script type="math/tex">P(X=1 \vert X'=1)</script> ist die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">X=1</script>, gegeben eine Infektion <script type="math/tex">X'=1</script>, und</li>
-  <li>die Spezifizität <script type="math/tex">P(X=0 \vert X'=0)</script> ist die Wahrscheinlichkeit eines negativen Testergebnisses <script type="math/tex">X=0</script>, gegeben keine Infektion <script type="math/tex">X'=0</script>.</li>
+  <li>Die Sensitivität ist die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">X=1</script>, gegeben eine Infektion <script type="math/tex">X'=1</script>:  <script type="math/tex">P(X=1 \vert X'=1)</script>.</li>
+  <li>Die Spezifizität ist die Wahrscheinlichkeit eines negativen Testergebnisses <script type="math/tex">X=0</script>, gegeben keine Infektion <script type="math/tex">X'=0</script>:  <script type="math/tex">P(X=0 \vert X'=0)</script>.</li>
 </ul>
 
 <p>Wenn die Prävalenz <script type="math/tex">P(X'=1)</script> bekannt wäre, dann wäre die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">X=1</script> in einer Zufallsstichprobe</p>
@@ -68,20 +80,21 @@ P(X=1) & = P(X=1 \vert X'=1) \cdot P(X'=1) + P(X=1 \vert X'=0) \cdot P(X'=0)
 
 <p>(Dieser Trick heißt Marginalisierung über bedingte Wahrscheinlichkeiten.)</p>
 
-<p>Weil <script type="math/tex">P(X=1 \vert X'=0)=1-P(X=0 \vert X'=0)</script> ist und <script type="math/tex">P(X'=0)=1-P(X'=1)</script> ist (in der Mathematik mag man keine Prozentzahlen, 1 steht für 100%), kann man schreiben und ausmultiplizieren</p>
+<!-- Weil $$P(X=1 \vert X'=0)=1-P(X=0 \vert X'=0)$$ ist und $$P(X'=0)=$$ ist (in der Mathematik mag man keine Prozentzahlen, 1 steht für 100%), kann man schreiben und ausmultiplizieren -->
 
 <script type="math/tex; mode=display">% <![CDATA[
 \begin{align}
-P(X=1)
-       & = sensitivity \cdot P(X'=1) + \left(1-specificity\right) \left(1-P(X'=1) \right) \\
-       & = sensitivity \cdot P(X'=1) + 1-P(X'=1) - specificity + s_- P(X'=1)\\
+P(X=1) & = \underbrace{P(X=1 \vert X'=1)}_{sensitivity} \cdot P(X'=1) + 
+               \underbrace{P(X=1 \vert X'=0)}_{1-specificity} \cdot \underbrace{P(X'=0)}_{1-P(X'=1)} \\
+       & = sensitivity \cdot P(X'=1) + \left(1-specificity\right) \cdot \left(1-P(X'=1) \right) \\
+       & = sensitivity \cdot P(X'=1) + 1-P(X'=1) - specificity + specificity \cdot P(X'=1)\\
        & = P(X'=1)\left( sensitivity - 1 + specificity \right) + 1 - specificity\\
 \end{align} %]]></script>
 
-<p>Die Prävalenz <script type="math/tex">P(X'=1)</script> ist völlig unbekannt. 
-Aber die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">P(X'=1)</script> können wir mit den Informationen des Robert-Koch-Instituts abschätzen:
+<p>Die Prävalenz <script type="math/tex">P(X'=1)</script> ist unbekannt und soll ermittelt werden. 
+Aber die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">P(X=1)</script> können wir mit den Informationen des Robert-Koch-Instituts abschätzen:
  <script type="math/tex">\hat{P}(X'=1)=\frac{\text{Anzahl positive Testungen}}{\text{Anzahl Testungen}}</script>
-(das Dach ^ steht für eine Schätzung der Wahrscheinlichkeit, die wahre Wahrscheinlichkeit ist ja unbekannt.)</p>
+(das Dach ^ steht für eine Schätzung der Wahrscheinlichkeit, die wahre Wahrscheinlichkeit ist unbekannt.)</p>
 
 <p>Die Prävalenz können wir berechnen aus Sensitivität, Spezifizität und der geschätzten Wahrscheinlichkeit eines positiven Tests in einer Zufallsstichprobe, indem wir können die letzte Formel umformen:</p>
 
