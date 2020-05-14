@@ -66,14 +66,14 @@ es gibt web-platformen, die auf [git](https://git-scm.org) aufbauen und nach nur
 
 Peter Kruses intelligente Netze beschreiben neue Kulturtechniken, die wir als Gesellschaft in den letzten Jahrzehnten erlernt haben.
 Diese Vernetzungsmöglichkeiten ermöglichen freien Austausch von Informationen und Meinungen, und lenken unsere erregte kollektive Ausmerksamkeit auf Probleme.
-Verteiltes Schreiben an längeren Texten werden gebraucht für das Entstehen einer neuen stabilen Struktur.
+Verteiltes Schreiben an längeren Texten wird gebraucht für das Entstehen einer neuen stabilen Struktur.
 Lernen wir diese Kulturtechnik! 
 
 Wir müssen glücklicherweise nichts neu erfinden dazu:
 [Git](Https://Git-Scm.Org) existiert, ist etabliert, elegant, schnell, robust, vernetzt und verteilt (als Datenbank, als Software entwickelt, als Werkzeug), und natürlich quelloffen.
 Sie ermöglicht Moderation und Prüfung, Diskussion und Transparenz.
 
-Lernen Sie in dieser Zeit, sich in einer Weise zu vernetzen, die Sinn ergibt und gemeinsam erschafft!
+**Lernen Sie in dieser Zeit, sich in einer Weise zu vernetzen, die Sinn ergibt und gemeinsam erschafft!**
 
 Natürlich ist auch diese Website in [git](https://git-scm.org) archiviert und veröffentlicht: 
 Wenn Sie mitwirken wollen, tun Sie das am bequemsten unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19).
