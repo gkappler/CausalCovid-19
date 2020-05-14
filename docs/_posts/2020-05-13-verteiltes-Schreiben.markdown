@@ -2,10 +2,10 @@
 title: "Techniken moderner Aufklärung: Verteiltes Schreiben"
 date: 2020-05-13
 layout: post
-categories: forensics
+categories: git
 comments: true
 redirect_from:
-  - /git/2020/05/13/verteiltes-Schreiben
+  - /forensics/2020/05/13/verteiltes-Schreiben
 ---
 
 Es ist Zeit für Vernetzung.
