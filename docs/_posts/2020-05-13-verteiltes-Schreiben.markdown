@@ -77,3 +77,5 @@ Lernen Sie in dieser Zeit, sich in einer Weise zu vernetzen, die Sinn ergibt und
 
 Natürlich ist auch diese Website in [git](https://git-scm.org) archiviert und veröffentlicht: 
 Wenn Sie mitwirken wollen, tun Sie das am bequemsten unter [github.com/gkappler/CausalCovid-19](https://github.com/gkappler/CausalCovid-19).
+GitHub gehört Microsoft und ist eine konstruktive Möglichkeit, die Ressourcen von Microsoft sicher und verteilt unzensierbar zu nutzen.
+Starten Sie, indem Sie einen Account anlegen!
