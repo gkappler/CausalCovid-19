@@ -4,6 +4,8 @@ date: 2020-05-13
 layout: post
 categories: forensics
 comments: true
+redirect_from:
+  - /git/2020/05/13/verteiltes-Schreiben
 ---
 
 Es ist Zeit für Vernetzung.
