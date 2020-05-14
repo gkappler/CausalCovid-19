@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Prävalenz, Sensitivität und Spezifizität | Corona - Wirkungs - Forschung</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Prävalenz, Sensitivität und Spezifizität" />
+<meta name="author" content="Dr. Gregor Kappler" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!" />
+<meta property="og:description" content="Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!" />
+<link rel="canonical" href="https://gkappler.github.io/CausalCovid-19/Sensitivitaet_Spezifizitaet.html" />
+<meta property="og:url" content="https://gkappler.github.io/CausalCovid-19/Sensitivitaet_Spezifizitaet.html" />
+<meta property="og:site_name" content="Corona - Wirkungs - Forschung" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-14T00:00:00+00:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://gkappler.github.io/CausalCovid-19/Sensitivitaet_Spezifizitaet.html","headline":"Prävalenz, Sensitivität und Spezifizität","dateModified":"2020-05-14T00:00:00+00:00","datePublished":"2020-05-14T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://gkappler.github.io/CausalCovid-19/Sensitivitaet_Spezifizitaet.html"},"author":{"@type":"Person","name":"Dr. Gregor Kappler"},"description":"Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/CausalCovid-19/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://gkappler.github.io/CausalCovid-19/feed.xml" title="Corona - Wirkungs - Forschung" /></head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/CausalCovid-19/"><img src="/CausalCovid-19/assets/images/440px-SARS-CoV-2_without_background.png" height="50px" style="padding-right: 10px">Corona - Wirkungs - Forschung</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/CausalCovid-19/">Liebe Mitbürger*Innen</a><a class="page-link" href="/CausalCovid-19/Warum.html">Wozu?</a><a class="page-link" href="/CausalCovid-19/Kausalitaet.html">Ursache &amp; Wirkung</a><a class="page-link" href="/CausalCovid-19/Daten.html">Daten</a><a class="page-link" href="/CausalCovid-19/Datenspende.html">Spende</a><a class="page-link" href="/CausalCovid-19/about.html">Über diese Seite</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Prävalenz, Sensitivität und Spezifizität</h1>
+  </header>
+
+  <div class="post-content">
+    <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<p>Die Definitionen der Zufallsvariablen und Symbole finden Sie im Kapitel: <a href="Wahrscheinlichkeitstheorie.html">Was alles vorstellbar ist: Wahrscheinlichkeitstheorie</a></p>
+
+<p>Die Prävalenz einer Infektion ist die Wahrscheinlichkeit, dass eine Person in einer Zufallsstichprobe gerade infiziert ist (Symbolisch gesprochen <script type="math/tex">P(X'=1)</script>, wenn <script type="math/tex">P(U)</script> eine Gleichverteilung ist). 
+Das sind viele neue Wörter, über die ich später genau berichte: was ist eine “Wahrscheinlichkeit”, was ist “Zufallsstichprobe” oder “Gleichverteilung”?</p>
+
+<p>Aber jetzt wird es so spannend, dass ich zuerst schreibe, warum diese Wörter so interessant sind.
+Ein Test ist nicht dasselbe wie die Infektion, aber er zeigt die Infektion an.
+Die entscheidenden Gütekriterien eines Tests sind dabei zwei bedingte Wahrscheinlichkeiten:</p>
+<ul>
+  <li>die Sensitivität <script type="math/tex">P(X=1 \vert X'=1)</script> ist die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">X=1</script>, gegeben eine Infektion <script type="math/tex">X'=1</script>, und</li>
+  <li>die Spezifizität <script type="math/tex">P(X=0 \vert X'=0)</script> ist die Wahrscheinlichkeit eines negativen Testergebnisses <script type="math/tex">X=0</script>, gegeben keine Infektion <script type="math/tex">X'=0</script>.</li>
+</ul>
+
+<p>Wenn die Prävalenz <script type="math/tex">P(X'=1)</script> bekannt wäre, dann wäre die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">X=1</script> in einer Zufallsstichprobe</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+P(X=1) & = P(X=1 \vert X'=1) \cdot P(X'=1) + P(X=1 \vert X'=0) \cdot P(X'=0)
+\end{align} %]]></script>
+
+<p>(Dieser Trick heißt Marginalisierung über bedingte Wahrscheinlichkeiten.)</p>
+
+<p>Weil <script type="math/tex">P(X=1 \vert X'=0)=1-P(X=0 \vert X'=0)</script> ist und <script type="math/tex">P(X'=0)=1-P(X'=1)</script> ist (in der Mathematik mag man keine Prozentzahlen, 1 steht für 100%), kann man schreiben und ausmultiplizieren</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+P(X=1)
+       & = sensitivity \cdot P(X'=1) + \left(1-specificity\right) \left(1-P(X'=1) \right) \\
+       & = sensitivity \cdot P(X'=1) + 1-P(X'=1) - specificity + s_- P(X'=1)\\
+       & = P(X'=1)\left( sensitivity - 1 + specificity \right) + 1 - specificity\\
+\end{align} %]]></script>
+
+<p>Die Prävalenz <script type="math/tex">P(X'=1)</script> ist völlig unbekannt. 
+Aber die Wahrscheinlichkeit eines positiven Testergebnisses <script type="math/tex">P(X'=1)</script> können wir mit den Informationen des Robert-Koch-Instituts abschätzen:
+ <script type="math/tex">\hat{P}(X'=1)=\frac{\text{Anzahl positive Testungen}}{\text{Anzahl Testungen}}</script>
+(das Dach ^ steht für eine Schätzung der Wahrscheinlichkeit, die wahre Wahrscheinlichkeit ist ja unbekannt.)</p>
+
+<p>Die Prävalenz können wir berechnen aus Sensitivität, Spezifizität und der geschätzten Wahrscheinlichkeit eines positiven Tests in einer Zufallsstichprobe, indem wir können die letzte Formel umformen:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+P(X=1) - 1 + specificity      & = P(X'=1)\left( sensitivity - 1 + specificity \right)\\
+P(X'=1) & = \frac{P(X=1) - 1 + specificity}{ sensitivity - 1 + specificity }
+\end{align} %]]></script>
+
+<p><a href="https://github.com/gkappler/CausalCovid-19/blob/master/PCRE.ipynb">Eine Bayes-Schätzung der Prävalenz unter der (falschen) Annahme einer Zufallsstichprobe für die PCRE Test-Zahlen des RKI finden Sie unter diesem Link.</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/CausalCovid-19/assets/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="/CausalCovid-19/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Corona - Wirkungs - Forschung</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Dr. Gregor Kappler</li><li><a class="u-email" href="mailto:gregor.kappler@gmail.com">gregor.kappler@gmail.com</a></li><li><a href="/CausalCovid-19/impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/gkappler"><svg class="svg-icon"><use xlink:href="/CausalCovid-19/assets/minima-social-icons.svg#github"></use></svg> <span class="username">gkappler</span></a></li><li><a href="https://www.twitter.com/gkappler"><svg class="svg-icon"><use xlink:href="/CausalCovid-19/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">gkappler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Wir brauchen Covid-19-Erkrankungs-Daten für statistische Ursachen-erforschung der wichtigen Fragen!</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
