@@ -15,9 +15,12 @@ Seuchen-Katastrophen können sich schnell realisieren und in unübersichtlicher 
 Für den nächsten Pandemiefall sollte die freiwillige Veröffentlichung einer Erkrankungs-Datenspende durch Patienteneinverständnis öffentlich institutionalisiert und unverzüglich begonnen werden.
 Eine entsprechende offizielle Dateninfrastruktur des Europäischen Center of Desease Control könnte vorbereitet werden.
 Staatliche Stellen könnten den Patienten und Angehörigen diese Datenspende empfehlen.
+
+Die Vorteile und Gefahren der Nutzung von Erkrankungsdaten wurden in angesehensten Zeitschriften diskutiert 
+[{% cite ali_propensity_2019 cahan_putting_2019 %}](https://www.nature.com/articles/s41746-019-0157-2)
 </details>
 
-<details><summary markdown="span">Wir könnten im Seuchenfall den gesetzlichen Schutz anonymisierter Erkrankungsdaten lockern.</summary>
+<details markdown="1"><summary markdown="span">Wir könnten im Seuchenfall den gesetzlichen Schutz anonymisierter Erkrankungsdaten lockern.</summary>
 Es sollten auch Bedingungen diskutiert und abgewogen werden, unter denen die automatische Veröffentlichung anonymisierter Erkrankungs-Daten der Verstorbenen bei zukünftigen Pandemien im Seuchenschutzgesetz verankert werden kann.
 Dabei kann auch eine Parlamentsbefassung als Voraussetzung vorgesehen werden.
 Nur auf diese Weise ist gewährleistet, dass die internationale Forschergemeinschaft mit bei Vorliegen einer Pandemie gebotener Geschwindigkeit und Aktualität die Gefährlichkeit der Erkrankung erforschen und evidenzbasierte Hinweise für praktische Ärzte geben kann, welche der getroffenen medizinischen Maßnahmen wirken, und zu warnen, welche Maßnahmen schaden.
@@ -44,4 +47,5 @@ Welche Gefahren müssen von einer Infektionskrankheit Ihrer Meinung nach ausgehe
 {% include comment_form.html subject="pandemic_law" %}
   </div>
 </div>
-</details>
+
+{% bibliography --cited %}
