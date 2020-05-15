@@ -3,6 +3,7 @@ title: "Prävalenz, Sensitivität und Spezifizität"
 date: 2020-05-14
 categories: math
 layout: page
+comments: true
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
